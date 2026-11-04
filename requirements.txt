@@ -6,4 +6,4 @@ pyarrow
 huggingface_hub
 pillow
 # interface web (app.py)
-gradio>=5
+gradio>=6.0
