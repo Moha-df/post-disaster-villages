@@ -680,7 +680,7 @@ def build():
             gr.HTML("""<div class='explain'><b>Albumentations</b> transforme des images existantes de façon aléatoire
               pour enrichir un jeu d'entraînement. Il ne dessine pas les dégâts : il intervient après.
               Il sert ici à deux choses.</div>""")
-            section("1 · Aspect post-événement")
+            section("Aspect post-événement")
             gr.HTML("<div class='hint'>L'image après est prise par un autre capteur, un autre jour : tons, bruit, "
                     "compression, ombres de nuages. Seuls les pixels changent, les masques restent exacts.</div>")
             with gr.Row():
@@ -688,7 +688,7 @@ def build():
                 pe_btn = gr.Button("Nouveau tirage", variant="primary", scale=1)
             pe_slider = gr.ImageSlider(label="Rendu brut / avec Albumentations", height=560)
             pe_md = gr.HTML()
-            section("2 · Crops alignés pour l'entraînement")
+            section("Crops alignés pour l'entraînement")
             gr.HTML("<div class='hint'>Chaque crop est un même découpage montré trois fois : avant, après, dégâts. "
                     "La géométrie (symétries, rotation, recadrage sur les zones touchées) est identique pour les trois ; "
                     "les couleurs de l'avant et de l'après sont tirées séparément.</div>")

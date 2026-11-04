@@ -19,6 +19,12 @@ python app.py
 
 Ouvrir ensuite **http://127.0.0.1:7860** dans le navigateur.
 
+![Simulation](docs/site_simulation.jpg)
+
+![Résultats](docs/site_resultats.jpg)
+
+![Export en lot](docs/site_export.jpg)
+
 Sur le site, on peut :
 - choisir un village, une catastrophe, la sévérité, la direction du vent ou la surface inondée ;
 - cliquer sur l'image pour placer l'épicentre, le passage de la tornade ou le départ du feu ;
