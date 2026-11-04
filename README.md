@@ -222,7 +222,23 @@ touché, comme dans la réalité.
 
 ---
 
-## 4. Utilisation
+## 4. Interface web interactive
+
+```bash
+pip install -r requirements.txt
+python app.py          # puis ouvrir http://127.0.0.1:7860
+```
+
+- **Choix du village** parmi l'échantillon, ou **envoi de sa propre image** avec son masque OpenEarthMap.
+- **Catastrophe, sévérité, graine** (avec un bouton 🎲 pour en tirer une nouvelle).
+- **Direction du vent** (ouragan, tornade, feu), automatique ou réglée au curseur, et **surface inondée** (inondation).
+- **Clic sur l'image « avant »** pour placer l'**épicentre**, le **centre du couloir de la tornade** ou le **point de départ du feu**.
+- **Mise à jour en direct** : environ 0,5 s par image en mode rapide (512 px). Le mode complet est à 1 000 px.
+- Résultats : **curseur avant ↔ après**, masque RescueNet, dégâts xBD, carte d'aléa, changements, statistiques.
+- Onglet **Albumentations** : comparaison du rendu brut et du rendu post-événement, et galerie de **crops alignés** (avant / après / dégâts).
+- Bouton **Télécharger** : un `.zip` avec les images, les masques, la carte d'aléa et le JSON xBD du résultat affiché.
+
+## 5. Utilisation en ligne de commande
 
 ```bash
 pip install -r requirements.txt
@@ -246,11 +262,12 @@ python generate.py --aug-crops 8 --crop-size 256          # plus de crops pour l
 | `--no-sensor-shift` | Pas de transformation post-événement sur l'image après |
 | `--seed` | Tout est reproductible à graine égale |
 
-## 5. Organisation du code
+## 6. Organisation du code
 
 | Fichier | Rôle |
 |---|---|
 | `download_villages.py` | Sélection et téléchargement des villages OpenEarthMap |
+| `app.py` | Interface web interactive (Gradio) |
 | `generate.py` | Programme principal : boucle, sorties, aperçus, JSON xBD, manifeste |
 | `postdisaster/classes.py` | Classes OpenEarthMap → RescueNet → xBD, palettes |
 | `postdisaster/hazard.py` | Cartes d'aléa physiques et modèle ordinal des dégâts |
@@ -258,7 +275,7 @@ python generate.py --aug-crops 8 --crop-size 256          # plus de crops pour l
 | `postdisaster/pipeline.py` | Enchaînement d'un scénario, séparation des maisons (watershed sur l'image), carte de changement |
 | `postdisaster/augment.py` | Albumentations : image post-événement et crops appariés |
 
-## 6. Limites et licences
+## 7. Limites et licences
 
 - Les images sont **synthétiques**. Elles servent à augmenter un jeu d'entraînement ; **l'évaluation
   doit se faire sur de vraies images** (RescueNet, xBD).

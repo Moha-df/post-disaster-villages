@@ -47,7 +47,7 @@ def split_buildings(img, mask, min_area):
     return out, lab
 
 
-def generate(img, mask, scenario, sev, gsd, rng, buildings=None):
+def generate(img, mask, scenario, sev, gsd, rng, buildings=None, opts=None):
     """img: BGR uint8, mask: RescueNet ids (before). Returns after image, after mask, info."""
     sc = E.Scene(img, mask, gsd, rng)
     after, m = img.copy(), mask.copy()
@@ -55,7 +55,7 @@ def generate(img, mask, scenario, sev, gsd, rng, buildings=None):
     blds, b_lab = buildings if buildings is not None else split_buildings(img, mask, min_area)
     blds = [dict(b) for b in blds]
 
-    hz = Z.compute(scenario, mask, img, rng, sev)
+    hz = Z.compute(scenario, mask, img, rng, sev, opts)
     wind = hz.get("wind")
     levels = Z.damage_levels(blds, b_lab, hz, scenario, rng)
     flow = rng.uniform(0, 2 * np.pi)

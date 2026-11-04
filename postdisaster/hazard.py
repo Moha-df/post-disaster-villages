@@ -49,12 +49,25 @@ def normalize(x):
 # ---------------------------------------------------------------------------------------------
 # one hazard model per scenario. Each returns a dict with at least `field` (HxW in [0,1])
 # ---------------------------------------------------------------------------------------------
-def earthquake(mask, rng, sev):
+# Optional user overrides (interactive app), all in pixels / degrees of the image:
+#   point     : (x, y) epicentre, tornado track centre or fire ignition point
+#   wind_deg  : direction the wind blows TO (0 = east, 90 = south, image convention)
+#   coverage  : flood, fraction of the open ground under water
+# Random numbers are always drawn in the same order, so results without overrides do not change.
+def _wind(rng_value, opts):
+    if opts and opts.get("wind_deg") is not None:
+        return float(np.radians(opts["wind_deg"]))
+    return float(rng_value)
+
+
+def earthquake(mask, rng, sev, opts=None):
     H, W = mask.shape
     D = max(H, W)
     ang = rng.uniform(0, 2 * np.pi)
     r = D * rng.uniform(0.2, 1.2)  # epicentre can be outside the tile
     ex, ey = W / 2 + r * np.cos(ang), H / 2 + r * np.sin(ang)
+    if opts and opts.get("point") is not None:
+        ex, ey = opts["point"]
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
     d = np.hypot(xx - ex, yy - ey)
     attenuation = np.exp(-d / (D * rng.uniform(0.6, 1.2)))
@@ -64,19 +77,21 @@ def earthquake(mask, rng, sev):
                 epicentre=[round(float(ex), 1), round(float(ey), 1)])
 
 
-def hurricane(mask, rng, sev):
+def hurricane(mask, rng, sev, opts=None):
     H, W = mask.shape
-    wind = rng.uniform(0, 2 * np.pi)
+    wind = _wind(rng.uniform(0, 2 * np.pi), opts)
     gusts = directional_blur(fbm(H, W, rng, scale=6, octaves=4), wind, max(H, W) * 0.25)
     field = normalize(0.35 + gusts)
     return dict(field=np.clip(field * (0.4 + 0.65 * sev), 0, 1), wind=float(wind))
 
 
-def tornado(mask, rng, sev):
+def tornado(mask, rng, sev, opts=None):
     H, W = mask.shape
     D = max(H, W)
-    ang = rng.uniform(0, np.pi)
+    ang = _wind(rng.uniform(0, np.pi), opts)
     cx, cy = W * rng.uniform(0.3, 0.7), H * rng.uniform(0.3, 0.7)
+    if opts and opts.get("point") is not None:
+        cx, cy = opts["point"]
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
     across = -(xx - cx) * np.sin(ang) + (yy - cy) * np.cos(ang)
     along = (xx - cx) * np.cos(ang) + (yy - cy) * np.sin(ang)
@@ -88,7 +103,7 @@ def tornado(mask, rng, sev):
     return dict(field=field, wind=float(ang), track_angle=float(ang))
 
 
-def flood(mask, rng, sev):
+def flood(mask, rng, sev, opts=None):
     """Pseudo-DEM: low near existing water and roads, smooth relief elsewhere.
     The water level is set so that a target fraction of the ground is under water."""
     H, W = mask.shape
@@ -106,6 +121,8 @@ def flood(mask, rng, sev):
         elev = 0.65 * np.clip(np.abs(across) / (0.5 * D), 0, 1) + 0.35 * relief
     elev = elev - 0.02 * (mask == C.ROAD) + 0.03 * np.isin(mask, C.BUILDINGS)  # roads low, houses raised
     target = float(np.clip(0.10 + 0.30 * sev + rng.uniform(-0.05, 0.05), 0.08, 0.75))
+    if opts and opts.get("coverage") is not None:
+        target = float(np.clip(opts["coverage"], 0.02, 0.9))
     open_ground = ~np.isin(mask, C.BUILDINGS)
     level = float(np.quantile(elev[open_ground], target))
     depth = np.clip((level - elev) / max(level - elev.min(), 1e-6), 0, 1)  # 0 dry .. 1 deepest
@@ -113,7 +130,7 @@ def flood(mask, rng, sev):
     return dict(field=depth, depth=depth, level=level, coverage=target)
 
 
-def wildfire(mask, img, rng, sev):
+def wildfire(mask, img, rng, sev, opts=None):
     """Fire front entering from one side; it burns where there is fuel (vegetation)."""
     H, W = mask.shape
     D = max(H, W)
@@ -121,21 +138,28 @@ def wildfire(mask, img, rng, sev):
     exg = (2 * f[..., 1] - f[..., 0] - f[..., 2]) / 255.0  # excess green
     fuel = np.clip(0.4 * (mask == C.TREE) + 0.6 * np.clip(exg * 4, 0, 1) + 0.25 * (mask == C.BACKGROUND), 0, 1)
     fuel = cv2.GaussianBlur(fuel, (0, 0), D / 80)
-    wind = rng.uniform(0, 2 * np.pi)
+    wind = _wind(rng.uniform(0, 2 * np.pi), opts)
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
-    along = ((xx - W / 2) * np.cos(wind) + (yy - H / 2) * np.sin(wind)) / D + 0.5  # 0 = where it enters
     reach = 0.2 + 0.55 * sev
-    front = np.clip((reach - along) / 0.25, 0, 1)
+    if opts and opts.get("point") is not None:  # ignition point: spreads mostly downwind
+        px, py = opts["point"]
+        along = ((xx - px) * np.cos(wind) + (yy - py) * np.sin(wind)) / D
+        across = np.abs(-(xx - px) * np.sin(wind) + (yy - py) * np.cos(wind)) / D
+        dist = np.maximum(along, 0) + 3 * np.maximum(-along, 0) + 1.5 * across
+        front = np.clip((reach * 1.3 - dist) / 0.2, 0, 1)
+    else:
+        along = ((xx - W / 2) * np.cos(wind) + (yy - H / 2) * np.sin(wind)) / D + 0.5  # 0 = where it enters
+        front = np.clip((reach - along) / 0.25, 0, 1)
     noise = directional_blur(fbm(H, W, rng, 5, 4), wind, D * 0.1)
     burn = np.clip(front * (0.45 + 0.8 * fuel) * (0.6 + 0.6 * noise), 0, 1)
     return dict(field=burn, wind=float(wind), fuel=fuel)
 
 
-def compute(scenario, mask, img, rng, sev):
+def compute(scenario, mask, img, rng, sev, opts=None):
     if scenario == "wildfire":
-        return wildfire(mask, img, rng, sev)
+        return wildfire(mask, img, rng, sev, opts)
     return {"earthquake": earthquake, "hurricane": hurricane, "tornado": tornado,
-            "flood": flood}[scenario](mask, rng, sev)
+            "flood": flood}[scenario](mask, rng, sev, opts)
 
 
 # ---------------------------------------------------------------------------------------------

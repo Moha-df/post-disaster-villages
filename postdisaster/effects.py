@@ -388,12 +388,12 @@ def flood_water(sc, img, mask, depth, rng, flow=None):
     wet = cv2.morphologyEx(wet.astype(np.uint8), cv2.MORPH_OPEN, disk(sc.m(0.8))).astype(bool)
     flow = rng.uniform(0, 2 * np.pi) if flow is None else flow
     # sediment-laden water (BGR): grey-brown, darker and smoother than any field
-    base = np.float32([rng.integers(52, 68), rng.integers(74, 88), rng.integers(86, 100)])
+    base = np.float32([rng.integers(55, 68), rng.integers(80, 92), rng.integers(104, 118)])
     streak = directional_blur(fbm(sc.H, sc.W, rng, 30, 3), flow, sc.m(25))
     col = base * (1.08 - 0.25 * depth[..., None]) + (streak[..., None] - 0.5) * 16
     sheen = np.clip(directional_blur(fbm(sc.H, sc.W, rng, 6, 2), flow, sc.m(40)) - 0.6, 0, 1) * 35
     col += sheen[..., None]  # sky reflection on calm water
-    alpha = np.clip(0.85 + 0.5 * depth, 0, 0.97) * feather(wet, 2)
+    alpha = np.clip(0.9 + 0.4 * depth, 0, 0.97) * feather(wet, 2)
     tree = sc.mask0 == C.TREE
     alpha[tree] *= np.clip(1.1 - 2.2 * depth[tree], 0.15, 1)  # crowns above shallow water
     already = sc.mask0 == C.WATER
