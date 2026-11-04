@@ -24,7 +24,10 @@ Sur le site, on peut :
 - cliquer sur l'image pour placer l'épicentre, le passage de la tornade ou le départ du feu ;
 - comparer l'avant et l'après avec un curseur, et voir les dégâts, les masques et la carte d'aléa ;
 - tester Albumentations (onglet du même nom) ;
-- télécharger le résultat en `.zip`.
+- télécharger le résultat en `.zip` ;
+- onglet **Export en lot** : générer d'un coup tous les villages × toutes les catastrophes, plusieurs
+  versions chacune (point d'impact, vent et sévérité différents), avec 8 crops par scène, le tout
+  dans un seul `.zip` (images, masques, labels xBD, crops, `manifest.csv`).
 
 ## Générer tout le jeu de données
 

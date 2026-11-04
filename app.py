@@ -231,6 +231,93 @@ def post_event_demo(state, seed):
 
 
 # ---------------------------------------------------------------------------------------------
+# export en lot : toutes les combinaisons village x catastrophe x version, dans un seul zip
+# ---------------------------------------------------------------------------------------------
+def batch_export(vills, scenarios, n_per, sev_min, sev_max, random_point, random_wind, quality,
+                 n_crops, crop_size, sensor, seed, progress=gr.Progress()):
+    if not vills or not scenarios:
+        raise gr.Error("Choisissez au moins un village et une catastrophe.")
+    side = 512 if quality == "fast" else 1000
+    sev_lo, sev_hi = sorted((float(sev_min), float(sev_max)))
+    jobs = [(v, s, i) for v in vills for s in scenarios for i in range(int(n_per))]
+    stamp = time.strftime("%Y%m%d_%H%M%S")
+    path = os.path.join(tempfile.gettempdir(), f"post_disaster_lot_{stamp}.zip")
+    enc = lambda im, ext, q=92: cv2.imencode(ext, im, [cv2.IMWRITE_JPEG_QUALITY, q] if ext == ".jpg" else [])[1].tobytes()
+    rows, thumbs, totals, t0 = [], [], np.zeros(4, int), time.time()
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
+        for v in vills:
+            img, mask, gsd, _ = load_village(v, side)
+            z.writestr(f"before/{v}.jpg", enc(img, ".jpg"))
+            z.writestr(f"masks_before/{v}_lab.png", enc(mask, ".png"))
+        for k, (v, sc, i) in enumerate(jobs):
+            progress((k, len(jobs)), desc=f"{v} · {LABELS[sc]} · version {i + 1}")
+            img, mask, gsd, blds = load_village(v, side)
+            H, W = mask.shape
+            rng = np.random.default_rng([int(seed), zlib.crc32(v.encode()), P.SCENARIOS.index(sc), i])
+            sev = float(rng.uniform(sev_lo, sev_hi))
+            opts = {}
+            if random_point and sc in POINT_HELP:  # ailleurs dans le village à chaque version
+                opts["point"] = (float(rng.uniform(0.1, 0.9)) * W, float(rng.uniform(0.1, 0.9)) * H)
+            if random_wind and sc in WIND:
+                opts["wind_deg"] = float(rng.uniform(0, 360))
+            after, ma, info = P.generate(img, mask, sc, sev, gsd, rng, buildings=blds, opts=opts)
+            change = P.change_map(img, after, mask, ma)
+            fired = []
+            if sensor:
+                after, fired = AUG.apply_post_event(after, sc, int(rng.integers(1 << 30)))
+            xbd = C.rescuenet_to_xbd(ma)
+            name = f"{v}_{sc}_{i}"
+            meta = dict(village=v, severity=round(sev, 3), gsd_m=round(gsd, 3), seed=int(seed),
+                        point_px=[round(c, 1) for c in opts["point"]] if "point" in opts else None,
+                        post_event_albumentations=fired, **info["extra"])
+            z.writestr(f"after/{name}.jpg", enc(after, ".jpg"))
+            z.writestr(f"masks/{name}_lab.png", enc(ma, ".png"))
+            z.writestr(f"xbd/{name}_damage.png", enc(xbd, ".png"))
+            z.writestr(f"change/{name}_change.png", enc(change.astype(np.uint8) * 255, ".png"))
+            z.writestr(f"hazard/{name}_hazard.png", enc((info["hazard"] * 255).astype(np.uint8), ".png"))
+            z.writestr(f"labels_xbd/{name}.json", json.dumps(G.xbd_json(name, info, info["b_lab"], sc, meta), indent=1))
+            prev = G.preview(img, after, info["hazard"], mask, ma, xbd, change, info, panel=420)
+            z.writestr(f"previews/{name}_preview.jpg", enc(prev, ".jpg", 85))
+            cs = int(min(crop_size, H, W))
+            for j, c in enumerate(AUG.paired_crops(rgb(img), rgb(after), mask, ma, xbd, change, int(n_crops), cs,
+                                                   int(rng.integers(1 << 30)))):
+                cn = f"{name}_aug{j}"
+                z.writestr(f"augmented/before/{cn}.jpg", enc(cv2.cvtColor(c["before"], cv2.COLOR_RGB2BGR), ".jpg", 90))
+                z.writestr(f"augmented/after/{cn}.jpg", enc(cv2.cvtColor(c["after"], cv2.COLOR_RGB2BGR), ".jpg", 90))
+                z.writestr(f"augmented/masks_before/{cn}_lab.png", enc(c["mask_before"], ".png"))
+                z.writestr(f"augmented/masks/{cn}_lab.png", enc(c["mask_after"], ".png"))
+                z.writestr(f"augmented/xbd/{cn}_damage.png", enc(c["xbd"], ".png"))
+                z.writestr(f"augmented/change/{cn}_change.png", enc(c["change"] * 255, ".png"))
+            counts = np.bincount([b["damage_level"] for b in info["buildings"]], minlength=4)
+            totals += counts
+            rows.append(dict(name=name, village=v, scenario=sc, severity=round(sev, 3),
+                             buildings=len(info["buildings"]), **{C.DAMAGE_NAME[l]: int(counts[l]) for l in range(4)},
+                             changed_pct=round(100 * float(change.mean()), 2), albumentations=" ".join(fired)))
+            if len(thumbs) < 12:
+                thumbs.append((rgb(after), f"{v} · {LABELS[sc]}"))
+        head = list(rows[0])
+        z.writestr("manifest.csv", "\n".join([",".join(head)] + [",".join(str(r[h]) for h in head) for r in rows]))
+        z.writestr("summary.json", json.dumps(dict(
+            samples=len(rows), crops_per_sample=int(n_crops), crop_size=int(crop_size), resolution_px=side,
+            severity_range=[sev_lo, sev_hi], random_point=bool(random_point), random_wind=bool(random_wind),
+            villages=list(vills), scenarios=list(scenarios), seed=int(seed),
+            buildings_per_damage_level=dict(zip(C.DAMAGE_NAME, map(int, totals))),
+            label_scheme="RescueNet Kaggle v1.0", classes=C.RN_NAMES, xbd_classes=C.XBD_NAMES), indent=1))
+    size_mb = os.path.getsize(path) / 1e6
+    n_files = len(rows) * (7 + 6 * int(n_crops)) + 2 * len(vills) + 2
+    tiles = "".join(f"<div class='tile'><div class='bar' style='background:{DMG_HEX[i]}'></div>"
+                    f"<div class='num'>{int(totals[i])}</div><div class='lbl'>{DMG_FR[i]}</div></div>" for i in range(4))
+    kv = "".join(f"<div class='k'>{k}</div><div class='v'>{v}</div>" for k, v in [
+        ("Images après", f"{len(rows)}"), ("Crops", f"{len(rows) * int(n_crops)}"),
+        ("Fichiers", f"{n_files}"), ("Taille du zip", f"{size_mb:.1f} Mo"),
+        ("Résolution", f"{side} px"), ("Durée", f"{time.time() - t0:.0f} s")])
+    html = (f"<div class='stats'><div class='stats-head'><span class='eyebrow'>Lot prêt</span>"
+            f"<span class='title'>{len(rows)} scènes</span><span class='pill'>bâtiments par niveau</span></div>"
+            f"<div class='tiles'>{tiles}</div><div class='kv'>{kv}</div></div>")
+    return path, html, thumbs
+
+
+# ---------------------------------------------------------------------------------------------
 # design : console de cartographie de terrain
 #   fond noir graphite, courbes de niveau animées + grille de points (canvas),
 #   un seul accent jaune signalisation, typo condensée de signalétique + Plex
@@ -430,16 +517,16 @@ button[role=tab][aria-selected=true] {color:#ffd400 !important;}
 .hint {font-size:13px; color:#8f8a7e; line-height:1.5; padding:2px 0;}
 .hint b {color:#ece8dd; font-weight:500;}
 
-#scenario .wrap, #quality .wrap {display:grid !important; gap:0; border:1px solid #2a2925;}
+#scenario .wrap, .quality .wrap {display:grid !important; gap:0; border:1px solid #2a2925;}
 #scenario .wrap {grid-template-columns:repeat(3,1fr);}
-#quality .wrap {grid-template-columns:1fr 1fr;}
-#scenario label, #quality label {justify-content:flex-start; padding:12px 12px !important; margin:0 !important;
+.quality .wrap {grid-template-columns:1fr 1fr;}
+#scenario label, .quality label {justify-content:flex-start; padding:12px 12px !important; margin:0 !important;
   border-radius:0 !important; border:0 !important; border-right:1px solid #2a2925 !important;
   border-bottom:1px solid #2a2925 !important; background:#131312 !important; font-size:14px; font-weight:500;
   cursor:pointer; transition: background .15s, color .15s;}
-#scenario label input, #quality label input {display:none;}
-#scenario label:hover, #quality label:hover {background:#1c1c1a !important;}
-#scenario label.selected, #quality label.selected {background:#ffd400 !important; color:#0b0b0a !important;}
+#scenario label input, .quality label input {display:none;}
+#scenario label:hover, .quality label:hover {background:#1c1c1a !important;}
+#scenario label.selected, .quality label.selected {background:#ffd400 !important; color:#0b0b0a !important;}
 
 button {letter-spacing:.02em;}
 button.primary {font-family:'IBM Plex Mono', monospace !important; text-transform:uppercase; letter-spacing:.14em;
@@ -552,7 +639,7 @@ def build():
 
                     section("Rendu")
                     quality = gr.Radio([("Rapide · 512 px", "fast"), ("Complet · 1000 px", "full")], value="fast",
-                                       show_label=False, container=False, elem_id="quality")
+                                       show_label=False, container=False, elem_classes=["quality"])
                     with gr.Group():
                         sensor = gr.Checkbox(value=True, label="Aspect post-événement (Albumentations)")
                         live = gr.Checkbox(value=True, label="Mise à jour automatique")
@@ -611,6 +698,56 @@ def build():
                 crop_seed = gr.Number(value=3, precision=0, label="Graine")
             crop_btn = gr.Button("Générer les crops", variant="primary")
             gallery = gr.Gallery(columns=6, height="auto", object_fit="contain", show_label=False)
+
+        with gr.Tab("Export en lot"):
+            gr.HTML("""<div class='explain'>Les résultats vous conviennent ? Générez <b>tout un jeu de données</b>
+              d'un coup : chaque village choisi passe par chaque catastrophe choisie, plusieurs fois, avec
+              le point d'impact, la direction du vent et la sévérité tirés au hasard à chaque version.
+              Chaque scène est livrée avec ses masques, ses labels xBD et ses crops Albumentations.</div>""")
+            with gr.Row(equal_height=False):
+                with gr.Column(scale=4, min_width=340):
+                    section("Villages et catastrophes")
+                    b_vills = gr.CheckboxGroup(vlist, value=[v for _, v in vlist], label="Villages")
+                    b_scen = gr.CheckboxGroup([(v, k) for k, v in LABELS.items()], value=list(LABELS),
+                                              label="Catastrophes")
+                    section("Variations")
+                    with gr.Group():
+                        b_n = gr.Slider(1, 10, value=2, step=1, label="Versions par village et par catastrophe")
+                        with gr.Row():
+                            b_smin = gr.Slider(0.05, 1.0, value=0.5, step=0.05, label="Sévérité min")
+                            b_smax = gr.Slider(0.05, 1.0, value=0.95, step=0.05, label="Sévérité max")
+                        b_point = gr.Checkbox(value=True, label="Point d'impact à un endroit différent à chaque version")
+                        b_wind = gr.Checkbox(value=True, label="Direction du vent aléatoire")
+                    section("Crops et rendu")
+                    with gr.Group():
+                        b_crops = gr.Slider(0, 16, value=8, step=1, label="Crops Albumentations par scène")
+                        b_csize = gr.Slider(128, 512, value=512, step=64, label="Taille des crops (px)")
+                        b_sensor = gr.Checkbox(value=True, label="Aspect post-événement (Albumentations)")
+                        b_seed = gr.Number(value=2026, precision=0, label="Graine du lot")
+                    b_quality = gr.Radio([("Rapide · 512 px", "fast"), ("Complet · 1000 px", "full")], value="full",
+                                         show_label=False, container=False, elem_classes=["quality"])
+                    b_count = gr.HTML()
+                    b_go = gr.Button("Générer le lot et créer le zip", variant="primary", size="lg")
+                with gr.Column(scale=8):
+                    b_stats = gr.HTML("<div class='stats empty'>Aucun lot généré pour l'instant</div>")
+                    b_file = gr.File(label="Archive .zip", height=80)
+                    b_gallery = gr.Gallery(columns=4, height="auto", object_fit="contain", show_label=False)
+                    gr.HTML("""<div class='hint'>Contenu du zip : <b>before/</b>, <b>after/</b>, <b>masks_before/</b>,
+                      <b>masks/</b> (RescueNet), <b>xbd/</b> et <b>labels_xbd/</b> (dégâts), <b>change/</b>,
+                      <b>hazard/</b>, <b>previews/</b>, <b>augmented/</b> (crops alignés), <b>manifest.csv</b>,
+                      <b>summary.json</b>.</div>""")
+
+            def estimate(v, s, n, cr, q):
+                k = len(v or []) * len(s or []) * int(n)
+                sec = k * (0.7 if q == "fast" else 3.5) + k * int(cr) * 0.05
+                return (f"<div class='hint'><b>{k}</b> scènes, <b>{k * int(cr)}</b> crops — "
+                        f"environ <b>{max(1, round(sec / 60))} min</b></div>")
+
+            for comp in (b_vills, b_scen, b_n, b_crops, b_quality):
+                comp.change(estimate, [b_vills, b_scen, b_n, b_crops, b_quality], b_count)
+            demo.load(estimate, [b_vills, b_scen, b_n, b_crops, b_quality], b_count)
+            b_go.click(batch_export, [b_vills, b_scen, b_n, b_smin, b_smax, b_point, b_wind, b_quality,
+                                      b_crops, b_csize, b_sensor, b_seed], [b_file, b_stats, b_gallery])
 
         with gr.Tab("À propos"):
             gr.HTML("""<div class='explain'>
