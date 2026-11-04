@@ -1,0 +1,926 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_0",
+     "hazard": 0.0,
+     "area_m2": 26.9
+    },
+    "wkt": "POLYGON ((543 0, 552 16, 572 3, 571 0, 543 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_1",
+     "hazard": 0.0,
+     "area_m2": 194.6
+    },
+    "wkt": "POLYGON ((487 13, 485 16, 490 21, 488 23, 485 23, 486 26, 482 28, 482 31, 509 65, 513 63, 519 64, 526 70, 531 70, 533 76, 536 78, 541 77, 549 70, 546 63, 542 61, 539 51, 533 48, 525 49, 521 45, 521 43, 527 37, 527 35, 511 17, 510 11, 500 7, 487 13))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_2",
+     "hazard": 0.0,
+     "area_m2": 260.2
+    },
+    "wkt": "POLYGON ((279 13, 268 19, 264 15, 257 19, 255 29, 245 32, 237 39, 249 58, 242 67, 245 79, 248 79, 253 88, 252 93, 254 95, 266 95, 281 87, 267 59, 259 53, 264 48, 262 43, 264 41, 276 41, 279 44, 282 43, 288 58, 294 61, 308 54, 308 48, 310 43, 308 37, 304 37, 301 32, 298 31, 284 39, 279 35, 289 28, 279 13))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_3",
+     "hazard": 0.0,
+     "area_m2": 22.9
+    },
+    "wkt": "POLYGON ((639 17, 631 15, 621 24, 621 27, 626 35, 629 35, 637 28, 635 24, 639 20, 639 17))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_4",
+     "hazard": 0.0,
+     "area_m2": 235.2
+    },
+    "wkt": "POLYGON ((380 20, 368 26, 368 29, 374 41, 367 45, 365 43, 362 44, 356 51, 355 55, 357 58, 364 59, 363 65, 358 68, 359 71, 372 71, 373 74, 377 76, 373 84, 367 82, 362 83, 361 87, 364 93, 366 94, 373 90, 379 100, 383 99, 388 109, 391 110, 397 106, 396 100, 402 94, 403 90, 408 89, 416 93, 417 90, 421 87, 416 80, 410 80, 403 69, 396 69, 387 65, 397 55, 388 47, 389 43, 385 36, 390 33, 390 30, 385 20, 380 20))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_5",
+     "hazard": 0.0,
+     "area_m2": 59.4
+    },
+    "wkt": "POLYGON ((455 31, 452 31, 440 38, 436 43, 438 48, 437 63, 440 68, 456 59, 452 53, 462 48, 462 39, 455 31))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_6",
+     "hazard": 0.033,
+     "area_m2": 204.1
+    },
+    "wkt": "POLYGON ((619 36, 611 37, 608 40, 608 43, 611 48, 606 53, 604 50, 600 50, 597 47, 591 47, 587 53, 587 57, 584 60, 575 60, 570 64, 568 69, 572 75, 569 77, 568 83, 580 98, 586 95, 618 69, 621 74, 626 75, 640 62, 636 55, 628 50, 629 46, 619 36))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_7",
+     "hazard": 0.0,
+     "area_m2": 20.2
+    },
+    "wkt": "POLYGON ((349 49, 345 50, 336 56, 336 62, 339 67, 354 58, 352 52, 349 49))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_8",
+     "hazard": 0.156,
+     "area_m2": 21.3
+    },
+    "wkt": "POLYGON ((733 95, 722 93, 719 89, 710 93, 718 107, 730 99, 733 95))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_9",
+     "hazard": 0.234,
+     "area_m2": 224.7
+    },
+    "wkt": "POLYGON ((678 106, 646 127, 639 119, 627 128, 632 142, 647 162, 648 167, 651 171, 699 136, 699 133, 689 121, 684 111, 678 106))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_10",
+     "hazard": 0.0,
+     "area_m2": 42.8
+    },
+    "wkt": "POLYGON ((326 118, 323 116, 311 116, 308 118, 308 128, 306 130, 297 131, 297 136, 300 141, 302 142, 307 140, 309 142, 312 142, 320 139, 321 135, 319 124, 322 120, 326 118))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_11",
+     "hazard": 0.077,
+     "area_m2": 110.0
+    },
+    "wkt": "POLYGON ((434 130, 427 130, 407 138, 407 141, 411 147, 409 159, 412 164, 412 169, 415 173, 438 164, 442 161, 446 153, 446 150, 438 134, 434 130))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_12",
+     "hazard": 0.0,
+     "area_m2": 109.0
+    },
+    "wkt": "POLYGON ((802 170, 795 169, 782 172, 769 179, 769 185, 778 210, 808 201, 803 181, 802 170))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_13",
+     "hazard": 0.0,
+     "area_m2": 51.6
+    },
+    "wkt": "POLYGON ((352 172, 340 174, 336 177, 340 193, 343 200, 347 204, 359 200, 357 192, 360 189, 360 187, 352 172))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_14",
+     "hazard": 0.0,
+     "area_m2": 40.8
+    },
+    "wkt": "POLYGON ((281 175, 272 179, 271 182, 273 194, 278 205, 280 207, 284 207, 292 204, 293 202, 281 175))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_15",
+     "hazard": 0.0,
+     "area_m2": 87.8
+    },
+    "wkt": "POLYGON ((245 194, 251 219, 257 227, 256 229, 258 231, 280 221, 273 199, 270 194, 252 190, 245 194))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_16",
+     "hazard": 0.0,
+     "area_m2": 82.8
+    },
+    "wkt": "POLYGON ((58 206, 52 205, 34 214, 34 223, 30 224, 29 226, 35 236, 39 235, 46 239, 49 239, 68 225, 64 212, 58 206))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_17",
+     "hazard": 0.0,
+     "area_m2": 237.3
+    },
+    "wkt": "POLYGON ((816 206, 779 215, 777 218, 795 275, 832 265, 834 262, 816 206))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_18",
+     "hazard": 0.0,
+     "area_m2": 23.0
+    },
+    "wkt": "POLYGON ((353 215, 340 218, 342 230, 351 232, 358 229, 358 226, 353 215))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_19",
+     "hazard": 0.089,
+     "area_m2": 22.6
+    },
+    "wkt": "POLYGON ((445 216, 431 220, 437 234, 440 234, 450 228, 445 216))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_20",
+     "hazard": 0.0,
+     "area_m2": 49.8
+    },
+    "wkt": "POLYGON ((204 234, 208 243, 223 244, 230 251, 233 251, 238 248, 228 223, 204 234))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_21",
+     "hazard": 0.0,
+     "area_m2": 67.0
+    },
+    "wkt": "POLYGON ((370 261, 350 269, 351 293, 353 296, 379 287, 370 261))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_22",
+     "hazard": 0.0,
+     "area_m2": 84.5
+    },
+    "wkt": "POLYGON ((828 271, 813 274, 813 285, 823 313, 847 305, 844 291, 836 287, 828 271))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_23",
+     "hazard": 0.0,
+     "area_m2": 21.5
+    },
+    "wkt": "POLYGON ((334 274, 325 276, 324 284, 320 287, 321 290, 329 291, 339 286, 334 274))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_24",
+     "hazard": 0.133,
+     "area_m2": 26.6
+    },
+    "wkt": "POLYGON ((645 275, 638 275, 632 279, 629 285, 629 292, 632 295, 641 292, 643 288, 649 283, 645 275))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_25",
+     "hazard": 0.0,
+     "area_m2": 216.6
+    },
+    "wkt": "POLYGON ((298 286, 296 286, 281 296, 266 309, 279 334, 286 343, 287 349, 294 346, 297 346, 300 349, 323 338, 320 326, 327 321, 327 314, 323 312, 318 314, 308 293, 303 293, 298 286))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_26",
+     "hazard": 0.0,
+     "area_m2": 28.2
+    },
+    "wkt": "POLYGON ((147 288, 143 291, 136 291, 136 300, 129 305, 131 311, 144 307, 151 299, 150 293, 147 288))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_27",
+     "hazard": 0.234,
+     "area_m2": 77.7
+    },
+    "wkt": "POLYGON ((558 297, 549 305, 560 331, 563 335, 579 328, 584 322, 571 298, 558 297))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_28",
+     "hazard": 0.0,
+     "area_m2": 97.6
+    },
+    "wkt": "POLYGON ((152 315, 143 320, 140 323, 148 345, 148 350, 158 367, 160 367, 178 357, 157 317, 155 315, 152 315))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_29",
+     "hazard": 0.0,
+     "area_m2": 15.5
+    },
+    "wkt": "POLYGON ((259 322, 257 328, 264 337, 273 329, 269 323, 259 322))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_30",
+     "hazard": 0.041,
+     "area_m2": 125.8
+    },
+    "wkt": "POLYGON ((616 324, 595 337, 594 343, 606 371, 617 375, 631 368, 634 365, 634 361, 623 326, 616 324))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_31",
+     "hazard": 0.0,
+     "area_m2": 140.3
+    },
+    "wkt": "POLYGON ((247 326, 237 334, 230 332, 225 335, 227 348, 221 352, 221 358, 238 379, 246 375, 269 358, 267 353, 247 326))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_32",
+     "hazard": 0.0,
+     "area_m2": 30.5
+    },
+    "wkt": "POLYGON ((114 345, 104 352, 109 361, 106 365, 110 371, 112 371, 125 361, 114 345))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_33",
+     "hazard": 0.0,
+     "area_m2": 146.2
+    },
+    "wkt": "POLYGON ((318 349, 282 369, 292 390, 294 398, 300 403, 307 395, 336 379, 318 349))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_34",
+     "hazard": 0.49,
+     "area_m2": 1789.8
+    },
+    "wkt": "POLYGON ((396 350, 394 349, 345 369, 351 386, 349 393, 350 396, 344 400, 324 408, 308 419, 305 418, 296 405, 288 407, 285 404, 268 376, 249 388, 251 395, 269 419, 270 423, 273 425, 277 425, 279 423, 286 431, 286 433, 258 453, 256 453, 248 445, 233 453, 232 456, 235 462, 238 463, 240 462, 240 455, 244 452, 248 452, 251 456, 249 462, 195 498, 202 510, 201 518, 209 523, 211 529, 217 531, 223 527, 225 527, 228 530, 234 528, 240 537, 242 537, 264 523, 250 497, 271 485, 280 503, 292 499, 298 501, 306 498, 309 498, 315 502, 322 496, 324 499, 356 489, 359 487, 359 484, 362 481, 380 472, 382 476, 394 477, 399 472, 437 457, 437 453, 405 375, 404 366, 396 350))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_35",
+     "hazard": 0.321,
+     "area_m2": 248.8
+    },
+    "wkt": "POLYGON ((406 363, 408 372, 426 416, 432 423, 444 421, 446 423, 448 430, 451 433, 455 433, 457 430, 470 426, 476 421, 468 403, 456 405, 455 404, 456 398, 444 367, 436 367, 429 353, 406 363))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_36",
+     "hazard": 0.215,
+     "area_m2": 27.2
+    },
+    "wkt": "POLYGON ((469 356, 469 361, 471 364, 469 369, 471 373, 479 375, 490 369, 483 357, 475 360, 471 355, 469 356))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_37",
+     "hazard": 0.083,
+     "area_m2": 211.5
+    },
+    "wkt": "POLYGON ((210 367, 204 368, 193 379, 194 382, 189 389, 186 389, 177 395, 180 402, 179 407, 182 412, 182 415, 174 422, 174 430, 184 441, 207 423, 201 414, 202 411, 205 409, 210 410, 215 406, 217 406, 221 410, 232 402, 228 396, 233 390, 232 386, 220 372, 216 373, 210 367))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_38",
+     "hazard": 0.044,
+     "area_m2": 25.1
+    },
+    "wkt": "POLYGON ((571 369, 559 376, 563 390, 576 384, 578 381, 577 375, 571 369))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_39",
+     "hazard": 0.0,
+     "area_m2": 53.4
+    },
+    "wkt": "POLYGON ((162 383, 156 385, 146 392, 148 399, 161 416, 176 405, 176 403, 162 383))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_40",
+     "hazard": 0.0,
+     "area_m2": 33.0
+    },
+    "wkt": "POLYGON ((133 399, 136 410, 145 420, 148 420, 156 415, 156 411, 144 396, 133 399))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_41",
+     "hazard": 0.087,
+     "area_m2": 26.0
+    },
+    "wkt": "POLYGON ((552 422, 547 423, 530 435, 529 442, 533 446, 542 443, 543 440, 541 436, 553 427, 554 425, 552 422))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_42",
+     "hazard": 0.0,
+     "area_m2": 182.4
+    },
+    "wkt": "POLYGON ((707 433, 700 436, 696 436, 694 434, 682 438, 672 447, 688 490, 722 480, 725 477, 709 435, 707 433))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_43",
+     "hazard": 0.268,
+     "area_m2": 278.8
+    },
+    "wkt": "POLYGON ((542 475, 537 473, 532 465, 515 464, 509 466, 498 448, 492 452, 491 461, 487 461, 461 474, 460 480, 472 513, 476 517, 479 517, 505 504, 506 498, 502 485, 504 481, 510 480, 512 482, 515 496, 517 499, 547 488, 542 475))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_44",
+     "hazard": 0.0,
+     "area_m2": 383.9
+    },
+    "wkt": "POLYGON ((607 451, 575 463, 564 469, 562 469, 559 466, 550 469, 548 475, 552 480, 555 491, 559 495, 562 504, 567 502, 570 503, 562 507, 562 512, 569 525, 572 527, 576 527, 593 521, 597 516, 604 526, 609 526, 632 516, 632 511, 625 490, 607 451))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_45",
+     "hazard": 0.0,
+     "area_m2": 208.6
+    },
+    "wkt": "POLYGON ((850 484, 846 480, 828 471, 824 471, 766 490, 766 498, 775 517, 779 517, 794 513, 848 493, 850 484))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_46",
+     "hazard": 0.0,
+     "area_m2": 20.0
+    },
+    "wkt": "POLYGON ((8 483, 0 485, 0 501, 2 503, 14 493, 13 487, 8 483))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_47",
+     "hazard": 0.362,
+     "area_m2": 104.4
+    },
+    "wkt": "POLYGON ((452 484, 428 492, 437 520, 443 527, 462 520, 460 514, 466 512, 460 489, 458 486, 452 484))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_48",
+     "hazard": 0.0,
+     "area_m2": 10.5
+    },
+    "wkt": "POLYGON ((667 484, 661 485, 659 487, 660 497, 664 497, 668 493, 667 484))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_49",
+     "hazard": 0.465,
+     "area_m2": 58.2
+    },
+    "wkt": "POLYGON ((402 491, 401 494, 407 499, 409 503, 405 511, 416 527, 429 523, 431 521, 431 518, 429 515, 426 515, 424 510, 424 506, 427 503, 427 501, 424 498, 422 498, 418 492, 409 496, 407 490, 402 491))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_50",
+     "hazard": 0.0,
+     "area_m2": 130.4
+    },
+    "wkt": "POLYGON ((28 502, 17 515, 16 519, 32 539, 38 539, 41 542, 42 547, 48 554, 52 555, 63 546, 59 540, 62 537, 64 531, 48 512, 45 511, 35 502, 28 502))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_51",
+     "hazard": 0.498,
+     "area_m2": 171.9
+    },
+    "wkt": "POLYGON ((385 505, 368 513, 360 514, 350 519, 349 533, 354 549, 351 553, 355 562, 360 562, 364 559, 368 559, 377 551, 384 547, 385 548, 384 547, 389 544, 395 537, 400 536, 400 533, 385 505))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_52",
+     "hazard": 0.0,
+     "area_m2": 127.5
+    },
+    "wkt": "POLYGON ((649 514, 650 523, 657 539, 662 547, 668 553, 665 559, 667 564, 669 565, 678 560, 681 563, 693 564, 690 553, 680 554, 676 551, 688 546, 688 544, 672 508, 670 507, 649 514))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_53",
+     "hazard": 0.018,
+     "area_m2": 120.1
+    },
+    "wkt": "POLYGON ((508 517, 489 526, 483 533, 483 535, 486 540, 497 549, 495 555, 501 563, 515 564, 523 560, 519 551, 528 544, 512 519, 508 517))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_54",
+     "hazard": 0.244,
+     "area_m2": 455.6
+    },
+    "wkt": "POLYGON ((475 518, 437 536, 433 539, 432 543, 425 546, 429 557, 435 557, 440 569, 434 572, 434 579, 439 587, 437 592, 442 599, 445 598, 449 602, 465 624, 470 620, 471 621, 485 609, 512 593, 492 552, 487 553, 484 549, 479 536, 483 529, 475 518))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_55",
+     "hazard": 0.391,
+     "area_m2": 341.7
+    },
+    "wkt": "POLYGON ((55 562, 55 567, 82 599, 85 599, 114 587, 125 587, 128 581, 153 571, 142 544, 135 544, 113 557, 115 561, 111 565, 109 559, 92 539, 92 534, 84 525, 73 529, 72 534, 78 544, 55 562))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_56",
+     "hazard": 0.0,
+     "area_m2": 134.4
+    },
+    "wkt": "POLYGON ((596 529, 586 532, 581 538, 577 540, 571 541, 573 555, 583 576, 589 576, 607 568, 611 568, 612 561, 621 556, 622 554, 619 547, 616 545, 611 545, 607 547, 604 541, 600 538, 596 529))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_57",
+     "hazard": 0.401,
+     "area_m2": 103.8
+    },
+    "wkt": "POLYGON ((400 546, 393 547, 391 545, 381 551, 384 562, 379 565, 379 576, 385 582, 383 588, 387 592, 391 591, 405 582, 408 579, 407 576, 415 569, 404 549, 400 546))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_58",
+     "hazard": 0.0,
+     "area_m2": 127.3
+    },
+    "wkt": "POLYGON ((544 572, 514 586, 516 594, 530 617, 537 622, 543 620, 543 617, 559 605, 559 598, 544 572))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_59",
+     "hazard": 0.0,
+     "area_m2": 68.5
+    },
+    "wkt": "POLYGON ((621 585, 621 587, 623 587, 626 590, 627 593, 625 596, 628 599, 654 601, 661 595, 654 579, 650 577, 631 577, 628 583, 621 585))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_60",
+     "hazard": 0.0,
+     "area_m2": 42.6
+    },
+    "wkt": "POLYGON ((783 605, 766 607, 764 610, 773 631, 790 624, 783 605))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_61",
+     "hazard": 0.0,
+     "area_m2": 151.8
+    },
+    "wkt": "POLYGON ((520 613, 508 611, 495 616, 502 630, 501 633, 498 631, 488 612, 466 624, 471 636, 485 656, 488 656, 503 649, 506 646, 505 642, 507 640, 515 637, 520 637, 527 632, 520 613))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_62",
+     "hazard": 0.565,
+     "area_m2": 30.0
+    },
+    "wkt": "POLYGON ((106 621, 109 625, 105 629, 111 636, 117 635, 121 639, 128 635, 126 630, 127 624, 117 620, 106 621))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "baybay_29_flood_0_63",
+     "hazard": 0.986,
+     "area_m2": 199.3
+    },
+    "wkt": "POLYGON ((149 631, 132 644, 131 653, 136 662, 160 690, 160 694, 168 704, 198 681, 191 673, 185 673, 179 679, 177 677, 183 671, 149 631))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_64",
+     "hazard": 0.0,
+     "area_m2": 141.2
+    },
+    "wkt": "POLYGON ((624 640, 593 648, 593 658, 597 671, 604 685, 611 693, 627 691, 628 681, 625 674, 634 670, 627 644, 624 640))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_65",
+     "hazard": 0.0,
+     "area_m2": 69.2
+    },
+    "wkt": "POLYGON ((516 644, 494 658, 499 668, 499 670, 493 677, 497 684, 526 665, 516 644))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_66",
+     "hazard": 0.0,
+     "area_m2": 57.1
+    },
+    "wkt": "POLYGON ((553 646, 533 656, 540 677, 550 679, 557 674, 559 658, 553 646))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_67",
+     "hazard": 0.053,
+     "area_m2": 139.6
+    },
+    "wkt": "POLYGON ((436 649, 426 652, 421 658, 413 658, 401 668, 402 671, 397 675, 397 678, 407 690, 408 694, 418 704, 427 698, 427 695, 431 692, 430 685, 437 679, 439 675, 448 668, 436 649))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_68",
+     "hazard": 0.0,
+     "area_m2": 15.9
+    },
+    "wkt": "POLYGON ((803 658, 802 667, 804 669, 817 667, 818 658, 803 658))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_69",
+     "hazard": 0.0,
+     "area_m2": 21.6
+    },
+    "wkt": "POLYGON ((862 674, 857 684, 865 690, 872 690, 874 675, 862 674))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_70",
+     "hazard": 0.887,
+     "area_m2": 406.6
+    },
+    "wkt": "POLYGON ((35 682, 26 688, 23 693, 17 698, 4 705, 0 705, 0 722, 13 736, 19 733, 23 736, 29 735, 38 746, 38 748, 34 750, 34 752, 45 767, 51 771, 61 766, 61 763, 76 753, 80 756, 85 754, 100 743, 98 740, 99 737, 89 727, 77 707, 74 705, 72 705, 39 727, 37 724, 51 715, 46 708, 52 704, 52 699, 50 692, 41 684, 35 682))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_71",
+     "hazard": 0.0,
+     "area_m2": 71.9
+    },
+    "wkt": "POLYGON ((570 689, 567 689, 557 695, 559 704, 555 708, 566 723, 586 713, 592 705, 585 696, 577 698, 574 692, 570 689))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_72",
+     "hazard": 0.0,
+     "area_m2": 22.4
+    },
+    "wkt": "POLYGON ((635 690, 615 696, 615 703, 624 704, 638 699, 635 690))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_73",
+     "hazard": 0.051,
+     "area_m2": 24.8
+    },
+    "wkt": "POLYGON ((372 706, 368 714, 377 728, 383 728, 388 722, 379 710, 372 706))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "baybay_29_flood_0_74",
+     "hazard": 0.979,
+     "area_m2": 107.7
+    },
+    "wkt": "POLYGON ((121 725, 109 735, 103 743, 103 745, 108 753, 131 771, 149 753, 123 725, 121 725))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "baybay_29_flood_0_75",
+     "hazard": 0.89,
+     "area_m2": 255.6
+    },
+    "wkt": "POLYGON ((4 747, 0 750, 0 792, 14 783, 16 784, 6 793, 0 796, 2 802, 1 808, 5 815, 8 815, 16 810, 20 817, 30 827, 43 820, 45 817, 42 812, 46 808, 55 803, 57 800, 41 772, 30 777, 27 776, 31 773, 31 771, 17 747, 4 747))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_76",
+     "hazard": 0.722,
+     "area_m2": 181.1
+    },
+    "wkt": "POLYGON ((187 752, 186 757, 181 760, 182 765, 176 769, 174 772, 200 803, 208 804, 214 798, 218 802, 228 794, 229 789, 224 785, 230 779, 204 748, 193 748, 187 752))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_77",
+     "hazard": 0.552,
+     "area_m2": 27.8
+    },
+    "wkt": "POLYGON ((179 794, 172 798, 173 804, 178 808, 179 812, 186 818, 190 815, 191 805, 185 796, 179 794))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_78",
+     "hazard": 0.286,
+     "area_m2": 11.0
+    },
+    "wkt": "POLYGON ((231 796, 223 803, 227 809, 231 809, 236 805, 231 796))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_79",
+     "hazard": 0.769,
+     "area_m2": 24.8
+    },
+    "wkt": "POLYGON ((110 807, 100 807, 94 812, 95 820, 101 824, 106 823, 113 817, 113 813, 110 807))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_80",
+     "hazard": 0.663,
+     "area_m2": 69.4
+    },
+    "wkt": "POLYGON ((125 818, 123 818, 112 826, 107 826, 99 833, 109 850, 116 851, 138 833, 125 818))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_81",
+     "hazard": 0.608,
+     "area_m2": 184.2
+    },
+    "wkt": "POLYGON ((43 887, 34 888, 32 884, 26 883, 0 899, 0 921, 13 934, 19 936, 24 932, 30 933, 52 918, 52 916, 46 908, 46 906, 51 903, 52 900, 43 887))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_82",
+     "hazard": 0.0,
+     "area_m2": 49.4
+    },
+    "wkt": "POLYGON ((722 893, 710 901, 706 905, 706 908, 702 911, 702 914, 705 916, 707 923, 713 919, 721 918, 733 907, 722 893))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_83",
+     "hazard": 0.0,
+     "area_m2": 58.1
+    },
+    "wkt": "POLYGON ((244 911, 251 917, 251 921, 257 922, 257 926, 262 930, 278 924, 281 921, 273 908, 263 909, 254 900, 245 905, 244 911))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_84",
+     "hazard": 0.0,
+     "area_m2": 13.9
+    },
+    "wkt": "POLYGON ((684 902, 691 914, 699 910, 699 907, 695 901, 688 900, 684 902))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_85",
+     "hazard": 0.0,
+     "area_m2": 604.7
+    },
+    "wkt": "POLYGON ((124 960, 124 965, 139 969, 152 985, 161 993, 163 993, 188 972, 193 978, 197 980, 210 999, 215 1003, 211 1005, 204 995, 197 994, 190 996, 188 1002, 183 1005, 179 1003, 174 1004, 169 1010, 168 1015, 172 1019, 178 1020, 180 1023, 201 1023, 202 1021, 204 1023, 218 1022, 230 1015, 227 1013, 225 1008, 220 1007, 223 1003, 227 1003, 229 1005, 236 1001, 235 997, 239 994, 243 998, 244 1002, 248 1003, 261 995, 261 992, 256 986, 252 985, 252 981, 246 972, 238 976, 234 970, 239 966, 239 964, 233 958, 227 959, 224 956, 227 948, 215 933, 203 921, 201 921, 200 916, 191 916, 191 919, 182 926, 182 938, 206 967, 204 969, 201 967, 194 966, 196 962, 178 939, 158 952, 156 952, 147 944, 133 956, 129 956, 124 960))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "baybay_29_flood_0_86",
+     "hazard": 0.417,
+     "area_m2": 55.4
+    },
+    "wkt": "POLYGON ((11 939, 4 941, 0 944, 0 969, 6 972, 9 972, 17 966, 21 965, 25 961, 23 955, 11 939))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_87",
+     "hazard": 0.0,
+     "area_m2": 21.8
+    },
+    "wkt": "POLYGON ((529 965, 530 969, 535 973, 538 979, 544 985, 552 982, 538 964, 533 962, 529 965))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "baybay_29_flood_0_88",
+     "hazard": 0.0,
+     "area_m2": 55.4
+    },
+    "wkt": "POLYGON ((557 1012, 559 1017, 566 1023, 594 1023, 592 1021, 595 1018, 587 1006, 573 1001, 562 1010, 557 1012))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "baybay_29_flood_0_89",
+     "hazard": 0.0,
+     "area_m2": 10.2
+    },
+    "wkt": "POLYGON ((452 1007, 445 1013, 451 1020, 458 1016, 458 1014, 452 1007))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "baybay_29_flood_0.jpg",
+  "disaster_type": "flood",
+  "village": "baybay_29",
+  "severity": 0.66,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   3554746911,
+   3,
+   0
+  ],
+  "post_event_albumentations": [
+   "PlasmaBrightnessContrast",
+   "RandomToneCurve",
+   "HueSaturationValue",
+   "Downscale"
+  ],
+  "flooded_fraction": 0.135
+ }
+}

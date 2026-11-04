@@ -1,0 +1,818 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_0",
+     "hazard": 0.497,
+     "area_m2": 50.1
+    },
+    "wkt": "POLYGON ((219 0, 199 0, 185 21, 199 30, 219 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_1",
+     "hazard": 0.603,
+     "area_m2": 35.4
+    },
+    "wkt": "POLYGON ((315 0, 327 18, 333 13, 336 14, 349 5, 349 3, 346 0, 315 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_2",
+     "hazard": 0.605,
+     "area_m2": 77.0
+    },
+    "wkt": "POLYGON ((384 0, 350 1, 360 15, 337 31, 347 46, 364 34, 362 31, 369 26, 366 22, 372 18, 366 10, 377 2, 380 3, 384 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_3",
+     "hazard": 0.666,
+     "area_m2": 57.3
+    },
+    "wkt": "POLYGON ((409 0, 407 25, 430 27, 432 0, 409 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_4",
+     "hazard": 0.703,
+     "area_m2": 71.6
+    },
+    "wkt": "POLYGON ((486 0, 483 31, 506 33, 509 0, 486 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_5",
+     "hazard": 0.727,
+     "area_m2": 143.9
+    },
+    "wkt": "POLYGON ((542 0, 541 18, 545 25, 552 31, 573 33, 577 36, 579 34, 589 34, 592 37, 600 37, 604 23, 602 19, 602 12, 594 12, 593 10, 587 10, 586 12, 573 10, 572 13, 569 12, 563 15, 559 9, 563 2, 566 0, 542 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_6",
+     "hazard": 0.612,
+     "area_m2": 48.2
+    },
+    "wkt": "POLYGON ((663 0, 662 10, 672 12, 671 22, 687 23, 689 5, 691 0, 663 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_7",
+     "hazard": 0.553,
+     "area_m2": 126.6
+    },
+    "wkt": "POLYGON ((138 0, 129 12, 143 24, 140 25, 133 21, 129 26, 130 30, 135 29, 140 32, 135 37, 135 41, 151 52, 153 52, 155 46, 159 50, 163 48, 166 49, 169 45, 169 34, 167 31, 169 27, 173 24, 171 22, 168 22, 138 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_8",
+     "hazard": 0.586,
+     "area_m2": 51.3
+    },
+    "wkt": "POLYGON ((110 1, 101 9, 107 17, 102 25, 107 35, 114 39, 115 32, 113 28, 117 24, 123 26, 129 21, 129 19, 115 4, 110 1))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_9",
+     "hazard": 0.327,
+     "area_m2": 527.6
+    },
+    "wkt": "POLYGON ((805 13, 794 28, 794 30, 787 37, 785 45, 807 94, 804 127, 799 128, 786 126, 772 99, 755 105, 776 148, 793 151, 820 152, 823 123, 830 122, 833 80, 829 77, 830 65, 843 40, 843 37, 835 19, 805 13))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_10",
+     "hazard": 0.658,
+     "area_m2": 9.4
+    },
+    "wkt": "POLYGON ((650 17, 650 27, 660 27, 661 21, 657 21, 655 17, 650 17))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_11",
+     "hazard": 0.528,
+     "area_m2": 28.3
+    },
+    "wkt": "POLYGON ((190 32, 180 34, 180 41, 175 45, 176 54, 190 52, 194 48, 190 32))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_12",
+     "hazard": 0.591,
+     "area_m2": 34.0
+    },
+    "wkt": "POLYGON ((668 35, 666 53, 684 55, 686 36, 668 35))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_13",
+     "hazard": 0.576,
+     "area_m2": 12.6
+    },
+    "wkt": "POLYGON ((376 36, 358 48, 357 50, 359 53, 361 53, 372 45, 378 39, 376 36))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_14",
+     "hazard": 0.603,
+     "area_m2": 26.7
+    },
+    "wkt": "POLYGON ((427 41, 419 39, 406 46, 403 50, 407 55, 411 55, 414 53, 418 55, 428 48, 427 41))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_15",
+     "hazard": 0.609,
+     "area_m2": 87.4
+    },
+    "wkt": "POLYGON ((452 47, 451 59, 454 61, 454 65, 458 73, 469 74, 471 76, 472 81, 481 82, 482 77, 476 75, 480 71, 482 71, 484 67, 485 47, 471 47, 468 45, 452 47))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_16",
+     "hazard": 0.573,
+     "area_m2": 89.7
+    },
+    "wkt": "POLYGON ((377 45, 353 62, 359 72, 363 69, 377 89, 397 75, 377 45))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_17",
+     "hazard": 0.25,
+     "area_m2": 382.0
+    },
+    "wkt": "POLYGON ((907 55, 906 60, 900 60, 900 78, 896 98, 895 137, 904 146, 911 146, 916 140, 951 143, 952 136, 956 132, 953 113, 917 110, 916 93, 924 91, 945 94, 956 93, 958 91, 958 83, 960 83, 960 77, 957 75, 959 64, 931 63, 921 60, 919 55, 907 55))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_18",
+     "hazard": 0.58,
+     "area_m2": 54.8
+    },
+    "wkt": "POLYGON ((429 63, 408 80, 411 86, 405 90, 411 98, 417 95, 422 101, 424 101, 432 93, 424 81, 424 79, 435 71, 429 63))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_19",
+     "hazard": 0.497,
+     "area_m2": 324.4
+    },
+    "wkt": "POLYGON ((502 70, 502 91, 506 93, 531 94, 538 98, 564 101, 565 103, 562 110, 559 129, 559 149, 586 151, 589 108, 587 108, 585 105, 588 100, 590 84, 585 81, 584 74, 561 72, 559 77, 543 77, 541 75, 542 73, 537 71, 514 69, 502 70))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_20",
+     "hazard": 0.452,
+     "area_m2": 110.4
+    },
+    "wkt": "POLYGON ((665 69, 664 77, 659 78, 659 87, 656 98, 652 99, 650 117, 679 121, 679 114, 677 112, 678 102, 681 101, 676 100, 677 88, 682 86, 682 79, 684 78, 685 72, 681 70, 665 69))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_21",
+     "hazard": 0.537,
+     "area_m2": 219.2
+    },
+    "wkt": "POLYGON ((398 86, 382 97, 380 101, 399 127, 402 129, 403 138, 406 143, 411 146, 409 148, 409 152, 416 165, 420 168, 420 174, 426 173, 429 178, 435 177, 437 179, 438 187, 443 188, 446 171, 447 141, 442 141, 429 126, 419 134, 417 132, 417 126, 412 122, 404 110, 403 105, 398 100, 400 96, 406 93, 398 86))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_22",
+     "hazard": 0.531,
+     "area_m2": 251.7
+    },
+    "wkt": "POLYGON ((471 103, 468 106, 465 139, 478 140, 482 142, 481 157, 484 158, 484 168, 488 171, 488 180, 491 182, 500 180, 510 181, 513 157, 511 155, 503 154, 496 155, 495 153, 497 151, 497 146, 502 143, 510 145, 520 145, 524 147, 530 144, 530 140, 527 142, 526 138, 521 136, 519 133, 519 129, 523 123, 518 121, 511 114, 509 117, 507 117, 506 114, 502 112, 491 114, 488 112, 484 104, 471 103))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_23",
+     "hazard": 0.573,
+     "area_m2": 6.2
+    },
+    "wkt": "POLYGON ((447 114, 437 120, 440 124, 448 119, 447 114))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_24",
+     "hazard": 0.412,
+     "area_m2": 78.4
+    },
+    "wkt": "POLYGON ((610 114, 607 145, 639 148, 640 138, 627 137, 626 134, 628 122, 640 122, 640 116, 610 114))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_25",
+     "hazard": 0.343,
+     "area_m2": 77.6
+    },
+    "wkt": "POLYGON ((652 132, 651 140, 654 148, 651 150, 650 162, 654 167, 674 168, 676 162, 675 152, 677 139, 671 139, 670 133, 652 132))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_26",
+     "hazard": 0.425,
+     "area_m2": 25.4
+    },
+    "wkt": "POLYGON ((627 153, 625 171, 628 173, 637 173, 640 154, 627 153))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_27",
+     "hazard": 0.503,
+     "area_m2": 41.0
+    },
+    "wkt": "POLYGON ((454 153, 454 178, 470 179, 472 155, 454 153))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_28",
+     "hazard": 0.278,
+     "area_m2": 78.8
+    },
+    "wkt": "POLYGON ((733 163, 730 165, 728 190, 732 190, 734 193, 750 194, 754 190, 754 180, 760 180, 761 167, 758 165, 747 163, 733 163))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_29",
+     "hazard": 0.505,
+     "area_m2": 73.1
+    },
+    "wkt": "POLYGON ((565 167, 564 188, 566 190, 596 190, 597 168, 579 166, 565 167))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_30",
+     "hazard": 0.322,
+     "area_m2": 105.0
+    },
+    "wkt": "POLYGON ((803 168, 801 186, 793 186, 792 188, 791 206, 801 206, 803 208, 802 216, 822 217, 825 189, 820 189, 816 187, 817 169, 803 168))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_31",
+     "hazard": 0.516,
+     "area_m2": 335.5
+    },
+    "wkt": "POLYGON ((949 173, 908 171, 899 254, 899 273, 923 274, 926 257, 928 255, 946 255, 950 252, 950 241, 930 238, 927 235, 928 223, 930 221, 938 222, 940 219, 943 221, 953 219, 952 206, 933 205, 927 203, 927 189, 929 187, 950 186, 951 175, 949 173))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_32",
+     "hazard": 0.418,
+     "area_m2": 46.8
+    },
+    "wkt": "POLYGON ((650 174, 649 198, 662 201, 671 200, 673 182, 660 181, 659 175, 650 174))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_33",
+     "hazard": 0.469,
+     "area_m2": 52.8
+    },
+    "wkt": "POLYGON ((610 177, 609 197, 635 200, 637 180, 610 177))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_34",
+     "hazard": 0.459,
+     "area_m2": 13.4
+    },
+    "wkt": "POLYGON ((882 189, 881 201, 892 202, 893 190, 882 189))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_35",
+     "hazard": 0.599,
+     "area_m2": 158.7
+    },
+    "wkt": "POLYGON ((959 207, 960 209, 955 260, 960 260, 962 262, 960 266, 961 270, 970 275, 974 267, 983 266, 982 249, 986 247, 986 209, 959 207))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_36",
+     "hazard": 0.361,
+     "area_m2": 115.8
+    },
+    "wkt": "POLYGON ((737 211, 732 255, 759 258, 764 213, 737 211))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_37",
+     "hazard": 0.368,
+     "area_m2": 38.7
+    },
+    "wkt": "POLYGON ((483 219, 482 228, 479 229, 478 235, 481 236, 480 244, 497 244, 499 223, 490 222, 489 220, 483 219))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_38",
+     "hazard": 0.451,
+     "area_m2": 13.4
+    },
+    "wkt": "POLYGON ((879 222, 878 233, 889 234, 890 223, 879 222))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_39",
+     "hazard": 0.307,
+     "area_m2": 301.7
+    },
+    "wkt": "POLYGON ((507 224, 505 254, 503 257, 496 257, 494 284, 498 286, 497 291, 536 294, 537 299, 548 300, 553 244, 547 244, 546 241, 537 241, 535 239, 536 226, 507 224))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_40",
+     "hazard": 0.347,
+     "area_m2": 35.0
+    },
+    "wkt": "POLYGON ((573 227, 566 226, 564 229, 548 227, 547 240, 572 243, 573 227))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_41",
+     "hazard": 0.434,
+     "area_m2": 76.9
+    },
+    "wkt": "POLYGON ((793 232, 790 261, 817 264, 820 234, 793 232))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_42",
+     "hazard": 0.321,
+     "area_m2": 33.4
+    },
+    "wkt": "POLYGON ((639 242, 639 251, 650 252, 650 259, 665 260, 666 245, 639 242))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_43",
+     "hazard": 0.271,
+     "area_m2": 105.3
+    },
+    "wkt": "POLYGON ((581 248, 580 257, 572 258, 570 270, 584 271, 589 273, 587 298, 607 299, 610 261, 595 260, 595 249, 590 249, 589 258, 585 259, 585 248, 581 248))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_44",
+     "hazard": 0.486,
+     "area_m2": 12.3
+    },
+    "wkt": "POLYGON ((876 256, 876 266, 886 267, 887 257, 876 256))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_45",
+     "hazard": 0.282,
+     "area_m2": 42.6
+    },
+    "wkt": "POLYGON ((619 267, 617 294, 632 295, 632 289, 637 289, 637 284, 633 283, 634 268, 619 267))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_46",
+     "hazard": 0.456,
+     "area_m2": 34.7
+    },
+    "wkt": "POLYGON ((866 303, 866 308, 868 309, 868 318, 878 318, 878 312, 880 310, 891 310, 892 305, 891 300, 873 298, 870 302, 866 303))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_47",
+     "hazard": 0.264,
+     "area_m2": 57.1
+    },
+    "wkt": "POLYGON ((625 328, 647 330, 648 314, 660 314, 661 309, 625 305, 625 328))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_48",
+     "hazard": 0.367,
+     "area_m2": 155.9
+    },
+    "wkt": "POLYGON ((797 305, 795 332, 856 337, 857 310, 797 305))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "koeln_31_hurricane_0_49",
+     "hazard": 0.337,
+     "area_m2": 59.8
+    },
+    "wkt": "POLYGON ((748 306, 748 311, 745 312, 744 323, 746 336, 764 338, 767 307, 748 306))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_50",
+     "hazard": 0.346,
+     "area_m2": 20.9
+    },
+    "wkt": "POLYGON ((780 308, 777 333, 784 334, 786 316, 789 315, 790 309, 780 308))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_51",
+     "hazard": 0.467,
+     "area_m2": 33.4
+    },
+    "wkt": "POLYGON ((890 312, 887 328, 887 334, 889 336, 888 338, 889 340, 903 340, 905 336, 903 336, 899 332, 899 312, 890 312))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_52",
+     "hazard": 0.413,
+     "area_m2": 35.6
+    },
+    "wkt": "POLYGON ((871 322, 869 356, 880 356, 881 323, 871 322))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_53",
+     "hazard": 0.559,
+     "area_m2": 67.0
+    },
+    "wkt": "POLYGON ((969 325, 963 332, 963 342, 968 342, 970 335, 975 337, 975 341, 969 344, 969 354, 994 355, 995 333, 979 331, 976 325, 969 325))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_54",
+     "hazard": 0.361,
+     "area_m2": 127.2
+    },
+    "wkt": "POLYGON ((606 345, 603 372, 614 373, 615 360, 626 359, 626 370, 628 371, 660 373, 661 363, 658 362, 659 350, 643 348, 642 336, 632 335, 631 347, 606 345))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "koeln_31_hurricane_0_55",
+     "hazard": 0.544,
+     "area_m2": 38.7
+    },
+    "wkt": "POLYGON ((944 336, 944 363, 957 363, 959 336, 944 336))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_56",
+     "hazard": 0.377,
+     "area_m2": 94.8
+    },
+    "wkt": "POLYGON ((744 354, 744 360, 742 360, 739 384, 739 395, 741 396, 741 403, 759 404, 763 355, 744 354))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_57",
+     "hazard": 0.372,
+     "area_m2": 28.3
+    },
+    "wkt": "POLYGON ((774 367, 772 401, 782 402, 783 396, 780 395, 782 368, 774 367))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "koeln_31_hurricane_0_58",
+     "hazard": 0.399,
+     "area_m2": 7.7
+    },
+    "wkt": "POLYGON ((703 378, 705 382, 714 382, 716 380, 715 376, 707 376, 703 378))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "koeln_31_hurricane_0.jpg",
+  "disaster_type": "hurricane",
+  "village": "koeln_31",
+  "severity": 0.832,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   2282411930,
+   1,
+   0
+  ],
+  "post_event_albumentations": [
+   "RandomToneCurve",
+   "ISONoise",
+   "Downscale",
+   "ImageCompression"
+  ],
+  "fallen_trees": [
+   [
+    450,
+    9,
+    354.9
+   ],
+   [
+    523,
+    8,
+    21.0
+   ],
+   [
+    917,
+    8,
+    28.4
+   ],
+   [
+    568,
+    37,
+    16.1
+   ],
+   [
+    494,
+    60,
+    21.2
+   ],
+   [
+    543,
+    52,
+    25.0
+   ],
+   [
+    530,
+    53,
+    18.8
+   ],
+   [
+    182,
+    63,
+    15.9
+   ],
+   [
+    360,
+    78,
+    46.8
+   ],
+   [
+    417,
+    100,
+    27.0
+   ],
+   [
+    447,
+    110,
+    19.5
+   ],
+   [
+    695,
+    117,
+    9.1
+   ],
+   [
+    453,
+    140,
+    24.2
+   ],
+   [
+    549,
+    149,
+    345.9
+   ],
+   [
+    526,
+    164,
+    28.6
+   ],
+   [
+    524,
+    191,
+    351.0
+   ],
+   [
+    107,
+    196,
+    2.3
+   ],
+   [
+    945,
+    200,
+    355.9
+   ],
+   [
+    706,
+    229,
+    3.0
+   ],
+   [
+    617,
+    239,
+    31.4
+   ],
+   [
+    780,
+    291,
+    17.3
+   ],
+   [
+    854,
+    298,
+    6.3
+   ],
+   [
+    588,
+    309,
+    351.9
+   ],
+   [
+    987,
+    324,
+    24.6
+   ],
+   [
+    918,
+    372,
+    2.5
+   ],
+   [
+    560,
+    388,
+    4.3
+   ],
+   [
+    724,
+    387,
+    0.3
+   ],
+   [
+    996,
+    396,
+    7.9
+   ],
+   [
+    34,
+    622,
+    10.8
+   ],
+   [
+    182,
+    651,
+    16.3
+   ],
+   [
+    30,
+    646,
+    13.7
+   ],
+   [
+    126,
+    684,
+    21.3
+   ],
+   [
+    149,
+    743,
+    39.1
+   ],
+   [
+    148,
+    767,
+    13.8
+   ],
+   [
+    167,
+    782,
+    14.9
+   ],
+   [
+    215,
+    789,
+    13.1
+   ],
+   [
+    230,
+    820,
+    18.2
+   ],
+   [
+    275,
+    828,
+    26.5
+   ],
+   [
+    220,
+    849,
+    26.6
+   ],
+   [
+    289,
+    843,
+    357.6
+   ]
+  ],
+  "wind_direction_deg": 19.6
+ }
+}

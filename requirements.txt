@@ -1,0 +1,7 @@
+numpy
+opencv-python
+albumentations>=2.0
+# only for download_villages.py
+pyarrow
+huggingface_hub
+pillow

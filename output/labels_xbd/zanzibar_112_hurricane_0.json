@@ -1,0 +1,1286 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_0",
+     "hazard": 0.285,
+     "area_m2": 9.6
+    },
+    "wkt": "POLYGON ((416 0, 417 8, 429 6, 428 0, 416 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_1",
+     "hazard": 0.377,
+     "area_m2": 30.9
+    },
+    "wkt": "POLYGON ((457 0, 460 2, 460 17, 479 15, 478 3, 481 2, 481 0, 457 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_2",
+     "hazard": 0.199,
+     "area_m2": 87.1
+    },
+    "wkt": "POLYGON ((745 0, 747 35, 769 34, 769 19, 776 18, 775 0, 745 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_3",
+     "hazard": 0.541,
+     "area_m2": 117.8
+    },
+    "wkt": "POLYGON ((973 0, 976 30, 986 29, 989 41, 1010 38, 1010 19, 1007 0, 973 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_4",
+     "hazard": 0.396,
+     "area_m2": 31.1
+    },
+    "wkt": "POLYGON ((696 2, 696 20, 713 20, 713 2, 696 2))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_5",
+     "hazard": 0.523,
+     "area_m2": 54.0
+    },
+    "wkt": "POLYGON ((532 9, 507 13, 511 34, 535 31, 532 9))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_6",
+     "hazard": 0.303,
+     "area_m2": 20.8
+    },
+    "wkt": "POLYGON ((374 9, 353 11, 353 18, 359 22, 366 22, 368 17, 374 17, 374 9))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_7",
+     "hazard": 0.361,
+     "area_m2": 34.6
+    },
+    "wkt": "POLYGON ((329 15, 315 19, 314 24, 317 37, 320 38, 335 33, 335 23, 333 19, 331 20, 329 18, 329 15))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_8",
+     "hazard": 0.59,
+     "area_m2": 74.8
+    },
+    "wkt": "POLYGON ((605 31, 587 33, 587 35, 580 36, 578 48, 579 54, 583 57, 584 62, 613 56, 611 49, 609 47, 608 40, 606 39, 605 31))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_9",
+     "hazard": 0.211,
+     "area_m2": 57.1
+    },
+    "wkt": "POLYGON ((34 36, 31 37, 29 34, 22 35, 21 38, 16 38, 14 43, 9 44, 8 46, 10 58, 14 58, 15 60, 38 58, 38 43, 35 41, 34 36))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_10",
+     "hazard": 0.196,
+     "area_m2": 72.3
+    },
+    "wkt": "POLYGON ((73 41, 73 76, 93 77, 95 41, 73 41))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_11",
+     "hazard": 0.413,
+     "area_m2": 51.8
+    },
+    "wkt": "POLYGON ((450 43, 428 45, 430 69, 452 67, 450 43))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_12",
+     "hazard": 0.489,
+     "area_m2": 37.2
+    },
+    "wkt": "POLYGON ((482 43, 465 44, 467 66, 484 64, 482 43))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_13",
+     "hazard": 0.226,
+     "area_m2": 47.4
+    },
+    "wkt": "POLYGON ((130 50, 123 50, 121 44, 110 45, 111 50, 109 52, 104 52, 106 70, 114 69, 116 66, 129 65, 129 60, 131 59, 130 50))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_14",
+     "hazard": 0.546,
+     "area_m2": 43.6
+    },
+    "wkt": "POLYGON ((533 53, 509 54, 510 72, 532 72, 531 65, 534 64, 533 53))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_15",
+     "hazard": 0.22,
+     "area_m2": 74.5
+    },
+    "wkt": "POLYGON ((783 63, 762 67, 767 101, 789 98, 783 63))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_16",
+     "hazard": 0.445,
+     "area_m2": 48.0
+    },
+    "wkt": "POLYGON ((227 67, 210 71, 213 90, 216 96, 225 95, 229 92, 234 91, 227 67))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_17",
+     "hazard": 0.565,
+     "area_m2": 56.7
+    },
+    "wkt": "POLYGON ((994 71, 994 84, 1001 84, 1002 91, 1023 90, 1023 68, 1001 68, 1000 71, 994 71))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_18",
+     "hazard": 0.496,
+     "area_m2": 40.2
+    },
+    "wkt": "POLYGON ((942 76, 922 78, 924 98, 944 96, 942 76))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_19",
+     "hazard": 0.544,
+     "area_m2": 82.7
+    },
+    "wkt": "POLYGON ((487 78, 463 80, 466 115, 491 113, 487 78))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_20",
+     "hazard": 0.483,
+     "area_m2": 40.0
+    },
+    "wkt": "POLYGON ((973 78, 953 81, 955 100, 976 97, 973 78))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_21",
+     "hazard": 0.556,
+     "area_m2": 76.6
+    },
+    "wkt": "POLYGON ((563 80, 538 84, 540 92, 538 95, 542 113, 569 109, 563 80))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_22",
+     "hazard": 0.537,
+     "area_m2": 116.6
+    },
+    "wkt": "POLYGON ((447 84, 444 84, 443 82, 425 84, 423 87, 413 88, 413 98, 417 102, 419 121, 428 120, 429 122, 452 120, 447 84))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_23",
+     "hazard": 0.3,
+     "area_m2": 58.9
+    },
+    "wkt": "POLYGON ((143 92, 134 93, 133 99, 122 100, 124 116, 122 118, 123 124, 147 121, 143 92))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_24",
+     "hazard": 0.424,
+     "area_m2": 57.0
+    },
+    "wkt": "POLYGON ((244 101, 229 103, 229 107, 222 108, 225 122, 222 123, 223 129, 229 128, 231 131, 246 127, 245 120, 248 118, 244 101))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_25",
+     "hazard": 0.587,
+     "area_m2": 25.3
+    },
+    "wkt": "POLYGON ((1004 106, 998 105, 989 107, 990 116, 993 117, 994 125, 1006 123, 1004 106))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_26",
+     "hazard": 0.202,
+     "area_m2": 70.4
+    },
+    "wkt": "POLYGON ((725 106, 705 107, 707 143, 728 141, 725 106))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_27",
+     "hazard": 0.51,
+     "area_m2": 33.3
+    },
+    "wkt": "POLYGON ((978 107, 958 109, 959 127, 973 126, 973 120, 979 117, 978 107))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_28",
+     "hazard": 0.37,
+     "area_m2": 56.7
+    },
+    "wkt": "POLYGON ((152 133, 147 133, 145 131, 121 133, 121 150, 128 149, 130 154, 151 150, 150 142, 152 141, 152 133))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_29",
+     "hazard": 0.581,
+     "area_m2": 46.5
+    },
+    "wkt": "POLYGON ((495 133, 473 136, 477 157, 498 154, 495 133))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_30",
+     "hazard": 0.437,
+     "area_m2": 62.3
+    },
+    "wkt": "POLYGON ((264 141, 252 143, 251 146, 243 147, 246 166, 250 169, 251 174, 271 169, 264 141))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_31",
+     "hazard": 0.586,
+     "area_m2": 15.2
+    },
+    "wkt": "POLYGON ((966 144, 966 153, 982 153, 981 144, 966 144))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_32",
+     "hazard": 0.543,
+     "area_m2": 32.3
+    },
+    "wkt": "POLYGON ((939 160, 939 179, 960 179, 960 169, 952 169, 951 160, 939 160))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_33",
+     "hazard": 0.573,
+     "area_m2": 98.9
+    },
+    "wkt": "POLYGON ((290 204, 272 207, 260 211, 266 244, 294 239, 292 233, 293 228, 291 221, 290 204))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_34",
+     "hazard": 0.309,
+     "area_m2": 29.8
+    },
+    "wkt": "POLYGON ((558 231, 555 226, 553 226, 542 232, 541 230, 539 230, 524 238, 530 247, 558 231))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_35",
+     "hazard": 0.285,
+     "area_m2": 17.2
+    },
+    "wkt": "POLYGON ((538 250, 532 253, 540 270, 543 271, 549 268, 540 251, 538 250))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_36",
+     "hazard": 0.402,
+     "area_m2": 76.8
+    },
+    "wkt": "POLYGON ((515 254, 512 254, 495 262, 494 266, 496 269, 491 272, 497 284, 503 284, 508 291, 512 290, 528 280, 524 273, 519 273, 521 265, 515 254))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_37",
+     "hazard": 0.386,
+     "area_m2": 189.4
+    },
+    "wkt": "POLYGON ((711 280, 646 293, 652 322, 657 323, 717 309, 711 280))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_38",
+     "hazard": 0.487,
+     "area_m2": 23.8
+    },
+    "wkt": "POLYGON ((494 284, 473 295, 477 304, 498 293, 494 284))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_39",
+     "hazard": 0.212,
+     "area_m2": 27.0
+    },
+    "wkt": "POLYGON ((563 283, 554 288, 561 310, 571 306, 569 295, 565 290, 563 283))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_40",
+     "hazard": 0.286,
+     "area_m2": 49.2
+    },
+    "wkt": "POLYGON ((545 286, 522 294, 525 303, 529 306, 532 314, 551 309, 546 296, 547 292, 545 286))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_41",
+     "hazard": 0.394,
+     "area_m2": 43.1
+    },
+    "wkt": "POLYGON ((643 294, 630 296, 638 328, 651 325, 643 294))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_42",
+     "hazard": 0.4,
+     "area_m2": 46.1
+    },
+    "wkt": "POLYGON ((73 318, 64 318, 52 321, 53 342, 74 341, 73 318))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_43",
+     "hazard": 0.262,
+     "area_m2": 16.9
+    },
+    "wkt": "POLYGON ((583 332, 560 336, 561 343, 583 339, 583 332))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_44",
+     "hazard": 0.407,
+     "area_m2": 77.4
+    },
+    "wkt": "POLYGON ((501 411, 486 414, 485 418, 476 420, 485 448, 509 440, 507 431, 502 426, 501 422, 504 421, 501 411))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "zanzibar_112_hurricane_0_45",
+     "hazard": 0.615,
+     "area_m2": 22.1
+    },
+    "wkt": "POLYGON ((567 422, 556 425, 560 441, 569 440, 573 438, 567 422))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_46",
+     "hazard": 0.701,
+     "area_m2": 56.0
+    },
+    "wkt": "POLYGON ((575 450, 557 456, 559 463, 562 462, 568 475, 565 477, 565 479, 569 486, 587 479, 575 450))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_47",
+     "hazard": 0.444,
+     "area_m2": 70.9
+    },
+    "wkt": "POLYGON ((396 606, 398 612, 394 613, 395 621, 392 622, 394 631, 432 624, 431 617, 427 614, 426 606, 409 610, 407 608, 406 603, 396 606))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_48",
+     "hazard": 0.372,
+     "area_m2": 30.8
+    },
+    "wkt": "POLYGON ((996 627, 968 635, 970 645, 999 636, 996 627))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "zanzibar_112_hurricane_0_49",
+     "hazard": 0.741,
+     "area_m2": 20.6
+    },
+    "wkt": "POLYGON ((478 749, 482 770, 491 770, 487 749, 478 749))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_50",
+     "hazard": 0.652,
+     "area_m2": 14.4
+    },
+    "wkt": "POLYGON ((499 804, 490 805, 494 821, 502 819, 499 804))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_51",
+     "hazard": 0.516,
+     "area_m2": 29.7
+    },
+    "wkt": "POLYGON ((736 804, 723 809, 730 828, 744 824, 736 804))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_52",
+     "hazard": 0.281,
+     "area_m2": 43.7
+    },
+    "wkt": "POLYGON ((1023 826, 1004 832, 1014 860, 1023 857, 1023 826))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_53",
+     "hazard": 0.431,
+     "area_m2": 46.5
+    },
+    "wkt": "POLYGON ((711 831, 703 832, 704 835, 702 837, 693 838, 697 859, 717 856, 711 831))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_54",
+     "hazard": 0.433,
+     "area_m2": 357.5
+    },
+    "wkt": "POLYGON ((521 865, 444 876, 443 883, 447 926, 525 913, 526 907, 521 865))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_55",
+     "hazard": 0.521,
+     "area_m2": 22.5
+    },
+    "wkt": "POLYGON ((802 873, 791 875, 795 893, 807 891, 802 873))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_56",
+     "hazard": 0.185,
+     "area_m2": 8.9
+    },
+    "wkt": "POLYGON ((1023 884, 1016 887, 1023 905, 1023 884))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_57",
+     "hazard": 0.472,
+     "area_m2": 65.3
+    },
+    "wkt": "POLYGON ((759 885, 745 891, 744 895, 738 897, 745 916, 749 918, 752 924, 761 921, 762 918, 759 912, 768 908, 759 885))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_58",
+     "hazard": 0.196,
+     "area_m2": 75.5
+    },
+    "wkt": "POLYGON ((992 891, 970 898, 982 930, 1004 922, 992 891))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_59",
+     "hazard": 0.307,
+     "area_m2": 76.8
+    },
+    "wkt": "POLYGON ((710 903, 687 911, 681 910, 674 913, 678 925, 676 926, 678 934, 680 935, 717 921, 716 915, 712 911, 710 903))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_60",
+     "hazard": 0.218,
+     "area_m2": 92.7
+    },
+    "wkt": "POLYGON ((659 920, 637 926, 635 929, 627 931, 631 947, 633 948, 636 956, 660 950, 663 947, 669 945, 666 934, 661 929, 659 920))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_61",
+     "hazard": 0.539,
+     "area_m2": 71.8
+    },
+    "wkt": "POLYGON ((769 932, 761 935, 760 937, 744 942, 747 951, 744 953, 746 958, 748 957, 750 959, 752 965, 781 955, 777 942, 772 941, 769 932))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_62",
+     "hazard": 0.149,
+     "area_m2": 105.4
+    },
+    "wkt": "POLYGON ((1008 937, 972 950, 984 980, 1003 973, 1001 965, 1005 962, 1013 960, 1013 955, 1017 954, 1012 940, 1010 940, 1008 937))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_63",
+     "hazard": 0.579,
+     "area_m2": 22.3
+    },
+    "wkt": "POLYGON ((807 946, 796 949, 801 966, 813 963, 807 946))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "zanzibar_112_hurricane_0_64",
+     "hazard": 0.372,
+     "area_m2": 22.0
+    },
+    "wkt": "POLYGON ((689 962, 696 983, 712 978, 710 974, 704 976, 701 975, 696 960, 689 962))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_65",
+     "hazard": 0.239,
+     "area_m2": 51.1
+    },
+    "wkt": "POLYGON ((650 967, 653 976, 651 980, 656 994, 662 992, 668 994, 677 990, 675 983, 671 981, 666 965, 656 965, 650 967))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_66",
+     "hazard": 0.578,
+     "area_m2": 27.4
+    },
+    "wkt": "POLYGON ((772 967, 773 975, 777 977, 782 996, 788 995, 789 991, 782 965, 772 967))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "zanzibar_112_hurricane_0_67",
+     "hazard": 0.553,
+     "area_m2": 22.4
+    },
+    "wkt": "POLYGON ((836 966, 825 971, 832 987, 843 983, 843 980, 836 966))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_68",
+     "hazard": 0.184,
+     "area_m2": 35.7
+    },
+    "wkt": "POLYGON ((562 1020, 558 1007, 534 1013, 534 1021, 528 1023, 562 1023, 562 1020))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "zanzibar_112_hurricane_0_69",
+     "hazard": 0.289,
+     "area_m2": 19.3
+    },
+    "wkt": "POLYGON ((675 1011, 656 1016, 658 1023, 676 1023, 678 1021, 675 1011))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "zanzibar_112_hurricane_0.jpg",
+  "disaster_type": "hurricane",
+  "village": "zanzibar_112",
+  "severity": 0.825,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   2771113191,
+   1,
+   0
+  ],
+  "post_event_albumentations": [
+   "PlasmaShadow",
+   "RandomToneCurve"
+  ],
+  "fallen_trees": [
+   [
+    117,
+    18,
+    137.9
+   ],
+   [
+    44,
+    27,
+    121.3
+   ],
+   [
+    624,
+    29,
+    125.5
+   ],
+   [
+    894,
+    37,
+    123.5
+   ],
+   [
+    940,
+    25,
+    123.9
+   ],
+   [
+    582,
+    28,
+    112.4
+   ],
+   [
+    81,
+    34,
+    115.9
+   ],
+   [
+    824,
+    35,
+    122.8
+   ],
+   [
+    635,
+    56,
+    110.5
+   ],
+   [
+    685,
+    61,
+    107.4
+   ],
+   [
+    902,
+    62,
+    144.0
+   ],
+   [
+    61,
+    84,
+    129.9
+   ],
+   [
+    140,
+    81,
+    107.2
+   ],
+   [
+    207,
+    88,
+    131.3
+   ],
+   [
+    16,
+    99,
+    119.3
+   ],
+   [
+    315,
+    123,
+    102.9
+   ],
+   [
+    346,
+    120,
+    123.4
+   ],
+   [
+    370,
+    117,
+    124.4
+   ],
+   [
+    237,
+    140,
+    100.3
+   ],
+   [
+    592,
+    200,
+    100.3
+   ],
+   [
+    942,
+    213,
+    115.6
+   ],
+   [
+    1017,
+    205,
+    104.5
+   ],
+   [
+    710,
+    206,
+    137.5
+   ],
+   [
+    407,
+    233,
+    118.2
+   ],
+   [
+    961,
+    230,
+    89.8
+   ],
+   [
+    448,
+    233,
+    119.9
+   ],
+   [
+    75,
+    246,
+    112.5
+   ],
+   [
+    941,
+    256,
+    142.9
+   ],
+   [
+    706,
+    261,
+    107.4
+   ],
+   [
+    26,
+    273,
+    128.8
+   ],
+   [
+    999,
+    270,
+    136.4
+   ],
+   [
+    942,
+    283,
+    122.9
+   ],
+   [
+    962,
+    280,
+    105.1
+   ],
+   [
+    902,
+    297,
+    130.1
+   ],
+   [
+    972,
+    299,
+    111.3
+   ],
+   [
+    136,
+    301,
+    108.0
+   ],
+   [
+    79,
+    310,
+    126.5
+   ],
+   [
+    939,
+    313,
+    96.1
+   ],
+   [
+    922,
+    321,
+    104.3
+   ],
+   [
+    410,
+    334,
+    133.7
+   ],
+   [
+    964,
+    343,
+    127.5
+   ],
+   [
+    788,
+    360,
+    124.7
+   ],
+   [
+    883,
+    373,
+    122.4
+   ],
+   [
+    365,
+    379,
+    131.3
+   ],
+   [
+    560,
+    382,
+    96.6
+   ],
+   [
+    724,
+    383,
+    124.9
+   ],
+   [
+    370,
+    392,
+    125.5
+   ],
+   [
+    1006,
+    396,
+    125.3
+   ],
+   [
+    388,
+    402,
+    99.3
+   ],
+   [
+    466,
+    407,
+    114.6
+   ],
+   [
+    513,
+    413,
+    132.4
+   ],
+   [
+    653,
+    435,
+    112.1
+   ],
+   [
+    466,
+    464,
+    147.2
+   ],
+   [
+    389,
+    476,
+    134.0
+   ],
+   [
+    565,
+    483,
+    120.8
+   ],
+   [
+    59,
+    547,
+    121.3
+   ],
+   [
+    623,
+    567,
+    149.4
+   ],
+   [
+    189,
+    599,
+    135.6
+   ],
+   [
+    624,
+    595,
+    133.9
+   ],
+   [
+    532,
+    612,
+    112.7
+   ],
+   [
+    1001,
+    621,
+    129.3
+   ],
+   [
+    504,
+    619,
+    128.0
+   ],
+   [
+    969,
+    625,
+    125.6
+   ],
+   [
+    662,
+    630,
+    136.0
+   ],
+   [
+    822,
+    636,
+    126.2
+   ],
+   [
+    362,
+    665,
+    116.8
+   ],
+   [
+    691,
+    665,
+    115.2
+   ],
+   [
+    958,
+    677,
+    125.2
+   ],
+   [
+    199,
+    687,
+    102.3
+   ],
+   [
+    467,
+    694,
+    140.2
+   ],
+   [
+    377,
+    710,
+    116.0
+   ],
+   [
+    439,
+    710,
+    121.0
+   ],
+   [
+    534,
+    705,
+    140.1
+   ],
+   [
+    999,
+    711,
+    139.1
+   ],
+   [
+    23,
+    711,
+    100.6
+   ],
+   [
+    451,
+    717,
+    120.9
+   ],
+   [
+    427,
+    719,
+    122.1
+   ],
+   [
+    549,
+    727,
+    110.2
+   ],
+   [
+    438,
+    732,
+    128.4
+   ],
+   [
+    460,
+    731,
+    116.7
+   ],
+   [
+    368,
+    733,
+    107.2
+   ],
+   [
+    448,
+    736,
+    127.4
+   ],
+   [
+    996,
+    742,
+    132.6
+   ],
+   [
+    20,
+    752,
+    150.2
+   ],
+   [
+    973,
+    763,
+    123.1
+   ],
+   [
+    689,
+    784,
+    120.6
+   ],
+   [
+    1003,
+    784,
+    120.0
+   ],
+   [
+    110,
+    793,
+    118.2
+   ],
+   [
+    96,
+    804,
+    147.9
+   ],
+   [
+    221,
+    816,
+    155.6
+   ],
+   [
+    174,
+    833,
+    135.2
+   ],
+   [
+    206,
+    826,
+    126.1
+   ],
+   [
+    513,
+    825,
+    131.0
+   ],
+   [
+    458,
+    854,
+    118.7
+   ],
+   [
+    440,
+    846,
+    134.8
+   ],
+   [
+    17,
+    848,
+    136.5
+   ],
+   [
+    240,
+    847,
+    123.2
+   ],
+   [
+    5,
+    855,
+    107.7
+   ],
+   [
+    24,
+    871,
+    115.1
+   ],
+   [
+    301,
+    871,
+    140.4
+   ],
+   [
+    835,
+    877,
+    136.8
+   ],
+   [
+    24,
+    902,
+    115.3
+   ],
+   [
+    788,
+    912,
+    150.8
+   ],
+   [
+    474,
+    945,
+    132.2
+   ],
+   [
+    438,
+    945,
+    120.9
+   ],
+   [
+    443,
+    960,
+    102.6
+   ],
+   [
+    9,
+    976,
+    121.0
+   ],
+   [
+    474,
+    970,
+    129.2
+   ],
+   [
+    614,
+    983,
+    109.3
+   ],
+   [
+    435,
+    982,
+    122.9
+   ],
+   [
+    465,
+    989,
+    139.4
+   ],
+   [
+    633,
+    1008,
+    117.3
+   ]
+  ],
+  "wind_direction_deg": 123.1
+ }
+}

@@ -1,0 +1,873 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_0",
+     "hazard": 0.428,
+     "area_m2": 27.1
+    },
+    "wkt": "POLYGON ((177 6, 196 16, 204 0, 179 0, 177 6))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_1",
+     "hazard": 0.482,
+     "area_m2": 603.4
+    },
+    "wkt": "POLYGON ((726 0, 882 83, 906 39, 834 0, 726 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_2",
+     "hazard": 0.446,
+     "area_m2": 41.3
+    },
+    "wkt": "POLYGON ((256 7, 250 12, 248 17, 257 23, 262 31, 266 31, 270 26, 273 25, 278 15, 267 9, 256 7))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_3",
+     "hazard": 0.589,
+     "area_m2": 371.6
+    },
+    "wkt": "POLYGON ((617 11, 603 38, 636 56, 647 57, 649 63, 694 87, 697 86, 708 64, 703 55, 702 43, 643 11, 637 22, 617 11))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_4",
+     "hazard": 0.496,
+     "area_m2": 131.6
+    },
+    "wkt": "POLYGON ((150 36, 166 46, 163 50, 164 52, 182 62, 188 61, 201 41, 206 36, 210 36, 180 20, 175 26, 161 18, 150 36))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_5",
+     "hazard": 0.657,
+     "area_m2": 172.3
+    },
+    "wkt": "POLYGON ((10 48, 10 61, 0 67, 0 94, 18 105, 22 99, 35 107, 37 103, 41 102, 45 95, 43 94, 43 91, 38 92, 30 83, 31 75, 41 65, 42 60, 37 57, 40 52, 26 44, 20 50, 10 48))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_6",
+     "hazard": 0.451,
+     "area_m2": 743.6
+    },
+    "wkt": "POLYGON ((598 67, 575 111, 656 155, 664 158, 682 169, 691 171, 692 174, 717 187, 740 144, 737 143, 736 140, 598 67))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_7",
+     "hazard": 0.672,
+     "area_m2": 106.0
+    },
+    "wkt": "POLYGON ((1 99, 0 154, 7 158, 13 145, 15 143, 18 145, 29 122, 27 121, 30 115, 26 113, 26 110, 20 107, 18 109, 1 99))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_8",
+     "hazard": 0.369,
+     "area_m2": 843.9
+    },
+    "wkt": "POLYGON ((489 101, 466 144, 474 143, 478 145, 486 155, 492 158, 498 154, 499 158, 512 160, 519 163, 522 166, 522 169, 528 174, 529 178, 546 187, 553 184, 563 184, 571 187, 587 201, 591 211, 645 240, 647 239, 655 224, 650 218, 649 202, 651 196, 656 190, 658 190, 491 100, 489 101))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_9",
+     "hazard": 0.326,
+     "area_m2": 25.8
+    },
+    "wkt": "POLYGON ((732 104, 725 118, 737 124, 746 107, 741 104, 732 104))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_10",
+     "hazard": 0.53,
+     "area_m2": 362.2
+    },
+    "wkt": "POLYGON ((392 106, 363 160, 412 187, 420 189, 448 136, 392 106))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_11",
+     "hazard": 0.402,
+     "area_m2": 9.3
+    },
+    "wkt": "POLYGON ((193 123, 190 129, 202 135, 205 129, 198 127, 193 123))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_12",
+     "hazard": 0.347,
+     "area_m2": 141.8
+    },
+    "wkt": "POLYGON ((167 125, 173 130, 173 138, 167 144, 168 148, 170 149, 170 153, 167 154, 165 158, 158 164, 158 173, 186 187, 190 178, 194 177, 198 169, 195 166, 197 153, 200 148, 200 142, 167 125))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_13",
+     "hazard": 0.314,
+     "area_m2": 35.4
+    },
+    "wkt": "POLYGON ((999 143, 987 148, 997 174, 996 176, 990 179, 996 195, 998 197, 999 143))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_14",
+     "hazard": 0.419,
+     "area_m2": 223.3
+    },
+    "wkt": "POLYGON ((93 164, 88 173, 92 177, 91 184, 88 189, 90 191, 89 206, 120 222, 119 214, 130 204, 140 202, 143 205, 147 221, 152 221, 161 204, 147 197, 144 194, 148 187, 101 162, 96 162, 93 164))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_15",
+     "hazard": 0.336,
+     "area_m2": 6.1
+    },
+    "wkt": "POLYGON ((157 176, 155 180, 163 185, 166 180, 157 176))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_16",
+     "hazard": 0.672,
+     "area_m2": 26.9
+    },
+    "wkt": "POLYGON ((0 179, 0 200, 3 198, 17 197, 18 196, 16 193, 15 182, 3 182, 0 179))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_17",
+     "hazard": 0.29,
+     "area_m2": 6.0
+    },
+    "wkt": "POLYGON ((989 192, 982 195, 984 202, 985 200, 989 200, 991 198, 989 192))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_18",
+     "hazard": 0.286,
+     "area_m2": 7.6
+    },
+    "wkt": "POLYGON ((981 203, 968 208, 969 213, 974 213, 981 205, 981 203))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_19",
+     "hazard": 0.501,
+     "area_m2": 272.8
+    },
+    "wkt": "POLYGON ((73 218, 63 237, 63 250, 107 273, 112 266, 126 263, 133 268, 134 274, 138 277, 142 269, 143 260, 146 254, 131 246, 124 239, 121 230, 88 213, 85 213, 83 216, 76 215, 73 218))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_20",
+     "hazard": 0.485,
+     "area_m2": 248.8
+    },
+    "wkt": "POLYGON ((71 262, 50 300, 96 326, 99 325, 103 318, 120 328, 132 306, 130 306, 129 308, 125 308, 117 305, 110 298, 104 280, 71 262))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_21",
+     "hazard": 0.499,
+     "area_m2": 1657.3
+    },
+    "wkt": "POLYGON ((660 274, 650 292, 655 290, 661 283, 670 283, 676 288, 676 301, 671 307, 664 310, 662 324, 658 329, 649 330, 635 322, 625 340, 625 343, 627 344, 629 351, 628 366, 649 369, 653 373, 652 385, 647 391, 644 392, 644 397, 635 409, 631 421, 624 428, 616 432, 610 443, 619 448, 624 448, 630 454, 655 467, 662 464, 666 460, 676 459, 681 461, 700 480, 706 480, 708 478, 708 469, 715 462, 725 461, 727 459, 729 441, 739 433, 739 431, 734 425, 736 413, 729 406, 735 394, 735 391, 742 382, 748 379, 749 375, 754 378, 762 378, 765 380, 764 378, 751 371, 756 363, 756 349, 758 346, 758 342, 760 338, 774 325, 761 318, 747 319, 745 321, 738 315, 738 306, 729 301, 722 301, 720 299, 715 298, 712 295, 709 295, 706 289, 694 283, 686 284, 674 276, 660 274))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_22",
+     "hazard": 0.283,
+     "area_m2": 18.4
+    },
+    "wkt": "POLYGON ((981 290, 972 298, 973 302, 978 308, 988 303, 981 290))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_23",
+     "hazard": 0.426,
+     "area_m2": 7.0
+    },
+    "wkt": "POLYGON ((47 319, 43 326, 50 329, 54 322, 47 319))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_24",
+     "hazard": 0.43,
+     "area_m2": 139.0
+    },
+    "wkt": "POLYGON ((57 360, 58 361, 62 356, 73 355, 75 357, 75 363, 72 369, 84 376, 88 369, 99 375, 97 372, 98 365, 109 357, 115 357, 118 360, 118 364, 121 358, 101 347, 105 340, 76 324, 57 360))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_25",
+     "hazard": 0.272,
+     "area_m2": 6.4
+    },
+    "wkt": "POLYGON ((931 325, 931 338, 935 338, 937 333, 931 325))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_26",
+     "hazard": 0.292,
+     "area_m2": 13.4
+    },
+    "wkt": "POLYGON ((970 327, 957 330, 962 340, 974 334, 970 327))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_27",
+     "hazard": 0.414,
+     "area_m2": 8.3
+    },
+    "wkt": "POLYGON ((49 335, 47 338, 47 342, 55 346, 58 339, 49 335))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_28",
+     "hazard": 0.311,
+     "area_m2": 28.3
+    },
+    "wkt": "POLYGON ((944 370, 950 381, 959 383, 966 390, 970 388, 970 386, 956 364, 952 369, 944 370))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_29",
+     "hazard": 0.336,
+     "area_m2": 7.0
+    },
+    "wkt": "POLYGON ((897 385, 898 391, 903 391, 907 388, 910 388, 905 384, 897 385))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_30",
+     "hazard": 0.359,
+     "area_m2": 154.9
+    },
+    "wkt": "POLYGON ((39 389, 29 408, 32 411, 30 416, 44 423, 47 426, 47 428, 71 440, 79 427, 89 432, 95 421, 94 419, 75 409, 77 406, 73 404, 66 405, 64 403, 60 403, 53 399, 54 394, 52 393, 51 395, 49 395, 39 389))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_31",
+     "hazard": 0.37,
+     "area_m2": 30.4
+    },
+    "wkt": "POLYGON ((910 389, 930 425, 934 424, 936 422, 935 418, 937 411, 932 410, 917 392, 910 389))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_32",
+     "hazard": 0.498,
+     "area_m2": 31.1
+    },
+    "wkt": "POLYGON ((881 406, 896 429, 900 423, 906 418, 898 405, 881 406))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_33",
+     "hazard": 0.411,
+     "area_m2": 151.5
+    },
+    "wkt": "POLYGON ((37 432, 23 460, 58 479, 72 485, 79 472, 73 468, 79 454, 37 432))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_34",
+     "hazard": 0.589,
+     "area_m2": 33.8
+    },
+    "wkt": "POLYGON ((920 441, 914 445, 917 447, 918 455, 916 459, 924 471, 936 463, 936 461, 924 443, 920 441))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_35",
+     "hazard": 0.415,
+     "area_m2": 64.7
+    },
+    "wkt": "POLYGON ((242 444, 244 452, 243 457, 249 461, 252 468, 252 473, 250 475, 253 477, 255 471, 260 467, 267 467, 271 469, 276 476, 276 481, 272 486, 279 489, 289 466, 270 457, 265 459, 257 458, 252 452, 251 448, 242 444))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_36",
+     "hazard": 0.288,
+     "area_m2": 153.0
+    },
+    "wkt": "POLYGON ((0 456, 0 555, 16 527, 8 521, 34 476, 31 473, 0 456))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_37",
+     "hazard": 0.536,
+     "area_m2": 267.1
+    },
+    "wkt": "POLYGON ((185 539, 177 554, 267 601, 272 591, 274 579, 263 573, 267 567, 199 531, 197 531, 192 541, 187 538, 185 539))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "austin_48_hurricane_0_38",
+     "hazard": 0.764,
+     "area_m2": 8.5
+    },
+    "wkt": "POLYGON ((957 535, 954 547, 961 548, 962 537, 957 535))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_39",
+     "hazard": 0.443,
+     "area_m2": 30.3
+    },
+    "wkt": "POLYGON ((275 554, 267 566, 279 574, 285 575, 293 564, 279 555, 275 554))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_40",
+     "hazard": 0.524,
+     "area_m2": 258.4
+    },
+    "wkt": "POLYGON ((175 576, 168 590, 176 594, 171 603, 235 636, 251 603, 187 570, 181 578, 175 576))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "austin_48_hurricane_0_41",
+     "hazard": 0.66,
+     "area_m2": 28.8
+    },
+    "wkt": "POLYGON ((857 592, 852 596, 857 604, 857 608, 867 619, 875 612, 857 592))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_42",
+     "hazard": 0.016,
+     "area_m2": 11.3
+    },
+    "wkt": "POLYGON ((1 599, 0 621, 9 605, 1 599))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_43",
+     "hazard": 0.023,
+     "area_m2": 120.4
+    },
+    "wkt": "POLYGON ((15 607, 13 608, 0 632, 0 669, 7 673, 11 668, 15 670, 23 656, 22 648, 19 641, 32 617, 15 607))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_44",
+     "hazard": 0.464,
+     "area_m2": 72.5
+    },
+    "wkt": "POLYGON ((807 626, 824 644, 829 639, 842 652, 849 646, 861 657, 870 648, 850 627, 843 634, 831 635, 826 634, 821 630, 813 629, 807 626))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_45",
+     "hazard": 0.516,
+     "area_m2": 172.4
+    },
+    "wkt": "POLYGON ((147 662, 155 667, 168 655, 173 655, 182 658, 187 663, 188 674, 186 681, 188 681, 192 685, 194 681, 199 678, 210 678, 216 684, 216 686, 221 677, 224 677, 229 669, 225 663, 165 631, 162 633, 147 662))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_46",
+     "hazard": 0.402,
+     "area_m2": 92.1
+    },
+    "wkt": "POLYGON ((804 632, 795 641, 794 644, 838 684, 849 672, 804 632))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_47",
+     "hazard": 0.476,
+     "area_m2": 8.6
+    },
+    "wkt": "POLYGON ((792 651, 787 659, 793 664, 799 655, 792 651))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_48",
+     "hazard": 0.405,
+     "area_m2": 142.6
+    },
+    "wkt": "POLYGON ((128 670, 126 678, 129 680, 129 691, 121 697, 120 702, 124 702, 126 707, 134 712, 137 707, 140 706, 153 714, 143 730, 144 732, 151 736, 164 734, 183 703, 170 704, 164 701, 146 701, 137 692, 148 681, 140 673, 128 670))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_49",
+     "hazard": 0.531,
+     "area_m2": 68.7
+    },
+    "wkt": "POLYGON ((798 677, 791 686, 795 690, 786 702, 799 712, 802 709, 804 709, 812 715, 816 710, 815 705, 820 694, 798 677))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_50",
+     "hazard": 0.66,
+     "area_m2": 132.8
+    },
+    "wkt": "POLYGON ((771 708, 767 715, 768 718, 773 722, 773 724, 769 726, 767 731, 788 745, 790 743, 800 750, 799 753, 802 755, 809 751, 826 751, 830 745, 828 742, 778 708, 771 708))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_51",
+     "hazard": 0.597,
+     "area_m2": 189.7
+    },
+    "wkt": "POLYGON ((206 718, 188 753, 203 761, 205 761, 209 753, 223 759, 225 761, 220 770, 241 781, 263 737, 258 736, 248 738, 243 735, 240 742, 237 744, 225 738, 223 736, 224 734, 219 734, 214 728, 214 726, 206 718))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_52",
+     "hazard": 0.652,
+     "area_m2": 183.8
+    },
+    "wkt": "POLYGON ((286 750, 264 794, 282 803, 284 803, 288 795, 295 799, 305 798, 320 803, 325 802, 334 785, 334 782, 329 773, 319 773, 313 784, 298 776, 306 760, 297 758, 286 750))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_53",
+     "hazard": 0.774,
+     "area_m2": 89.2
+    },
+    "wkt": "POLYGON ((740 768, 739 779, 741 780, 757 781, 758 779, 761 779, 762 789, 793 792, 786 780, 786 772, 789 769, 791 769, 745 764, 740 768))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_54",
+     "hazard": 0.418,
+     "area_m2": 21.5
+    },
+    "wkt": "POLYGON ((933 781, 931 779, 921 779, 919 772, 907 779, 911 789, 914 789, 933 781))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_55",
+     "hazard": 0.765,
+     "area_m2": 106.8
+    },
+    "wkt": "POLYGON ((793 819, 792 803, 743 805, 722 808, 715 807, 716 813, 722 819, 737 819, 739 821, 793 819))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_56",
+     "hazard": 0.529,
+     "area_m2": 167.1
+    },
+    "wkt": "POLYGON ((341 830, 345 838, 358 846, 369 827, 371 826, 382 833, 379 838, 397 849, 401 842, 405 844, 409 838, 421 844, 428 833, 419 828, 412 820, 405 816, 389 820, 386 822, 377 821, 363 811, 358 803, 341 830))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_57",
+     "hazard": 0.742,
+     "area_m2": 22.9
+    },
+    "wkt": "POLYGON ((871 827, 874 843, 889 847, 883 829, 871 827))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_58",
+     "hazard": 0.299,
+     "area_m2": 124.6
+    },
+    "wkt": "POLYGON ((87 833, 78 850, 74 850, 62 872, 69 873, 80 871, 86 875, 87 881, 95 886, 97 895, 99 894, 106 879, 112 873, 113 869, 94 859, 103 841, 100 839, 97 842, 93 836, 87 833))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "austin_48_hurricane_0_59",
+     "hazard": 0.71,
+     "area_m2": 22.9
+    },
+    "wkt": "POLYGON ((891 831, 889 844, 890 847, 903 850, 905 834, 891 831))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_60",
+     "hazard": 0.399,
+     "area_m2": 99.2
+    },
+    "wkt": "POLYGON ((157 872, 139 906, 136 904, 138 910, 150 918, 150 925, 146 932, 147 938, 149 938, 169 900, 166 898, 166 896, 172 886, 168 881, 166 875, 157 872))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_61",
+     "hazard": 0.379,
+     "area_m2": 116.8
+    },
+    "wkt": "POLYGON ((494 873, 493 884, 497 884, 503 888, 508 900, 512 905, 514 914, 536 918, 547 901, 543 896, 546 888, 540 888, 532 885, 510 882, 509 885, 506 885, 503 877, 504 873, 494 873))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_62",
+     "hazard": 0.349,
+     "area_m2": 14.1
+    },
+    "wkt": "POLYGON ((131 877, 127 875, 115 898, 122 897, 125 895, 125 890, 131 877))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_63",
+     "hazard": 0.433,
+     "area_m2": 209.1
+    },
+    "wkt": "POLYGON ((187 887, 179 902, 177 904, 174 904, 154 943, 163 943, 168 950, 191 962, 199 952, 199 946, 204 939, 204 935, 210 931, 213 924, 193 913, 202 894, 187 887))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_64",
+     "hazard": 0.414,
+     "area_m2": 78.0
+    },
+    "wkt": "POLYGON ((719 896, 711 905, 711 907, 725 920, 723 918, 723 909, 727 900, 729 901, 731 916, 748 931, 761 920, 754 912, 732 893, 727 896, 719 896))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "austin_48_hurricane_0_65",
+     "hazard": 0.741,
+     "area_m2": 30.6
+    },
+    "wkt": "POLYGON ((864 901, 862 904, 863 913, 860 919, 881 920, 881 911, 873 904, 873 902, 864 901))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_66",
+     "hazard": 0.437,
+     "area_m2": 166.4
+    },
+    "wkt": "POLYGON ((250 920, 241 937, 231 932, 218 959, 227 961, 242 977, 244 988, 247 992, 249 992, 268 952, 261 942, 262 926, 250 920))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "austin_48_hurricane_0_67",
+     "hazard": 0.321,
+     "area_m2": 73.3
+    },
+    "wkt": "POLYGON ((719 920, 710 929, 746 965, 754 971, 755 955, 719 920))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_68",
+     "hazard": 0.439,
+     "area_m2": 12.8
+    },
+    "wkt": "POLYGON ((767 924, 767 927, 761 934, 762 938, 768 941, 776 932, 767 924))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_69",
+     "hazard": 0.436,
+     "area_m2": 169.0
+    },
+    "wkt": "POLYGON ((304 948, 293 942, 285 948, 281 957, 278 958, 258 997, 262 999, 302 999, 314 976, 295 965, 305 950, 304 948))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_70",
+     "hazard": 0.37,
+     "area_m2": 131.4
+    },
+    "wkt": "POLYGON ((49 943, 38 964, 39 971, 41 974, 58 983, 49 999, 75 999, 87 977, 87 968, 83 970, 78 970, 72 967, 68 967, 61 961, 59 956, 49 943))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "austin_48_hurricane_0_71",
+     "hazard": 0.675,
+     "area_m2": 42.3
+    },
+    "wkt": "POLYGON ((897 966, 897 955, 892 950, 865 954, 869 962, 875 968, 897 966))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_72",
+     "hazard": 0.281,
+     "area_m2": 34.1
+    },
+    "wkt": "POLYGON ((711 976, 718 983, 719 996, 721 999, 738 999, 722 973, 719 975, 711 976))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_73",
+     "hazard": 0.435,
+     "area_m2": 66.8
+    },
+    "wkt": "POLYGON ((137 986, 124 978, 127 974, 121 976, 120 980, 116 984, 104 986, 97 984, 88 999, 138 999, 132 995, 132 991, 137 986))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_74",
+     "hazard": 0.39,
+     "area_m2": 12.1
+    },
+    "wkt": "POLYGON ((797 983, 797 992, 807 992, 806 984, 808 982, 797 983))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_75",
+     "hazard": 0.413,
+     "area_m2": 25.6
+    },
+    "wkt": "POLYGON ((325 998, 349 999, 349 991, 333 983, 325 998))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "austin_48_hurricane_0_76",
+     "hazard": 0.377,
+     "area_m2": 10.6
+    },
+    "wkt": "POLYGON ((385 998, 406 999, 402 996, 402 993, 391 992, 391 994, 385 998))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "austin_48_hurricane_0.jpg",
+  "disaster_type": "hurricane",
+  "village": "austin_48",
+  "severity": 0.762,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   3212913716,
+   1,
+   0
+  ],
+  "post_event_albumentations": [
+   "PlasmaShadow",
+   "HueSaturationValue",
+   "ISONoise",
+   "ImageCompression"
+  ],
+  "fallen_trees": [
+   [
+    45,
+    244,
+    23.7
+   ],
+   [
+    434,
+    261,
+    60.9
+   ],
+   [
+    123,
+    285,
+    20.0
+   ],
+   [
+    321,
+    322,
+    69.5
+   ],
+   [
+    107,
+    388,
+    65.8
+   ],
+   [
+    238,
+    391,
+    50.0
+   ],
+   [
+    607,
+    450,
+    60.1
+   ],
+   [
+    233,
+    467,
+    44.4
+   ],
+   [
+    160,
+    468,
+    69.2
+   ],
+   [
+    220,
+    791,
+    34.6
+   ],
+   [
+    253,
+    794,
+    63.9
+   ],
+   [
+    259,
+    808,
+    39.5
+   ],
+   [
+    184,
+    875,
+    34.2
+   ],
+   [
+    747,
+    916,
+    47.3
+   ],
+   [
+    415,
+    988,
+    46.6
+   ]
+  ],
+  "wind_direction_deg": 43.8
+ }
+}

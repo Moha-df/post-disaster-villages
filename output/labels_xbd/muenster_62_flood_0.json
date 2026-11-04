@@ -1,0 +1,805 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_0",
+     "hazard": 0.013,
+     "area_m2": 340.3
+    },
+    "wkt": "POLYGON ((1 0, 1 45, 113 77, 120 52, 23 25, 21 23, 28 0, 1 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_1",
+     "hazard": 0.079,
+     "area_m2": 14.7
+    },
+    "wkt": "POLYGON ((119 0, 123 10, 143 2, 142 0, 119 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_2",
+     "hazard": 0.605,
+     "area_m2": 72.1
+    },
+    "wkt": "POLYGON ((228 1, 231 21, 235 22, 237 24, 237 27, 243 29, 255 29, 260 27, 254 0, 228 1))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_3",
+     "hazard": 0.377,
+     "area_m2": 62.2
+    },
+    "wkt": "POLYGON ((476 0, 459 0, 459 2, 464 2, 466 11, 460 14, 449 16, 454 35, 478 29, 473 12, 474 10, 479 9, 476 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_4",
+     "hazard": 0.0,
+     "area_m2": 195.1
+    },
+    "wkt": "POLYGON ((686 0, 693 7, 694 12, 692 14, 681 16, 683 24, 691 22, 692 25, 698 30, 700 37, 685 41, 687 47, 686 54, 687 57, 694 56, 694 53, 696 51, 697 55, 704 55, 705 61, 696 64, 700 79, 702 78, 704 81, 702 87, 706 86, 708 88, 711 102, 722 108, 720 102, 727 100, 728 96, 719 60, 716 56, 715 47, 712 41, 709 29, 710 25, 706 10, 704 9, 703 5, 704 1, 686 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_5",
+     "hazard": 0.0,
+     "area_m2": 79.6
+    },
+    "wkt": "POLYGON ((773 0, 779 22, 778 24, 776 24, 779 34, 789 31, 787 23, 788 21, 798 19, 800 22, 812 19, 807 0, 773 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_6",
+     "hazard": 0.193,
+     "area_m2": 12.6
+    },
+    "wkt": "POLYGON ((168 5, 170 16, 180 15, 179 4, 168 5))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_7",
+     "hazard": 0.0,
+     "area_m2": 33.1
+    },
+    "wkt": "POLYGON ((875 7, 875 24, 894 24, 894 7, 875 7))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "muenster_62_flood_0_8",
+     "hazard": 0.755,
+     "area_m2": 11.0
+    },
+    "wkt": "POLYGON ((284 8, 275 10, 277 20, 287 18, 284 8))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_9",
+     "hazard": 0.545,
+     "area_m2": 98.1
+    },
+    "wkt": "POLYGON ((433 18, 408 24, 407 27, 399 29, 406 51, 421 53, 439 48, 440 37, 433 18))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_10",
+     "hazard": 0.0,
+     "area_m2": 71.8
+    },
+    "wkt": "POLYGON ((980 19, 971 19, 970 26, 948 26, 948 40, 941 41, 941 53, 945 53, 949 48, 974 49, 974 28, 980 27, 980 19))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_11",
+     "hazard": 0.0,
+     "area_m2": 219.7
+    },
+    "wkt": "POLYGON ((627 21, 611 25, 612 30, 608 32, 596 35, 594 30, 591 30, 578 34, 579 38, 576 40, 563 43, 560 38, 545 42, 546 46, 543 48, 528 51, 534 75, 552 71, 550 66, 550 63, 552 61, 566 58, 568 62, 583 58, 583 54, 587 52, 599 49, 601 54, 617 50, 618 54, 634 50, 627 21))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_12",
+     "hazard": 0.77,
+     "area_m2": 178.2
+    },
+    "wkt": "POLYGON ((394 27, 324 44, 323 49, 329 72, 331 73, 356 66, 352 52, 357 49, 361 49, 362 51, 367 50, 369 52, 371 61, 376 61, 400 54, 394 27))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_13",
+     "hazard": 0.161,
+     "area_m2": 87.5
+    },
+    "wkt": "POLYGON ((162 27, 139 31, 145 70, 168 66, 162 27))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_14",
+     "hazard": 0.0,
+     "area_m2": 85.9
+    },
+    "wkt": "POLYGON ((812 35, 806 37, 798 37, 787 41, 787 57, 789 65, 793 66, 794 72, 800 72, 819 66, 812 35))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_15",
+     "hazard": 0.0,
+     "area_m2": 34.0
+    },
+    "wkt": "POLYGON ((874 37, 874 54, 894 54, 894 37, 874 37))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_16",
+     "hazard": 0.785,
+     "area_m2": 200.7
+    },
+    "wkt": "POLYGON ((321 62, 317 63, 315 61, 313 50, 311 49, 306 51, 302 50, 295 54, 289 53, 285 56, 284 59, 274 58, 266 67, 264 67, 263 65, 254 67, 252 64, 245 66, 244 68, 242 68, 248 94, 269 90, 271 96, 280 93, 275 73, 279 71, 283 74, 288 89, 297 89, 302 86, 302 80, 322 76, 324 74, 321 62))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_17",
+     "hazard": 0.194,
+     "area_m2": 24.1
+    },
+    "wkt": "POLYGON ((487 62, 498 104, 500 107, 501 95, 495 65, 492 61, 487 62))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_18",
+     "hazard": 0.0,
+     "area_m2": 49.9
+    },
+    "wkt": "POLYGON ((897 61, 897 66, 895 67, 895 83, 903 83, 904 89, 918 87, 918 72, 914 71, 914 67, 911 66, 911 61, 897 61))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_19",
+     "hazard": 0.0,
+     "area_m2": 8.0
+    },
+    "wkt": "POLYGON ((835 65, 821 68, 822 73, 836 70, 835 65))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_20",
+     "hazard": 0.0,
+     "area_m2": 41.1
+    },
+    "wkt": "POLYGON ((947 69, 947 92, 966 92, 966 85, 968 83, 968 79, 966 76, 961 75, 961 69, 947 69))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_21",
+     "hazard": 0.312,
+     "area_m2": 64.7
+    },
+    "wkt": "POLYGON ((487 73, 463 79, 466 94, 469 97, 470 101, 475 105, 481 105, 486 101, 493 99, 487 73))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_22",
+     "hazard": 0.0,
+     "area_m2": 10.2
+    },
+    "wkt": "POLYGON ((828 75, 819 77, 821 87, 830 85, 828 75))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_23",
+     "hazard": 0.502,
+     "area_m2": 77.3
+    },
+    "wkt": "POLYGON ((454 80, 429 85, 429 89, 421 91, 428 117, 438 114, 440 110, 451 108, 448 96, 450 94, 457 92, 454 80))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_24",
+     "hazard": 0.654,
+     "area_m2": 82.4
+    },
+    "wkt": "POLYGON ((411 81, 405 83, 406 88, 403 90, 380 95, 386 122, 401 117, 414 115, 411 102, 408 99, 409 95, 415 94, 411 81))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_25",
+     "hazard": 0.0,
+     "area_m2": 45.1
+    },
+    "wkt": "POLYGON ((802 88, 783 92, 788 114, 806 110, 810 107, 809 101, 805 101, 802 88))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_26",
+     "hazard": 0.742,
+     "area_m2": 71.8
+    },
+    "wkt": "POLYGON ((371 91, 364 93, 366 98, 364 100, 345 104, 347 106, 349 113, 349 117, 346 118, 348 126, 356 125, 357 129, 360 132, 369 130, 367 123, 370 120, 369 116, 377 114, 371 91))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_27",
+     "hazard": 0.762,
+     "area_m2": 54.2
+    },
+    "wkt": "POLYGON ((331 102, 325 103, 327 108, 324 110, 302 115, 306 133, 311 131, 318 133, 328 130, 325 118, 335 115, 331 102))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_28",
+     "hazard": 0.0,
+     "area_m2": 51.8
+    },
+    "wkt": "POLYGON ((967 110, 967 124, 976 124, 977 128, 992 128, 993 124, 999 124, 999 110, 967 110))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_29",
+     "hazard": 0.0,
+     "area_m2": 11.8
+    },
+    "wkt": "POLYGON ((847 110, 839 112, 841 124, 850 122, 847 110))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_30",
+     "hazard": 0.633,
+     "area_m2": 63.3
+    },
+    "wkt": "POLYGON ((292 115, 287 116, 287 118, 284 120, 258 126, 262 143, 267 142, 268 138, 274 136, 275 138, 291 136, 294 144, 299 143, 292 115))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_31",
+     "hazard": 0.0,
+     "area_m2": 27.7
+    },
+    "wkt": "POLYGON ((901 126, 904 131, 911 131, 913 134, 922 134, 922 132, 924 131, 924 121, 918 121, 917 118, 912 118, 911 121, 904 121, 901 126))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_32",
+     "hazard": 0.0,
+     "area_m2": 79.1
+    },
+    "wkt": "POLYGON ((729 126, 698 133, 697 134, 702 151, 704 153, 709 154, 712 157, 735 152, 736 151, 732 143, 733 139, 729 126))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_33",
+     "hazard": 0.0,
+     "area_m2": 127.2
+    },
+    "wkt": "POLYGON ((565 133, 568 145, 578 142, 582 156, 577 158, 580 171, 583 172, 584 177, 587 179, 590 193, 608 189, 603 166, 599 164, 597 154, 599 153, 599 149, 594 129, 583 132, 581 129, 565 133))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_34",
+     "hazard": 0.0,
+     "area_m2": 58.5
+    },
+    "wkt": "POLYGON ((816 128, 798 132, 805 163, 823 159, 816 128))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_35",
+     "hazard": 0.0,
+     "area_m2": 84.7
+    },
+    "wkt": "POLYGON ((678 138, 650 145, 652 157, 656 161, 655 166, 658 169, 668 167, 672 174, 671 175, 686 172, 681 146, 678 138))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_36",
+     "hazard": 0.0,
+     "area_m2": 15.1
+    },
+    "wkt": "POLYGON ((80 141, 74 152, 84 157, 90 145, 80 141))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_37",
+     "hazard": 0.0,
+     "area_m2": 44.9
+    },
+    "wkt": "POLYGON ((923 147, 923 165, 948 165, 948 147, 923 147))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_38",
+     "hazard": 0.326,
+     "area_m2": 68.3
+    },
+    "wkt": "POLYGON ((466 185, 459 158, 422 167, 425 180, 431 179, 431 176, 433 174, 443 172, 445 175, 447 186, 457 184, 458 186, 466 185))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_39",
+     "hazard": 0.0,
+     "area_m2": 80.1
+    },
+    "wkt": "POLYGON ((739 165, 728 167, 710 174, 709 178, 712 191, 714 194, 721 194, 724 197, 734 194, 746 193, 739 165))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_40",
+     "hazard": 0.0,
+     "area_m2": 58.6
+    },
+    "wkt": "POLYGON ((856 170, 838 174, 845 205, 864 201, 856 170))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_41",
+     "hazard": 0.443,
+     "area_m2": 193.3
+    },
+    "wkt": "POLYGON ((405 171, 352 185, 357 204, 365 202, 369 198, 373 198, 376 207, 374 209, 376 208, 380 211, 380 218, 365 222, 368 232, 375 230, 378 231, 382 248, 396 244, 395 240, 398 238, 408 236, 405 222, 392 225, 390 223, 383 199, 384 196, 393 194, 394 192, 398 191, 401 194, 401 202, 412 199, 405 171))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_42",
+     "hazard": 0.0,
+     "area_m2": 41.2
+    },
+    "wkt": "POLYGON ((504 178, 513 214, 516 214, 524 211, 515 176, 504 178))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_43",
+     "hazard": 0.0,
+     "area_m2": 34.0
+    },
+    "wkt": "POLYGON ((923 178, 923 195, 943 195, 943 178, 923 178))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_44",
+     "hazard": 0.0,
+     "area_m2": 98.6
+    },
+    "wkt": "POLYGON ((652 187, 655 193, 655 200, 657 202, 666 200, 668 202, 671 215, 685 213, 697 209, 692 184, 689 182, 675 185, 674 182, 671 181, 655 185, 652 187))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_45",
+     "hazard": 0.059,
+     "area_m2": 41.2
+    },
+    "wkt": "POLYGON ((484 183, 477 185, 485 219, 486 221, 489 221, 497 218, 488 183, 484 183))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_46",
+     "hazard": 0.423,
+     "area_m2": 41.1
+    },
+    "wkt": "POLYGON ((336 189, 300 198, 302 209, 338 200, 336 189))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_47",
+     "hazard": 0.0,
+     "area_m2": 50.6
+    },
+    "wkt": "POLYGON ((996 190, 990 190, 989 193, 974 193, 974 217, 976 219, 980 218, 981 213, 997 213, 996 190))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_48",
+     "hazard": 0.246,
+     "area_m2": 121.9
+    },
+    "wkt": "POLYGON ((474 224, 471 209, 469 208, 470 202, 467 200, 466 196, 403 212, 407 223, 415 221, 417 223, 427 221, 431 235, 442 232, 439 217, 442 215, 454 212, 457 223, 464 222, 466 226, 474 224))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_49",
+     "hazard": 0.0,
+     "area_m2": 195.4
+    },
+    "wkt": "POLYGON ((589 207, 586 210, 592 236, 605 236, 603 241, 595 243, 600 265, 607 266, 611 273, 616 270, 618 272, 618 275, 631 272, 630 268, 632 266, 617 203, 610 202, 601 206, 589 207))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_50",
+     "hazard": 0.0,
+     "area_m2": 48.2
+    },
+    "wkt": "POLYGON ((747 208, 726 213, 731 233, 743 231, 753 227, 751 212, 747 208))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_51",
+     "hazard": 0.0,
+     "area_m2": 14.3
+    },
+    "wkt": "POLYGON ((894 207, 883 210, 883 221, 894 221, 894 207))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_52",
+     "hazard": 0.0,
+     "area_m2": 14.1
+    },
+    "wkt": "POLYGON ((114 212, 111 221, 125 225, 127 217, 114 212))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_53",
+     "hazard": 0.325,
+     "area_m2": 20.8
+    },
+    "wkt": "POLYGON ((330 218, 312 223, 315 234, 333 229, 330 218))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_54",
+     "hazard": 0.0,
+     "area_m2": 105.7
+    },
+    "wkt": "POLYGON ((517 221, 503 224, 502 228, 495 230, 501 257, 504 260, 506 268, 504 269, 510 290, 517 289, 515 281, 522 279, 518 266, 527 263, 527 259, 533 258, 535 256, 534 251, 512 256, 510 254, 509 248, 515 245, 512 232, 520 230, 517 221))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_55",
+     "hazard": 0.0,
+     "area_m2": 66.1
+    },
+    "wkt": "POLYGON ((697 219, 685 222, 684 225, 680 228, 672 229, 669 234, 670 243, 674 246, 676 250, 691 247, 703 241, 703 237, 697 219))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_56",
+     "hazard": 0.0,
+     "area_m2": 348.3
+    },
+    "wkt": "POLYGON ((852 224, 846 226, 846 249, 842 250, 841 253, 854 256, 855 285, 852 286, 852 292, 856 293, 856 296, 853 299, 854 321, 862 323, 860 324, 861 345, 863 349, 861 350, 862 360, 860 361, 860 366, 875 366, 876 360, 891 360, 890 335, 876 336, 875 330, 871 329, 872 323, 887 323, 886 297, 872 297, 871 293, 867 292, 868 287, 883 286, 883 262, 868 262, 867 256, 863 255, 864 249, 878 250, 878 226, 876 224, 852 224))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_57",
+     "hazard": 0.0,
+     "area_m2": 110.6
+    },
+    "wkt": "POLYGON ((944 228, 945 253, 959 254, 959 260, 957 261, 957 265, 952 266, 952 284, 961 284, 962 286, 969 286, 969 265, 971 261, 975 261, 975 254, 970 253, 970 230, 962 230, 961 228, 944 228))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_58",
+     "hazard": 0.083,
+     "area_m2": 277.7
+    },
+    "wkt": "POLYGON ((496 288, 494 283, 494 280, 496 279, 492 265, 470 271, 466 269, 460 243, 434 249, 436 258, 451 254, 453 255, 454 259, 449 262, 452 274, 457 273, 459 275, 460 280, 450 283, 452 291, 430 297, 428 293, 419 295, 416 284, 405 287, 403 285, 397 259, 364 267, 365 274, 370 274, 371 281, 390 276, 394 286, 394 289, 392 291, 393 298, 399 297, 401 304, 410 302, 414 315, 464 302, 460 286, 462 283, 482 278, 485 290, 496 288))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_59",
+     "hazard": 0.0,
+     "area_m2": 61.1
+    },
+    "wkt": "POLYGON ((758 249, 742 253, 735 260, 735 268, 737 277, 739 279, 765 272, 758 249))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_60",
+     "hazard": 0.071,
+     "area_m2": 44.2
+    },
+    "wkt": "POLYGON ((428 250, 401 257, 400 260, 402 268, 418 264, 422 276, 430 274, 428 264, 431 262, 428 250))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_61",
+     "hazard": 0.0,
+     "area_m2": 8.6
+    },
+    "wkt": "POLYGON ((996 262, 996 285, 999 285, 999 262, 996 262))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_62",
+     "hazard": 0.0,
+     "area_m2": 76.0
+    },
+    "wkt": "POLYGON ((712 265, 699 270, 682 274, 688 298, 701 294, 719 291, 712 265))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_63",
+     "hazard": 0.0,
+     "area_m2": 87.5
+    },
+    "wkt": "POLYGON ((607 280, 606 282, 608 287, 615 285, 616 286, 619 300, 622 300, 624 302, 629 324, 646 320, 636 281, 629 283, 627 281, 626 275, 607 280))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_64",
+     "hazard": 0.0,
+     "area_m2": 62.6
+    },
+    "wkt": "POLYGON ((767 283, 753 287, 743 288, 748 313, 773 308, 767 283))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_65",
+     "hazard": 0.0,
+     "area_m2": 234.1
+    },
+    "wkt": "POLYGON ((557 328, 554 326, 554 323, 550 322, 550 315, 547 313, 546 310, 533 314, 530 308, 524 308, 520 311, 518 303, 485 311, 483 315, 477 316, 473 314, 450 320, 455 339, 468 336, 467 334, 469 332, 477 330, 483 332, 488 330, 491 337, 487 340, 489 350, 503 346, 499 328, 504 326, 514 325, 534 335, 537 338, 538 345, 559 339, 557 328))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_66",
+     "hazard": 0.0,
+     "area_m2": 55.0
+    },
+    "wkt": "POLYGON ((939 319, 940 348, 957 349, 957 343, 962 342, 962 331, 956 330, 956 319, 939 319))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_67",
+     "hazard": 0.0,
+     "area_m2": 57.1
+    },
+    "wkt": "POLYGON ((969 319, 969 346, 986 346, 987 341, 992 341, 992 324, 987 324, 986 319, 969 319))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_68",
+     "hazard": 0.0,
+     "area_m2": 45.4
+    },
+    "wkt": "POLYGON ((909 325, 909 346, 926 346, 927 353, 932 353, 932 336, 926 335, 926 325, 909 325))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_69",
+     "hazard": 0.0,
+     "area_m2": 67.5
+    },
+    "wkt": "POLYGON ((779 326, 759 330, 761 337, 757 339, 758 351, 766 350, 769 358, 780 358, 786 354, 783 332, 779 326))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_70",
+     "hazard": 0.0,
+     "area_m2": 70.0
+    },
+    "wkt": "POLYGON ((639 329, 620 334, 621 341, 627 342, 632 362, 635 363, 655 358, 650 335, 642 337, 639 329))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_71",
+     "hazard": 0.0,
+     "area_m2": 72.4
+    },
+    "wkt": "POLYGON ((737 334, 709 340, 712 354, 716 364, 740 360, 744 358, 741 344, 737 334))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_72",
+     "hazard": 0.0,
+     "area_m2": 105.8
+    },
+    "wkt": "POLYGON ((696 342, 670 348, 667 352, 661 354, 665 371, 669 374, 670 380, 701 372, 704 369, 696 342))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_73",
+     "hazard": 0.791,
+     "area_m2": 32.2
+    },
+    "wkt": "POLYGON ((158 566, 144 575, 154 591, 168 583, 168 581, 158 566))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "muenster_62_flood_0_74",
+     "hazard": 0.603,
+     "area_m2": 12.4
+    },
+    "wkt": "POLYGON ((197 586, 193 594, 196 596, 198 594, 208 598, 210 591, 197 586))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "muenster_62_flood_0_75",
+     "hazard": 0.0,
+     "area_m2": 56.0
+    },
+    "wkt": "POLYGON ((999 727, 982 731, 985 748, 988 750, 990 756, 988 758, 988 762, 992 776, 999 775, 999 727))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_76",
+     "hazard": 0.0,
+     "area_m2": 25.3
+    },
+    "wkt": "POLYGON ((495 846, 485 847, 488 870, 498 869, 495 846))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "muenster_62_flood_0_77",
+     "hazard": 0.0,
+     "area_m2": 31.9
+    },
+    "wkt": "POLYGON ((497 918, 484 920, 485 927, 489 929, 490 937, 487 939, 488 946, 501 944, 497 918))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "muenster_62_flood_0.jpg",
+  "disaster_type": "flood",
+  "village": "muenster_62",
+  "severity": 0.665,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   3369004638,
+   3,
+   0
+  ],
+  "post_event_albumentations": [
+   "RandomToneCurve",
+   "Downscale",
+   "ImageCompression"
+  ],
+  "flooded_fraction": 0.225
+ }
+}

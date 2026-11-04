@@ -1,0 +1,120 @@
+{
+ "source": "OpenEarthMap (Xia et al., WACV 2023), HF mirror EVER-Z/open_earth_map",
+ "classes": {
+  "0": "unknown",
+  "1": "bareland",
+  "2": "rangeland",
+  "3": "developed space",
+  "4": "road",
+  "5": "tree",
+  "6": "water",
+  "7": "agriculture land",
+  "8": "building"
+ },
+ "villages": [
+  {
+   "name": "zanzibar_112.tif",
+   "shard": 10,
+   "group": 1,
+   "row": 93,
+   "score": 1.0927123219556596,
+   "houses": 71,
+   "building": 0.041,
+   "rural": 0.866,
+   "road": 0.048,
+   "water": 0.0,
+   "tree": 0.367
+  },
+  {
+   "name": "koeln_31.tif",
+   "shard": 4,
+   "group": 0,
+   "row": 62,
+   "score": 1.0869509955964838,
+   "houses": 64,
+   "building": 0.061,
+   "rural": 0.811,
+   "road": 0.046,
+   "water": 0.028,
+   "tree": 0.598
+  },
+  {
+   "name": "mahe_65.tif",
+   "shard": 5,
+   "group": 1,
+   "row": 65,
+   "score": 1.079520231607112,
+   "houses": 73,
+   "building": 0.117,
+   "rural": 0.799,
+   "road": 0.04,
+   "water": 0.0,
+   "tree": 0.545
+  },
+  {
+   "name": "muenster_62.tif",
+   "shard": 6,
+   "group": 1,
+   "row": 21,
+   "score": 1.0373844108572328,
+   "houses": 79,
+   "building": 0.068,
+   "rural": 0.838,
+   "road": 0.035,
+   "water": 0.005,
+   "tree": 0.292
+  },
+  {
+   "name": "tyrolw_66.tif",
+   "shard": 9,
+   "group": 2,
+   "row": 38,
+   "score": 1.0300135693187946,
+   "houses": 67,
+   "building": 0.124,
+   "rural": 0.751,
+   "road": 0.062,
+   "water": 0.0,
+   "tree": 0.599
+  },
+  {
+   "name": "baybay_29.tif",
+   "shard": 0,
+   "group": 2,
+   "row": 43,
+   "score": 1.0247768397952661,
+   "houses": 85,
+   "building": 0.125,
+   "rural": 0.813,
+   "road": 0.019,
+   "water": 0.0,
+   "tree": 0.448
+  },
+  {
+   "name": "austin_48.tif",
+   "shard": 0,
+   "group": 2,
+   "row": 22,
+   "score": 1.0131781693842945,
+   "houses": 76,
+   "building": 0.117,
+   "rural": 0.727,
+   "road": 0.076,
+   "water": 0.0,
+   "tree": 0.434
+  },
+  {
+   "name": "aachen_70.tif",
+   "shard": 0,
+   "group": 0,
+   "row": 40,
+   "score": 0.9954446363597345,
+   "houses": 99,
+   "building": 0.066,
+   "rural": 0.84,
+   "road": 0.031,
+   "water": 0.0,
+   "tree": 0.442
+  }
+ ]
+}

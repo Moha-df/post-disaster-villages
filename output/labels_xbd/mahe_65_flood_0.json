@@ -1,0 +1,775 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_0",
+     "hazard": 0.399,
+     "area_m2": 24.8
+    },
+    "wkt": "POLYGON ((101 0, 136 12, 138 0, 101 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_1",
+     "hazard": 0.21,
+     "area_m2": 8.4
+    },
+    "wkt": "POLYGON ((275 5, 281 5, 296 0, 275 0, 275 5))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_2",
+     "hazard": 0.217,
+     "area_m2": 47.0
+    },
+    "wkt": "POLYGON ((302 0, 302 9, 304 11, 317 11, 329 18, 332 18, 335 22, 335 15, 338 13, 338 9, 334 3, 334 0, 302 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_3",
+     "hazard": 0.0,
+     "area_m2": 122.9
+    },
+    "wkt": "POLYGON ((374 0, 375 29, 407 28, 410 31, 416 31, 419 29, 419 14, 417 0, 374 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_4",
+     "hazard": 0.0,
+     "area_m2": 140.5
+    },
+    "wkt": "POLYGON ((740 27, 743 31, 742 32, 767 33, 768 30, 774 31, 779 23, 792 25, 797 15, 797 11, 794 8, 788 8, 785 6, 780 7, 779 5, 781 0, 742 0, 740 27))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_5",
+     "hazard": 0.484,
+     "area_m2": 161.8
+    },
+    "wkt": "POLYGON ((197 20, 180 61, 196 69, 198 69, 204 58, 221 65, 225 56, 229 55, 237 30, 224 24, 221 24, 218 28, 200 20, 197 20))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_6",
+     "hazard": 0.0,
+     "area_m2": 142.0
+    },
+    "wkt": "POLYGON ((993 51, 988 57, 986 57, 974 83, 1011 103, 1019 90, 1019 82, 1023 78, 1023 62, 1020 60, 1012 60, 1008 64, 1005 64, 997 60, 995 51, 993 51))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_7",
+     "hazard": 0.0,
+     "area_m2": 251.8
+    },
+    "wkt": "POLYGON ((860 54, 852 65, 849 65, 847 69, 846 78, 840 86, 844 90, 849 87, 872 104, 876 109, 883 111, 894 122, 901 119, 922 90, 916 85, 913 85, 911 87, 884 68, 884 62, 874 57, 869 59, 860 54))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_8",
+     "hazard": 0.0,
+     "area_m2": 92.8
+    },
+    "wkt": "POLYGON ((743 55, 734 83, 754 90, 757 90, 763 85, 770 86, 777 66, 743 55))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_9",
+     "hazard": 0.0,
+     "area_m2": 331.0
+    },
+    "wkt": "POLYGON ((568 73, 587 129, 595 131, 623 119, 629 119, 631 117, 629 113, 634 110, 637 110, 643 114, 652 105, 646 101, 643 104, 625 65, 606 65, 594 58, 568 73))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_10",
+     "hazard": 0.0,
+     "area_m2": 34.9
+    },
+    "wkt": "POLYGON ((841 91, 837 104, 851 115, 862 101, 848 91, 841 91))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_11",
+     "hazard": 0.0,
+     "area_m2": 257.4
+    },
+    "wkt": "POLYGON ((455 103, 414 114, 430 177, 470 165, 455 103))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_12",
+     "hazard": 0.0,
+     "area_m2": 139.0
+    },
+    "wkt": "POLYGON ((753 103, 714 107, 710 109, 716 141, 726 141, 737 137, 743 141, 758 139, 753 103))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_13",
+     "hazard": 0.0,
+     "area_m2": 384.8
+    },
+    "wkt": "POLYGON ((515 107, 503 109, 501 112, 496 110, 482 113, 487 134, 486 140, 501 198, 564 182, 561 165, 557 165, 546 169, 543 168, 533 126, 531 125, 522 128, 520 127, 521 126, 515 107))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_14",
+     "hazard": 0.0,
+     "area_m2": 13.1
+    },
+    "wkt": "POLYGON ((777 126, 766 132, 771 141, 779 137, 778 131, 780 128, 777 126))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_15",
+     "hazard": 0.0,
+     "area_m2": 107.5
+    },
+    "wkt": "POLYGON ((812 126, 791 145, 783 150, 793 161, 802 174, 831 149, 831 147, 812 126))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_16",
+     "hazard": 0.0,
+     "area_m2": 125.7
+    },
+    "wkt": "POLYGON ((921 130, 903 154, 936 181, 956 157, 921 130))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_17",
+     "hazard": 0.0,
+     "area_m2": 186.8
+    },
+    "wkt": "POLYGON ((622 141, 593 151, 590 151, 588 146, 585 146, 581 152, 574 151, 569 153, 578 184, 584 186, 587 192, 594 190, 594 187, 596 185, 634 173, 622 141))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_18",
+     "hazard": 0.0,
+     "area_m2": 409.8
+    },
+    "wkt": "POLYGON ((994 141, 986 147, 990 151, 990 154, 976 157, 975 158, 977 164, 970 165, 968 170, 960 174, 964 193, 961 195, 956 195, 955 193, 957 188, 954 187, 951 188, 948 192, 943 193, 943 195, 941 196, 941 198, 945 202, 945 207, 951 210, 951 212, 946 215, 949 216, 952 221, 952 229, 957 232, 962 232, 967 238, 968 243, 966 249, 970 252, 987 255, 992 236, 985 233, 984 231, 995 221, 1002 227, 1004 227, 1021 208, 1021 204, 1009 194, 1010 192, 1013 192, 1021 183, 1010 172, 1000 182, 999 181, 996 165, 1001 163, 1007 163, 1007 159, 1004 151, 996 150, 997 147, 994 141))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_19",
+     "hazard": 0.0,
+     "area_m2": 208.3
+    },
+    "wkt": "POLYGON ((881 179, 873 197, 875 202, 873 206, 881 209, 882 213, 876 231, 874 234, 871 234, 865 249, 893 261, 901 243, 909 243, 919 215, 899 207, 896 207, 894 212, 890 211, 888 209, 900 186, 881 179))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_20",
+     "hazard": 0.0,
+     "area_m2": 103.0
+    },
+    "wkt": "POLYGON ((473 191, 458 211, 457 215, 463 223, 469 220, 479 233, 481 233, 501 218, 503 215, 490 194, 480 198, 473 191))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_21",
+     "hazard": 0.0,
+     "area_m2": 257.0
+    },
+    "wkt": "POLYGON ((510 216, 502 223, 500 222, 494 225, 489 232, 484 235, 485 237, 475 245, 479 251, 480 256, 491 271, 497 267, 505 278, 521 276, 526 273, 529 274, 533 268, 549 253, 549 251, 532 228, 524 230, 518 224, 517 220, 510 216))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_22",
+     "hazard": 0.0,
+     "area_m2": 49.8
+    },
+    "wkt": "POLYGON ((1016 217, 998 238, 1014 252, 1023 244, 1023 225, 1016 217))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_23",
+     "hazard": 0.0,
+     "area_m2": 200.7
+    },
+    "wkt": "POLYGON ((669 220, 652 251, 657 256, 687 270, 691 275, 703 272, 706 268, 709 267, 719 244, 708 240, 708 236, 669 220))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_24",
+     "hazard": 0.0,
+     "area_m2": 85.1
+    },
+    "wkt": "POLYGON ((628 241, 623 242, 621 244, 617 244, 603 256, 603 258, 617 277, 621 280, 626 281, 633 274, 631 269, 642 260, 628 241))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_25",
+     "hazard": 0.647,
+     "area_m2": 123.1
+    },
+    "wkt": "POLYGON ((208 243, 181 250, 184 259, 187 259, 188 264, 193 268, 193 271, 190 273, 193 291, 226 280, 226 276, 218 254, 212 254, 208 243))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_26",
+     "hazard": 0.0,
+     "area_m2": 18.6
+    },
+    "wkt": "POLYGON ((861 256, 860 271, 867 271, 869 269, 877 271, 877 264, 870 263, 869 257, 861 256))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_27",
+     "hazard": 0.0,
+     "area_m2": 258.9
+    },
+    "wkt": "POLYGON ((608 304, 608 308, 631 327, 641 316, 643 316, 656 327, 653 332, 664 343, 665 350, 674 351, 681 348, 680 343, 676 340, 691 321, 664 301, 672 289, 652 274, 649 273, 628 298, 624 296, 617 304, 612 301, 608 304))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_28",
+     "hazard": 0.0,
+     "area_m2": 167.4
+    },
+    "wkt": "POLYGON ((873 278, 869 304, 870 322, 865 330, 865 333, 885 340, 899 341, 904 321, 896 319, 895 315, 901 296, 903 284, 873 278))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_29",
+     "hazard": 0.0,
+     "area_m2": 133.1
+    },
+    "wkt": "POLYGON ((937 279, 932 299, 945 298, 946 302, 944 309, 979 322, 988 324, 993 306, 981 300, 983 296, 982 294, 950 284, 941 279, 937 279))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_30",
+     "hazard": 0.122,
+     "area_m2": 335.2
+    },
+    "wkt": "POLYGON ((577 281, 554 302, 543 297, 524 334, 527 336, 534 337, 536 339, 522 365, 550 381, 553 379, 586 317, 586 315, 581 313, 580 311, 590 304, 587 299, 590 296, 577 281))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_31",
+     "hazard": 0.209,
+     "area_m2": 141.5
+    },
+    "wkt": "POLYGON ((463 288, 462 296, 456 302, 453 311, 467 316, 468 322, 478 322, 482 327, 484 327, 487 323, 508 330, 510 329, 514 317, 514 309, 510 309, 505 305, 495 302, 495 297, 491 295, 478 294, 466 287, 463 288))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_32",
+     "hazard": 0.0,
+     "area_m2": 122.3
+    },
+    "wkt": "POLYGON ((812 303, 808 342, 839 347, 844 306, 812 303))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_33",
+     "hazard": 0.072,
+     "area_m2": 184.9
+    },
+    "wkt": "POLYGON ((605 319, 582 355, 615 378, 627 363, 633 366, 646 346, 605 319))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_34",
+     "hazard": 0.307,
+     "area_m2": 160.1
+    },
+    "wkt": "POLYGON ((449 327, 449 334, 447 336, 441 336, 438 366, 478 368, 479 360, 486 355, 488 330, 449 327))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_35",
+     "hazard": 0.264,
+     "area_m2": 35.4
+    },
+    "wkt": "POLYGON ((522 368, 511 383, 511 386, 518 391, 518 400, 534 380, 534 378, 522 368))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_36",
+     "hazard": 0.073,
+     "area_m2": 21.6
+    },
+    "wkt": "POLYGON ((651 369, 648 368, 641 381, 635 382, 637 389, 649 389, 654 372, 651 369))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_37",
+     "hazard": 0.0,
+     "area_m2": 129.2
+    },
+    "wkt": "POLYGON ((937 370, 933 403, 935 405, 966 408, 970 404, 977 404, 981 407, 982 393, 969 392, 966 390, 969 372, 939 368, 937 370))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_38",
+     "hazard": 0.0,
+     "area_m2": 158.2
+    },
+    "wkt": "POLYGON ((792 373, 788 416, 817 418, 836 421, 839 403, 820 401, 822 374, 792 373))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_39",
+     "hazard": 0.174,
+     "area_m2": 298.7
+    },
+    "wkt": "POLYGON ((723 374, 721 381, 716 384, 708 384, 705 382, 703 392, 697 408, 697 424, 706 429, 701 439, 739 450, 755 398, 755 395, 751 394, 753 378, 750 376, 723 374))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_40",
+     "hazard": 0.0,
+     "area_m2": 105.8
+    },
+    "wkt": "POLYGON ((876 380, 875 415, 905 416, 906 379, 876 380))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_41",
+     "hazard": 0.0,
+     "area_m2": 104.4
+    },
+    "wkt": "POLYGON ((990 382, 990 388, 982 411, 986 415, 1011 416, 1014 418, 1016 422, 1023 423, 1023 394, 993 382, 990 382))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_42",
+     "hazard": 0.308,
+     "area_m2": 197.0
+    },
+    "wkt": "POLYGON ((527 414, 512 450, 557 471, 562 461, 566 459, 570 454, 569 443, 573 432, 527 414))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_43",
+     "hazard": 0.051,
+     "area_m2": 27.5
+    },
+    "wkt": "POLYGON ((785 417, 781 425, 783 428, 780 433, 787 438, 794 440, 800 426, 785 417))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_44",
+     "hazard": 0.489,
+     "area_m2": 263.9
+    },
+    "wkt": "POLYGON ((299 421, 293 432, 281 427, 279 428, 269 454, 264 454, 264 456, 257 461, 257 467, 262 470, 275 471, 279 477, 294 484, 296 483, 307 488, 311 482, 314 483, 329 444, 318 438, 321 431, 299 421))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_45",
+     "hazard": 0.0,
+     "area_m2": 152.3
+    },
+    "wkt": "POLYGON ((824 447, 824 479, 851 478, 877 475, 874 446, 824 447))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_46",
+     "hazard": 0.418,
+     "area_m2": 12.2
+    },
+    "wkt": "POLYGON ((388 465, 384 475, 394 478, 397 466, 388 465))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_47",
+     "hazard": 0.0,
+     "area_m2": 186.6
+    },
+    "wkt": "POLYGON ((907 471, 899 510, 945 518, 953 481, 955 479, 963 478, 964 472, 953 471, 950 478, 907 471))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_48",
+     "hazard": 0.0,
+     "area_m2": 204.0
+    },
+    "wkt": "POLYGON ((972 485, 964 506, 961 508, 955 504, 952 505, 946 518, 948 521, 947 527, 950 529, 953 525, 956 524, 957 520, 959 519, 976 530, 977 537, 995 544, 995 541, 998 540, 1000 535, 1004 532, 1009 517, 1016 504, 972 485))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_49",
+     "hazard": 0.377,
+     "area_m2": 52.5
+    },
+    "wkt": "POLYGON ((453 493, 448 514, 472 519, 477 498, 453 493))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_50",
+     "hazard": 0.189,
+     "area_m2": 208.6
+    },
+    "wkt": "POLYGON ((666 517, 659 523, 638 548, 652 560, 640 575, 654 587, 656 587, 680 561, 682 562, 701 541, 687 528, 686 530, 683 530, 675 526, 666 517))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_51",
+     "hazard": 0.209,
+     "area_m2": 13.3
+    },
+    "wkt": "POLYGON ((631 521, 624 530, 630 538, 639 529, 631 521))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_52",
+     "hazard": 0.0,
+     "area_m2": 142.7
+    },
+    "wkt": "POLYGON ((835 525, 805 546, 826 579, 828 579, 858 560, 835 525))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_53",
+     "hazard": 0.0,
+     "area_m2": 57.4
+    },
+    "wkt": "POLYGON ((946 534, 941 533, 941 535, 938 538, 932 539, 931 562, 948 563, 955 558, 955 541, 946 534))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_54",
+     "hazard": 0.0,
+     "area_m2": 56.2
+    },
+    "wkt": "POLYGON ((959 550, 960 552, 972 557, 977 564, 982 564, 984 554, 986 551, 999 557, 1001 557, 1002 551, 993 546, 965 536, 959 550))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_55",
+     "hazard": 0.066,
+     "area_m2": 191.9
+    },
+    "wkt": "POLYGON ((802 558, 780 575, 772 584, 763 580, 756 593, 764 599, 763 613, 765 627, 785 626, 784 613, 797 612, 804 600, 797 590, 813 576, 815 572, 802 558))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_56",
+     "hazard": 0.0,
+     "area_m2": 107.5
+    },
+    "wkt": "POLYGON ((1007 570, 999 567, 995 572, 988 571, 985 585, 979 593, 977 605, 980 599, 983 601, 982 604, 1002 610, 1005 610, 1008 604, 1015 605, 1017 587, 1011 583, 1012 578, 1007 570))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_57",
+     "hazard": 0.273,
+     "area_m2": 268.2
+    },
+    "wkt": "POLYGON ((757 648, 757 662, 747 664, 744 693, 744 697, 747 700, 746 721, 783 723, 785 720, 786 701, 784 699, 784 689, 782 687, 782 674, 784 670, 796 669, 796 654, 788 654, 784 648, 757 648))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_58",
+     "hazard": 0.247,
+     "area_m2": 147.2
+    },
+    "wkt": "POLYGON ((827 668, 826 673, 824 675, 824 711, 862 711, 862 685, 861 683, 854 682, 854 666, 835 666, 827 668))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_59",
+     "hazard": 0.012,
+     "area_m2": 132.9
+    },
+    "wkt": "POLYGON ((954 710, 944 711, 941 716, 944 722, 944 726, 936 738, 934 773, 949 770, 951 773, 962 772, 962 759, 952 758, 953 755, 962 756, 962 719, 955 718, 954 710))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_60",
+     "hazard": 0.196,
+     "area_m2": 32.5
+    },
+    "wkt": "POLYGON ((711 776, 706 786, 721 795, 732 798, 734 785, 725 784, 711 776))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_61",
+     "hazard": 0.315,
+     "area_m2": 268.8
+    },
+    "wkt": "POLYGON ((802 793, 782 795, 781 814, 772 815, 770 824, 772 838, 775 838, 776 842, 772 843, 772 850, 769 853, 769 866, 778 868, 779 879, 806 877, 806 867, 808 866, 808 848, 812 846, 812 823, 809 822, 809 811, 805 796, 802 793))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_62",
+     "hazard": 0.408,
+     "area_m2": 167.2
+    },
+    "wkt": "POLYGON ((856 803, 834 835, 866 859, 872 862, 892 832, 892 830, 856 803))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_63",
+     "hazard": 0.508,
+     "area_m2": 143.8
+    },
+    "wkt": "POLYGON ((905 834, 881 862, 880 866, 882 868, 889 865, 893 866, 899 874, 898 880, 902 886, 904 884, 911 884, 913 889, 937 861, 905 834))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_64",
+     "hazard": 0.09,
+     "area_m2": 131.2
+    },
+    "wkt": "POLYGON ((757 840, 737 845, 723 845, 726 864, 723 867, 725 888, 727 890, 747 887, 748 878, 758 877, 757 859, 759 858, 757 840))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "mahe_65_flood_0_65",
+     "hazard": 0.656,
+     "area_m2": 88.0
+    },
+    "wkt": "POLYGON ((1023 922, 1017 928, 1012 926, 995 958, 996 961, 1022 977, 1023 922))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_66",
+     "hazard": 0.0,
+     "area_m2": 167.3
+    },
+    "wkt": "POLYGON ((115 927, 111 944, 117 946, 112 954, 114 956, 126 962, 129 965, 163 973, 163 966, 168 965, 171 953, 163 950, 164 944, 160 938, 117 926, 115 927))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "mahe_65_flood_0_67",
+     "hazard": 0.672,
+     "area_m2": 122.8
+    },
+    "wkt": "POLYGON ((957 927, 946 957, 944 959, 977 973, 991 940, 964 928, 957 927))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_68",
+     "hazard": 0.0,
+     "area_m2": 246.6
+    },
+    "wkt": "POLYGON ((769 947, 751 950, 750 954, 753 966, 747 968, 761 1021, 801 1010, 789 958, 773 962, 769 947))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_69",
+     "hazard": 0.311,
+     "area_m2": 151.6
+    },
+    "wkt": "POLYGON ((877 961, 861 965, 856 957, 834 965, 834 968, 839 975, 838 979, 848 1015, 871 1008, 868 996, 874 993, 869 977, 877 974, 877 961))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_70",
+     "hazard": 0.0,
+     "area_m2": 250.2
+    },
+    "wkt": "POLYGON ((86 966, 74 986, 86 992, 88 995, 84 997, 68 1023, 126 1023, 129 1020, 132 1020, 143 1001, 115 984, 113 981, 113 975, 96 965, 94 965, 91 969, 86 966))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_71",
+     "hazard": 0.276,
+     "area_m2": 174.4
+    },
+    "wkt": "POLYGON ((886 968, 885 982, 877 984, 882 1003, 881 1007, 875 1009, 877 1019, 881 1021, 886 1021, 887 1023, 929 1023, 924 1007, 918 1010, 915 1008, 913 1001, 918 1000, 918 994, 916 986, 911 983, 910 976, 904 976, 905 982, 901 983, 899 981, 899 976, 894 975, 893 968, 886 968))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_72",
+     "hazard": 0.0,
+     "area_m2": 170.5
+    },
+    "wkt": "POLYGON ((204 981, 204 1009, 208 1009, 210 1012, 210 1023, 243 1023, 243 1012, 245 1010, 256 1009, 256 993, 251 992, 251 986, 238 986, 236 984, 236 981, 204 981))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "mahe_65_flood_0_73",
+     "hazard": 0.0,
+     "area_m2": 87.1
+    },
+    "wkt": "POLYGON ((337 997, 332 1023, 393 1022, 394 1014, 386 1017, 383 1014, 380 1014, 378 1016, 358 1011, 355 1009, 358 999, 337 997))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "mahe_65_flood_0_74",
+     "hazard": 0.0,
+     "area_m2": 6.1
+    },
+    "wkt": "POLYGON ((262 1013, 263 1021, 269 1020, 269 1013, 262 1013))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "mahe_65_flood_0.jpg",
+  "disaster_type": "flood",
+  "village": "mahe_65",
+  "severity": 0.805,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   2840603074,
+   3,
+   0
+  ],
+  "post_event_albumentations": [
+   "PlasmaShadow",
+   "HueSaturationValue",
+   "ImageCompression"
+  ],
+  "flooded_fraction": 0.194
+ }
+}

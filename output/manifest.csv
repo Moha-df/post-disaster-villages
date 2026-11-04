@@ -1,0 +1,41 @@
+name,village,scenario,severity,buildings,no-damage,minor-damage,major-damage,destroyed,changed_pct,albumentations
+aachen_70_earthquake_0,aachen_70,earthquake,0.781,94,20,33,32,9,5.76,PlasmaBrightnessContrast ISONoise ImageCompression
+aachen_70_hurricane_0,aachen_70,hurricane,0.663,94,16,42,34,2,6.42,HueSaturationValue Downscale ImageCompression
+aachen_70_tornado_0,aachen_70,tornado,0.771,94,64,8,7,15,6.76,PlasmaShadow HueSaturationValue
+aachen_70_flood_0,aachen_70,flood,0.698,94,46,23,19,6,25.79,PlasmaShadow PlasmaBrightnessContrast RandomToneCurve ImageCompression
+aachen_70_wildfire_0,aachen_70,wildfire,0.799,94,56,15,11,12,33.34,GaussNoise ImageCompression
+austin_48_earthquake_0,austin_48,earthquake,0.78,77,18,23,20,16,11.31,
+austin_48_hurricane_0,austin_48,hurricane,0.762,77,13,46,14,4,13.06,PlasmaShadow HueSaturationValue ISONoise ImageCompression
+austin_48_tornado_0,austin_48,tornado,0.665,77,53,5,7,12,5.67,HueSaturationValue GaussNoise Downscale
+austin_48_flood_0,austin_48,flood,0.755,77,41,21,14,1,24.14,HueSaturationValue GaussNoise ImageCompression
+austin_48_wildfire_0,austin_48,wildfire,0.824,77,42,15,5,15,36.84,HueSaturationValue ISONoise Downscale ImageCompression
+baybay_29_earthquake_0,baybay_29,earthquake,0.763,90,11,30,31,18,11.05,PlasmaBrightnessContrast RandomToneCurve HueSaturationValue ImageCompression
+baybay_29_hurricane_0,baybay_29,hurricane,0.725,90,33,40,13,4,11.17,ISONoise Downscale ImageCompression
+baybay_29_tornado_0,baybay_29,tornado,0.681,90,65,10,3,12,7.54,HueSaturationValue ISONoise ImageCompression
+baybay_29_flood_0,baybay_29,flood,0.66,90,42,32,13,3,23.7,PlasmaBrightnessContrast RandomToneCurve HueSaturationValue Downscale
+baybay_29_wildfire_0,baybay_29,wildfire,0.764,90,55,10,5,20,41.98,PlasmaBrightnessContrast GaussNoise ImageCompression
+koeln_31_earthquake_0,koeln_31,earthquake,0.793,59,1,13,13,32,8.16,RandomGamma RandomToneCurve HueSaturationValue ISONoise
+koeln_31_hurricane_0,koeln_31,hurricane,0.832,59,12,26,21,0,18.15,RandomToneCurve ISONoise Downscale ImageCompression
+koeln_31_tornado_0,koeln_31,tornado,0.778,59,54,5,0,0,8.36,PlasmaShadow RandomToneCurve ISONoise ImageCompression
+koeln_31_flood_0,koeln_31,flood,0.745,59,20,25,14,0,22.72,PlasmaBrightnessContrast RandomToneCurve HueSaturationValue ImageCompression
+koeln_31_wildfire_0,koeln_31,wildfire,0.788,59,25,8,11,15,39.63,ColorJitter ISONoise
+mahe_65_earthquake_0,mahe_65,earthquake,0.709,75,12,27,19,17,11.09,PlasmaBrightnessContrast RandomGamma HueSaturationValue GaussNoise ImageCompression
+mahe_65_hurricane_0,mahe_65,hurricane,0.765,75,20,35,18,2,18.75,PlasmaBrightnessContrast HueSaturationValue ISONoise
+mahe_65_tornado_0,mahe_65,tornado,0.796,75,49,11,5,10,12.95,HueSaturationValue Downscale ImageCompression
+mahe_65_flood_0,mahe_65,flood,0.805,75,41,24,9,1,34.54,PlasmaShadow HueSaturationValue ImageCompression
+mahe_65_wildfire_0,mahe_65,wildfire,0.834,75,62,4,4,5,45.05,ColorJitter HueSaturationValue GaussNoise ImageCompression
+muenster_62_earthquake_0,muenster_62,earthquake,0.679,78,30,32,15,1,3.23,PlasmaBrightnessContrast RandomToneCurve HueSaturationValue Downscale ImageCompression
+muenster_62_hurricane_0,muenster_62,hurricane,0.684,78,10,54,13,1,9.26,HueSaturationValue ISONoise ImageCompression
+muenster_62_tornado_0,muenster_62,tornado,0.84,78,43,9,7,19,12.4,PlasmaShadow RandomToneCurve HueSaturationValue ISONoise ImageCompression
+muenster_62_flood_0,muenster_62,flood,0.665,78,42,20,15,1,25.46,RandomToneCurve Downscale ImageCompression
+muenster_62_wildfire_0,muenster_62,wildfire,0.831,78,66,9,1,2,37.11,ColorJitter ISONoise ImageCompression
+tyrolw_66_earthquake_0,tyrolw_66,earthquake,0.826,68,12,29,8,19,12.2,PlasmaBrightnessContrast RandomGamma ISONoise
+tyrolw_66_hurricane_0,tyrolw_66,hurricane,0.828,68,10,28,20,10,25.49,PlasmaBrightnessContrast HueSaturationValue ImageCompression
+tyrolw_66_tornado_0,tyrolw_66,tornado,0.828,68,57,6,1,4,12.94,PlasmaShadow RandomToneCurve HueSaturationValue Downscale
+tyrolw_66_flood_0,tyrolw_66,flood,0.776,68,47,15,4,2,25.88,HueSaturationValue ISONoise ImageCompression
+tyrolw_66_wildfire_0,tyrolw_66,wildfire,0.839,68,54,7,6,1,45.7,ColorJitter PlasmaBrightnessContrast HueSaturationValue GaussNoise Downscale ImageCompression
+zanzibar_112_earthquake_0,zanzibar_112,earthquake,0.782,70,2,7,38,23,4.97,PlasmaBrightnessContrast RandomGamma HueSaturationValue GaussNoise Downscale ImageCompression
+zanzibar_112_hurricane_0,zanzibar_112,hurricane,0.825,70,22,33,13,2,7.38,PlasmaShadow RandomToneCurve
+zanzibar_112_tornado_0,zanzibar_112,tornado,0.818,70,47,6,1,16,4.58,PlasmaShadow ISONoise Downscale ImageCompression
+zanzibar_112_flood_0,zanzibar_112,flood,0.828,70,36,20,11,3,24.97,PlasmaShadow RandomToneCurve HueSaturationValue ImageCompression
+zanzibar_112_wildfire_0,zanzibar_112,wildfire,0.693,70,54,9,6,1,39.55,ColorJitter GaussNoise

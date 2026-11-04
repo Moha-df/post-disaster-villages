@@ -1,0 +1,967 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_0",
+     "hazard": 0.728,
+     "area_m2": 20.9
+    },
+    "wkt": "POLYGON ((0 0, 0 24, 10 22, 7 0, 0 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_1",
+     "hazard": 0.701,
+     "area_m2": 73.6
+    },
+    "wkt": "POLYGON ((26 0, 28 19, 72 14, 71 0, 26 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_2",
+     "hazard": 0.566,
+     "area_m2": 139.1
+    },
+    "wkt": "POLYGON ((110 0, 111 31, 145 29, 145 36, 160 36, 159 18, 158 16, 152 15, 153 0, 110 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_3",
+     "hazard": 0.249,
+     "area_m2": 11.5
+    },
+    "wkt": "POLYGON ((252 4, 256 11, 264 3, 272 1, 252 0, 252 4))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_4",
+     "hazard": 0.238,
+     "area_m2": 73.9
+    },
+    "wkt": "POLYGON ((359 17, 361 18, 361 21, 366 22, 373 29, 376 30, 394 13, 398 0, 408 0, 360 0, 359 1, 366 8, 359 17))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_5",
+     "hazard": 0.535,
+     "area_m2": 115.6
+    },
+    "wkt": "POLYGON ((466 15, 497 38, 520 6, 511 0, 476 0, 466 15))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_6",
+     "hazard": 0.661,
+     "area_m2": 22.3
+    },
+    "wkt": "POLYGON ((591 0, 624 10, 628 10, 631 1, 591 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_7",
+     "hazard": 0.573,
+     "area_m2": 194.6
+    },
+    "wkt": "POLYGON ((647 18, 650 21, 671 30, 701 40, 703 37, 708 38, 721 0, 653 0, 647 18))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_8",
+     "hazard": 0.361,
+     "area_m2": 346.8
+    },
+    "wkt": "POLYGON ((732 0, 726 44, 738 46, 739 40, 743 39, 743 53, 762 56, 762 67, 796 72, 797 75, 800 55, 798 18, 793 16, 765 13, 764 11, 766 0, 732 0))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_9",
+     "hazard": 0.163,
+     "area_m2": 170.4
+    },
+    "wkt": "POLYGON ((313 2, 282 41, 284 44, 301 57, 310 46, 312 46, 324 55, 337 39, 343 28, 341 24, 313 2))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_10",
+     "hazard": 0.383,
+     "area_m2": 140.3
+    },
+    "wkt": "POLYGON ((217 14, 205 13, 178 15, 180 51, 182 53, 214 52, 220 49, 219 41, 217 38, 217 14))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_11",
+     "hazard": 0.701,
+     "area_m2": 81.7
+    },
+    "wkt": "POLYGON ((34 31, 1 37, 0 60, 3 62, 12 62, 21 60, 22 57, 43 54, 41 44, 35 49, 30 49, 28 46, 28 38, 34 31))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_12",
+     "hazard": 0.639,
+     "area_m2": 21.5
+    },
+    "wkt": "POLYGON ((96 37, 92 34, 77 37, 78 49, 96 46, 96 37))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_13",
+     "hazard": 0.606,
+     "area_m2": 128.2
+    },
+    "wkt": "POLYGON ((550 34, 543 55, 543 71, 558 75, 559 72, 564 69, 566 64, 586 71, 594 48, 550 34))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_14",
+     "hazard": 0.521,
+     "area_m2": 181.0
+    },
+    "wkt": "POLYGON ((634 53, 621 95, 663 108, 676 67, 634 53))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_15",
+     "hazard": 0.491,
+     "area_m2": 163.3
+    },
+    "wkt": "POLYGON ((160 59, 115 62, 118 100, 163 98, 160 59))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_16",
+     "hazard": 0.283,
+     "area_m2": 301.9
+    },
+    "wkt": "POLYGON ((276 57, 252 78, 257 83, 260 91, 243 108, 266 134, 270 134, 272 136, 273 142, 275 142, 317 104, 276 57))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_17",
+     "hazard": 0.55,
+     "area_m2": 191.9
+    },
+    "wkt": "POLYGON ((90 67, 49 75, 48 73, 42 74, 47 112, 56 110, 57 113, 97 106, 96 101, 101 100, 103 98, 103 91, 100 86, 93 85, 90 67))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_18",
+     "hazard": 0.596,
+     "area_m2": 102.8
+    },
+    "wkt": "POLYGON ((0 73, 0 118, 22 120, 26 75, 0 73))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_19",
+     "hazard": 0.368,
+     "area_m2": 240.7
+    },
+    "wkt": "POLYGON ((757 77, 754 117, 800 121, 803 123, 802 130, 826 132, 822 110, 805 108, 808 80, 768 76, 757 77))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_20",
+     "hazard": 0.531,
+     "area_m2": 22.1
+    },
+    "wkt": "POLYGON ((601 78, 597 97, 608 99, 612 81, 601 78))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_21",
+     "hazard": 0.435,
+     "area_m2": 147.4
+    },
+    "wkt": "POLYGON ((850 78, 844 101, 848 104, 845 117, 881 126, 890 88, 850 78))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_22",
+     "hazard": 0.43,
+     "area_m2": 252.8
+    },
+    "wkt": "POLYGON ((538 86, 535 96, 526 94, 515 139, 563 151, 576 95, 538 86))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_23",
+     "hazard": 0.367,
+     "area_m2": 300.1
+    },
+    "wkt": "POLYGON ((589 102, 586 115, 594 116, 596 118, 594 135, 589 155, 612 160, 621 158, 635 161, 637 151, 644 151, 646 142, 664 146, 669 121, 652 118, 651 114, 589 102))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_24",
+     "hazard": 0.332,
+     "area_m2": 73.4
+    },
+    "wkt": "POLYGON ((470 107, 459 129, 468 142, 496 147, 487 134, 493 129, 486 118, 479 121, 470 107))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_25",
+     "hazard": 0.722,
+     "area_m2": 218.8
+    },
+    "wkt": "POLYGON ((928 110, 916 143, 970 163, 976 164, 986 137, 986 134, 980 126, 942 112, 928 110))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_26",
+     "hazard": 0.464,
+     "area_m2": 224.7
+    },
+    "wkt": "POLYGON ((322 127, 289 156, 289 159, 286 160, 286 165, 295 173, 297 171, 314 189, 318 191, 317 192, 322 190, 322 187, 334 176, 340 182, 345 181, 356 170, 357 166, 322 127))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_27",
+     "hazard": 0.474,
+     "area_m2": 511.3
+    },
+    "wkt": "POLYGON ((148 132, 148 141, 151 147, 154 150, 162 150, 176 193, 217 179, 220 181, 221 185, 226 183, 231 188, 226 199, 187 222, 206 255, 208 255, 257 225, 241 199, 241 196, 243 194, 255 188, 248 179, 246 174, 230 157, 217 162, 214 162, 212 158, 207 160, 199 139, 163 139, 162 133, 159 130, 148 132))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_28",
+     "hazard": 0.401,
+     "area_m2": 155.7
+    },
+    "wkt": "POLYGON ((135 147, 98 165, 109 187, 112 199, 130 195, 142 187, 149 185, 152 181, 135 147))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_29",
+     "hazard": 0.505,
+     "area_m2": 158.3
+    },
+    "wkt": "POLYGON ((737 156, 731 188, 781 197, 787 167, 786 164, 737 156))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_30",
+     "hazard": 0.337,
+     "area_m2": 223.2
+    },
+    "wkt": "POLYGON ((67 171, 43 189, 47 196, 39 202, 42 206, 38 210, 59 239, 62 241, 77 234, 99 216, 99 213, 95 210, 67 171))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_31",
+     "hazard": 0.717,
+     "area_m2": 198.6
+    },
+    "wkt": "POLYGON ((809 171, 806 192, 795 192, 795 213, 806 219, 819 223, 822 223, 823 211, 848 214, 853 177, 809 171))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_32",
+     "hazard": 0.201,
+     "area_m2": 42.4
+    },
+    "wkt": "POLYGON ((582 188, 580 201, 581 203, 609 206, 611 192, 582 188))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_33",
+     "hazard": 0.833,
+     "area_m2": 163.9
+    },
+    "wkt": "POLYGON ((899 188, 894 204, 889 204, 883 224, 926 236, 928 232, 932 234, 937 218, 936 215, 932 214, 936 199, 899 188))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_34",
+     "hazard": 0.233,
+     "area_m2": 26.1
+    },
+    "wkt": "POLYGON ((633 191, 632 206, 650 206, 650 191, 633 191))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_35",
+     "hazard": 0.265,
+     "area_m2": 15.8
+    },
+    "wkt": "POLYGON ((655 195, 653 208, 663 210, 666 197, 655 195))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_36",
+     "hazard": 0.212,
+     "area_m2": 14.6
+    },
+    "wkt": "POLYGON ((613 196, 613 205, 627 206, 628 197, 613 196))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_37",
+     "hazard": 0.537,
+     "area_m2": 240.4
+    },
+    "wkt": "POLYGON ((703 203, 694 235, 707 239, 707 242, 718 245, 720 249, 735 253, 737 255, 736 259, 759 266, 763 250, 758 249, 756 246, 762 228, 762 220, 703 203))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_38",
+     "hazard": 0.891,
+     "area_m2": 149.9
+    },
+    "wkt": "POLYGON ((974 210, 959 253, 999 267, 999 218, 974 210))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_39",
+     "hazard": 0.221,
+     "area_m2": 214.4
+    },
+    "wkt": "POLYGON ((464 223, 456 225, 454 221, 445 221, 420 224, 405 228, 409 247, 406 248, 410 264, 423 265, 456 255, 459 256, 460 263, 466 262, 471 256, 471 252, 464 223))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_40",
+     "hazard": 0.667,
+     "area_m2": 192.9
+    },
+    "wkt": "POLYGON ((814 233, 800 270, 826 280, 828 282, 826 287, 845 295, 850 284, 846 282, 859 251, 814 233))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_41",
+     "hazard": 0.447,
+     "area_m2": 245.2
+    },
+    "wkt": "POLYGON ((354 240, 314 257, 306 262, 325 306, 374 285, 354 240))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_42",
+     "hazard": 0.784,
+     "area_m2": 11.9
+    },
+    "wkt": "POLYGON ((877 241, 873 252, 883 255, 886 244, 877 241))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_43",
+     "hazard": 0.162,
+     "area_m2": 185.0
+    },
+    "wkt": "POLYGON ((19 257, 9 297, 11 297, 15 301, 48 309, 53 297, 56 275, 55 265, 57 260, 30 253, 19 257))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_44",
+     "hazard": 0.289,
+     "area_m2": 629.3
+    },
+    "wkt": "POLYGON ((108 252, 105 254, 103 252, 96 257, 88 265, 91 268, 90 269, 73 260, 58 282, 71 291, 76 291, 60 304, 63 308, 68 309, 36 331, 42 339, 38 347, 43 358, 51 365, 58 363, 66 372, 115 342, 152 317, 144 305, 138 310, 127 295, 117 302, 107 288, 122 275, 115 266, 111 266, 112 264, 109 260, 111 256, 108 252))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_45",
+     "hazard": 0.752,
+     "area_m2": 220.3
+    },
+    "wkt": "POLYGON ((895 262, 888 282, 877 278, 869 303, 874 304, 884 298, 896 301, 897 303, 893 313, 919 322, 937 272, 910 262, 895 262))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_46",
+     "hazard": 0.155,
+     "area_m2": 26.6
+    },
+    "wkt": "POLYGON ((444 283, 435 271, 425 279, 421 280, 420 286, 422 289, 427 286, 432 292, 444 283))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_47",
+     "hazard": 0.801,
+     "area_m2": 15.5
+    },
+    "wkt": "POLYGON ((987 277, 984 287, 990 290, 993 288, 999 290, 999 280, 987 277))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_48",
+     "hazard": 0.696,
+     "area_m2": 225.4
+    },
+    "wkt": "POLYGON ((958 280, 944 320, 969 328, 970 330, 966 339, 999 350, 999 324, 994 323, 992 321, 999 303, 999 295, 958 280))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_49",
+     "hazard": 0.542,
+     "area_m2": 252.4
+    },
+    "wkt": "POLYGON ((288 287, 242 306, 242 309, 264 356, 309 337, 288 287))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_50",
+     "hazard": 0.213,
+     "area_m2": 26.5
+    },
+    "wkt": "POLYGON ((384 299, 368 307, 375 320, 391 312, 384 299))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_51",
+     "hazard": 0.482,
+     "area_m2": 154.0
+    },
+    "wkt": "POLYGON ((205 331, 203 331, 176 352, 174 358, 183 371, 183 376, 189 386, 199 386, 226 360, 226 358, 205 331))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_52",
+     "hazard": 0.423,
+     "area_m2": 158.3
+    },
+    "wkt": "POLYGON ((104 404, 72 424, 83 442, 85 450, 91 457, 96 457, 101 453, 105 454, 115 448, 120 449, 128 444, 127 437, 122 430, 117 427, 104 404))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_53",
+     "hazard": 0.477,
+     "area_m2": 142.2
+    },
+    "wkt": "POLYGON ((50 448, 20 467, 38 496, 49 490, 57 500, 75 488, 50 448))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_54",
+     "hazard": 0.525,
+     "area_m2": 291.9
+    },
+    "wkt": "POLYGON ((156 489, 132 502, 124 509, 119 511, 128 539, 145 568, 168 571, 170 573, 173 563, 179 553, 179 549, 169 555, 161 543, 182 530, 183 528, 162 493, 158 489, 156 489))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_55",
+     "hazard": 0.561,
+     "area_m2": 35.0
+    },
+    "wkt": "POLYGON ((0 490, 0 529, 18 517, 0 490))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_56",
+     "hazard": 0.648,
+     "area_m2": 265.1
+    },
+    "wkt": "POLYGON ((11 561, 31 590, 36 590, 46 586, 58 601, 64 598, 78 614, 88 607, 100 620, 106 615, 90 596, 94 591, 85 580, 79 584, 75 579, 76 562, 73 559, 65 559, 61 570, 42 543, 39 541, 11 561))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_57",
+     "hazard": 0.472,
+     "area_m2": 255.2
+    },
+    "wkt": "POLYGON ((230 542, 228 542, 223 548, 217 542, 184 577, 223 613, 254 579, 254 577, 244 565, 247 558, 230 542))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_58",
+     "hazard": 0.761,
+     "area_m2": 85.8
+    },
+    "wkt": "POLYGON ((3 586, 0 587, 0 635, 11 629, 13 631, 9 644, 1 649, 0 648, 0 654, 13 640, 18 631, 20 630, 29 612, 29 608, 26 601, 11 607, 3 586))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_59",
+     "hazard": 0.564,
+     "area_m2": 218.2
+    },
+    "wkt": "POLYGON ((189 612, 187 614, 185 613, 158 640, 147 654, 147 656, 157 665, 151 671, 166 685, 205 646, 205 643, 209 639, 211 639, 210 636, 197 623, 189 612))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_60",
+     "hazard": 0.795,
+     "area_m2": 198.9
+    },
+    "wkt": "POLYGON ((95 625, 89 629, 85 624, 66 634, 43 651, 67 685, 107 655, 98 643, 101 635, 95 625))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_61",
+     "hazard": 0.853,
+     "area_m2": 154.2
+    },
+    "wkt": "POLYGON ((27 668, 0 680, 0 700, 8 717, 9 716, 10 718, 22 714, 25 716, 29 727, 31 727, 35 723, 37 713, 51 706, 48 703, 43 702, 41 700, 27 668))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "tyrolw_66_hurricane_0_62",
+     "hazard": 0.722,
+     "area_m2": 291.7
+    },
+    "wkt": "POLYGON ((85 774, 77 771, 73 777, 70 778, 61 771, 51 770, 45 764, 42 766, 33 781, 23 793, 23 795, 36 806, 35 812, 30 816, 5 818, 7 853, 12 856, 40 855, 42 853, 41 830, 49 828, 48 812, 50 812, 59 800, 62 800, 73 785, 79 785, 83 787, 89 781, 89 778, 85 774))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_63",
+     "hazard": 0.72,
+     "area_m2": 216.5
+    },
+    "wkt": "POLYGON ((126 793, 124 793, 122 789, 92 792, 90 800, 88 801, 88 811, 69 809, 67 810, 63 820, 67 834, 85 836, 92 832, 103 833, 106 831, 108 831, 112 835, 130 833, 131 831, 129 826, 131 823, 130 805, 126 797, 126 793))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "tyrolw_66_hurricane_0_64",
+     "hazard": 0.552,
+     "area_m2": 152.0
+    },
+    "wkt": "POLYGON ((123 849, 96 854, 98 862, 92 864, 95 879, 102 877, 103 878, 106 895, 106 905, 127 902, 130 896, 128 883, 136 880, 135 868, 130 856, 124 856, 123 849))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_65",
+     "hazard": 0.382,
+     "area_m2": 404.4
+    },
+    "wkt": "POLYGON ((57 859, 38 868, 27 868, 30 878, 18 883, 18 885, 32 915, 32 920, 37 921, 46 918, 48 921, 47 926, 38 928, 48 961, 56 961, 58 963, 60 974, 73 974, 85 970, 87 964, 85 961, 83 951, 92 946, 81 917, 78 916, 71 919, 68 918, 65 910, 68 907, 68 903, 65 897, 72 893, 57 859))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "tyrolw_66_hurricane_0_66",
+     "hazard": 0.225,
+     "area_m2": 32.9
+    },
+    "wkt": "POLYGON ((10 957, 2 972, 11 978, 18 980, 28 970, 28 968, 10 957))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "tyrolw_66_hurricane_0_67",
+     "hazard": 0.616,
+     "area_m2": 20.1
+    },
+    "wkt": "POLYGON ((155 990, 155 999, 182 999, 176 992, 173 994, 158 988, 155 990))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "tyrolw_66_hurricane_0.jpg",
+  "disaster_type": "hurricane",
+  "village": "tyrolw_66",
+  "severity": 0.828,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   4049608521,
+   1,
+   0
+  ],
+  "post_event_albumentations": [
+   "PlasmaBrightnessContrast",
+   "HueSaturationValue",
+   "ImageCompression"
+  ],
+  "fallen_trees": [
+   [
+    206,
+    5,
+    162.8
+   ],
+   [
+    356,
+    18,
+    130.0
+   ],
+   [
+    455,
+    3,
+    162.7
+   ],
+   [
+    579,
+    7,
+    138.2
+   ],
+   [
+    441,
+    62,
+    169.3
+   ],
+   [
+    524,
+    20,
+    138.2
+   ],
+   [
+    707,
+    42,
+    158.0
+   ],
+   [
+    264,
+    50,
+    177.8
+   ],
+   [
+    342,
+    53,
+    160.6
+   ],
+   [
+    499,
+    70,
+    138.7
+   ],
+   [
+    817,
+    89,
+    141.3
+   ],
+   [
+    240,
+    93,
+    152.6
+   ],
+   [
+    488,
+    93,
+    151.0
+   ],
+   [
+    428,
+    89,
+    163.5
+   ],
+   [
+    117,
+    114,
+    149.2
+   ],
+   [
+    347,
+    129,
+    169.6
+   ],
+   [
+    422,
+    136,
+    166.3
+   ],
+   [
+    245,
+    132,
+    177.9
+   ],
+   [
+    406,
+    131,
+    157.9
+   ],
+   [
+    138,
+    133,
+    129.5
+   ],
+   [
+    836,
+    136,
+    166.9
+   ],
+   [
+    359,
+    152,
+    145.0
+   ],
+   [
+    524,
+    152,
+    151.9
+   ],
+   [
+    385,
+    159,
+    139.9
+   ],
+   [
+    848,
+    204,
+    155.4
+   ],
+   [
+    55,
+    172,
+    146.6
+   ],
+   [
+    787,
+    192,
+    146.7
+   ],
+   [
+    744,
+    199,
+    149.4
+   ],
+   [
+    977,
+    202,
+    149.6
+   ],
+   [
+    385,
+    216,
+    148.9
+   ],
+   [
+    396,
+    238,
+    145.2
+   ],
+   [
+    950,
+    253,
+    145.1
+   ],
+   [
+    235,
+    251,
+    162.7
+   ],
+   [
+    256,
+    283,
+    119.3
+   ],
+   [
+    866,
+    270,
+    152.2
+   ],
+   [
+    698,
+    274,
+    162.0
+   ],
+   [
+    411,
+    293,
+    159.2
+   ],
+   [
+    245,
+    296,
+    175.1
+   ],
+   [
+    317,
+    297,
+    149.2
+   ],
+   [
+    867,
+    338,
+    162.4
+   ],
+   [
+    38,
+    380,
+    152.5
+   ],
+   [
+    207,
+    386,
+    128.4
+   ],
+   [
+    199,
+    420,
+    161.0
+   ],
+   [
+    105,
+    456,
+    161.8
+   ],
+   [
+    116,
+    477,
+    158.6
+   ],
+   [
+    95,
+    477,
+    147.6
+   ],
+   [
+    136,
+    488,
+    144.5
+   ],
+   [
+    28,
+    655,
+    146.4
+   ],
+   [
+    46,
+    687,
+    159.7
+   ],
+   [
+    23,
+    743,
+    151.1
+   ],
+   [
+    4,
+    720,
+    150.7
+   ],
+   [
+    22,
+    863,
+    146.0
+   ]
+  ],
+  "wind_direction_deg": 152.2
+ }
+}

@@ -1,0 +1,1342 @@
+{
+ "features": {
+  "xy": [
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_0",
+     "hazard": 0.593,
+     "area_m2": 10.6
+    },
+    "wkt": "POLYGON ((713 33, 705 36, 706 41, 710 45, 718 40, 713 33))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_1",
+     "hazard": 0.616,
+     "area_m2": 66.0
+    },
+    "wkt": "POLYGON ((753 63, 737 69, 751 107, 767 101, 753 63))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_2",
+     "hazard": 0.681,
+     "area_m2": 6.2
+    },
+    "wkt": "POLYGON ((796 81, 794 80, 787 82, 787 87, 789 88, 796 86, 796 81))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_3",
+     "hazard": 0.46,
+     "area_m2": 9.9
+    },
+    "wkt": "POLYGON ((712 92, 708 95, 716 111, 719 108, 719 106, 712 92))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_4",
+     "hazard": 0.512,
+     "area_m2": 10.4
+    },
+    "wkt": "POLYGON ((734 107, 736 113, 741 116, 742 119, 746 117, 742 105, 734 107))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_5",
+     "hazard": 0.207,
+     "area_m2": 111.1
+    },
+    "wkt": "POLYGON ((453 125, 433 129, 435 138, 434 142, 414 147, 419 168, 461 155, 453 125))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_6",
+     "hazard": 0.379,
+     "area_m2": 8.5
+    },
+    "wkt": "POLYGON ((133 126, 125 132, 129 138, 137 132, 137 130, 133 126))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_7",
+     "hazard": 0.405,
+     "area_m2": 13.7
+    },
+    "wkt": "POLYGON ((141 135, 132 141, 139 149, 148 145, 148 143, 141 135))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_8",
+     "hazard": 0.41,
+     "area_m2": 10.5
+    },
+    "wkt": "POLYGON ((164 137, 162 137, 155 143, 155 146, 158 150, 160 150, 168 143, 164 137))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_9",
+     "hazard": 0.373,
+     "area_m2": 184.0
+    },
+    "wkt": "POLYGON ((362 160, 349 157, 334 168, 330 164, 301 188, 320 213, 333 203, 337 204, 351 193, 351 189, 371 173, 371 171, 362 160))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_10",
+     "hazard": 0.115,
+     "area_m2": 101.3
+    },
+    "wkt": "POLYGON ((554 156, 509 177, 515 191, 519 196, 560 177, 562 172, 554 156))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_11",
+     "hazard": 0.464,
+     "area_m2": 31.8
+    },
+    "wkt": "POLYGON ((246 179, 230 183, 230 189, 235 200, 252 195, 251 189, 246 179))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_12",
+     "hazard": 0.505,
+     "area_m2": 15.5
+    },
+    "wkt": "POLYGON ((153 186, 147 181, 133 195, 140 199, 153 186))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_13",
+     "hazard": 0.586,
+     "area_m2": 365.8
+    },
+    "wkt": "POLYGON ((182 185, 169 181, 166 191, 164 193, 156 191, 144 220, 134 216, 133 213, 135 208, 128 204, 124 210, 119 213, 114 224, 136 233, 140 237, 148 240, 136 267, 135 260, 137 253, 130 251, 128 246, 111 238, 109 236, 112 228, 99 222, 95 227, 87 248, 116 264, 117 266, 113 273, 121 276, 123 279, 149 287, 154 276, 154 274, 151 273, 150 270, 172 212, 176 205, 182 185))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_14",
+     "hazard": 0.205,
+     "area_m2": 11.6
+    },
+    "wkt": "POLYGON ((647 201, 642 203, 638 207, 639 216, 650 211, 647 201))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_15",
+     "hazard": 0.216,
+     "area_m2": 116.7
+    },
+    "wkt": "POLYGON ((510 243, 512 250, 509 253, 514 262, 517 265, 524 263, 526 267, 530 269, 534 277, 562 264, 549 238, 527 248, 523 247, 524 246, 520 238, 510 243))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_16",
+     "hazard": 0.531,
+     "area_m2": 70.3
+    },
+    "wkt": "POLYGON ((223 241, 208 242, 208 247, 204 251, 184 251, 184 266, 185 267, 225 263, 226 261, 223 241))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_17",
+     "hazard": 0.695,
+     "area_m2": 204.6
+    },
+    "wkt": "POLYGON ((75 259, 68 270, 68 278, 76 282, 86 274, 100 285, 104 285, 112 290, 108 297, 112 301, 112 303, 106 312, 107 315, 103 319, 94 311, 92 311, 88 316, 84 318, 93 328, 91 332, 99 341, 101 341, 125 318, 131 314, 147 293, 115 277, 103 273, 95 273, 83 262, 78 262, 75 259))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_18",
+     "hazard": 0.399,
+     "area_m2": 30.8
+    },
+    "wkt": "POLYGON ((450 265, 433 271, 439 288, 456 282, 450 265))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_19",
+     "hazard": 0.158,
+     "area_m2": 16.1
+    },
+    "wkt": "POLYGON ((707 266, 699 278, 713 284, 715 279, 711 275, 713 270, 707 266))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_20",
+     "hazard": 0.242,
+     "area_m2": 71.8
+    },
+    "wkt": "POLYGON ((570 270, 541 286, 552 305, 581 290, 570 270))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_21",
+     "hazard": 0.45,
+     "area_m2": 14.8
+    },
+    "wkt": "POLYGON ((426 281, 416 284, 420 296, 431 292, 426 281))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_22",
+     "hazard": 0.261,
+     "area_m2": 80.0
+    },
+    "wkt": "POLYGON ((611 295, 605 298, 600 291, 575 305, 575 308, 580 317, 580 319, 574 323, 578 333, 581 333, 590 328, 591 325, 589 321, 610 308, 610 306, 615 302, 611 295))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_23",
+     "hazard": 0.123,
+     "area_m2": 6.9
+    },
+    "wkt": "POLYGON ((684 294, 676 300, 679 304, 688 299, 684 294))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_24",
+     "hazard": 0.14,
+     "area_m2": 7.0
+    },
+    "wkt": "POLYGON ((732 295, 728 304, 733 306, 738 300, 732 295))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_25",
+     "hazard": 0.298,
+     "area_m2": 67.3
+    },
+    "wkt": "POLYGON ((631 309, 609 324, 612 328, 610 336, 604 342, 610 351, 627 342, 623 335, 640 323, 631 309))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_26",
+     "hazard": 0.691,
+     "area_m2": 61.6
+    },
+    "wkt": "POLYGON ((58 323, 38 336, 47 351, 43 353, 43 356, 49 363, 55 360, 53 355, 69 343, 58 323))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_27",
+     "hazard": 0.498,
+     "area_m2": 19.6
+    },
+    "wkt": "POLYGON ((511 325, 499 330, 499 334, 504 343, 516 338, 511 325))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_28",
+     "hazard": 0.625,
+     "area_m2": 98.9
+    },
+    "wkt": "POLYGON ((469 330, 459 336, 459 339, 463 347, 449 354, 448 358, 443 361, 447 367, 453 364, 461 378, 488 364, 478 342, 473 339, 469 330))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_29",
+     "hazard": 0.613,
+     "area_m2": 63.2
+    },
+    "wkt": "POLYGON ((7 335, 0 341, 0 377, 5 385, 22 374, 9 352, 15 347, 7 335))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_30",
+     "hazard": 0.336,
+     "area_m2": 75.1
+    },
+    "wkt": "POLYGON ((662 336, 646 347, 645 345, 646 347, 642 350, 649 361, 656 366, 661 375, 665 374, 681 363, 662 336))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_31",
+     "hazard": 0.666,
+     "area_m2": 33.3
+    },
+    "wkt": "POLYGON ((21 337, 15 342, 30 363, 34 366, 42 359, 30 342, 25 342, 21 337))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_32",
+     "hazard": 0.546,
+     "area_m2": 69.8
+    },
+    "wkt": "POLYGON ((531 338, 527 339, 507 351, 507 355, 512 364, 516 365, 521 363, 528 372, 534 369, 545 360, 531 338))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_33",
+     "hazard": 0.339,
+     "area_m2": 13.4
+    },
+    "wkt": "POLYGON ((639 338, 628 347, 632 353, 644 346, 644 344, 639 338))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "aachen_70_hurricane_0_34",
+     "hazard": 0.642,
+     "area_m2": 10.0
+    },
+    "wkt": "POLYGON ((79 344, 70 351, 74 357, 83 351, 79 344))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_35",
+     "hazard": 0.552,
+     "area_m2": 55.4
+    },
+    "wkt": "POLYGON ((119 359, 95 372, 101 387, 105 385, 109 388, 127 379, 128 376, 119 359))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_36",
+     "hazard": 0.535,
+     "area_m2": 214.2
+    },
+    "wkt": "POLYGON ((154 361, 134 370, 138 382, 143 391, 138 395, 132 396, 125 400, 120 406, 120 409, 129 426, 134 432, 137 433, 142 432, 179 409, 154 361))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_37",
+     "hazard": 0.558,
+     "area_m2": 10.7
+    },
+    "wkt": "POLYGON ((554 360, 549 363, 552 369, 557 373, 563 368, 560 363, 558 364, 554 360))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_38",
+     "hazard": 0.559,
+     "area_m2": 89.0
+    },
+    "wkt": "POLYGON ((194 363, 183 368, 168 378, 173 388, 185 383, 199 409, 213 402, 214 399, 197 366, 194 363))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_39",
+     "hazard": 0.6,
+     "area_m2": 98.0
+    },
+    "wkt": "POLYGON ((590 369, 577 384, 576 387, 589 399, 585 404, 597 414, 601 409, 605 413, 614 403, 613 400, 618 394, 612 390, 612 386, 590 369))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "destroyed",
+     "uid": "aachen_70_hurricane_0_40",
+     "hazard": 0.688,
+     "area_m2": 64.8
+    },
+    "wkt": "POLYGON ((486 383, 470 405, 479 412, 478 415, 489 417, 496 412, 504 401, 504 397, 486 383))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_41",
+     "hazard": 0.481,
+     "area_m2": 11.6
+    },
+    "wkt": "POLYGON ((15 387, 6 391, 11 400, 20 395, 20 393, 15 387))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_42",
+     "hazard": 0.505,
+     "area_m2": 91.5
+    },
+    "wkt": "POLYGON ((96 393, 82 401, 80 404, 102 441, 111 443, 117 440, 116 438, 120 435, 120 433, 100 397, 96 393))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_43",
+     "hazard": 0.586,
+     "area_m2": 115.1
+    },
+    "wkt": "POLYGON ((639 398, 637 398, 623 412, 618 410, 615 415, 619 420, 619 423, 615 427, 615 429, 620 434, 625 434, 635 444, 640 442, 655 427, 661 423, 661 420, 639 398))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_44",
+     "hazard": 0.339,
+     "area_m2": 66.9
+    },
+    "wkt": "POLYGON ((939 397, 937 397, 917 410, 926 425, 924 429, 931 440, 936 437, 933 429, 950 417, 949 413, 939 397))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_45",
+     "hazard": 0.492,
+     "area_m2": 78.4
+    },
+    "wkt": "POLYGON ((75 407, 52 420, 59 425, 58 434, 60 439, 68 446, 90 435, 89 431, 75 407))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_46",
+     "hazard": 0.456,
+     "area_m2": 85.3
+    },
+    "wkt": "POLYGON ((720 408, 709 429, 734 444, 740 446, 753 422, 741 415, 739 415, 736 418, 720 408))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_47",
+     "hazard": 0.323,
+     "area_m2": 11.2
+    },
+    "wkt": "POLYGON ((858 417, 849 422, 853 431, 862 426, 858 417))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_48",
+     "hazard": 0.298,
+     "area_m2": 86.4
+    },
+    "wkt": "POLYGON ((912 421, 886 435, 899 463, 917 454, 916 451, 925 446, 912 421))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_49",
+     "hazard": 0.53,
+     "area_m2": 82.3
+    },
+    "wkt": "POLYGON ((46 425, 11 443, 19 459, 21 460, 26 457, 33 467, 44 461, 37 448, 53 437, 53 435, 46 425))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_50",
+     "hazard": 0.587,
+     "area_m2": 62.1
+    },
+    "wkt": "POLYGON ((188 430, 186 431, 172 467, 174 471, 182 474, 185 474, 202 436, 188 430))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_51",
+     "hazard": 0.358,
+     "area_m2": 190.5
+    },
+    "wkt": "POLYGON ((816 433, 816 448, 822 448, 824 450, 823 473, 844 474, 846 477, 847 493, 855 497, 864 497, 864 480, 866 478, 866 475, 874 469, 865 452, 859 454, 860 458, 857 460, 856 456, 853 455, 853 450, 849 449, 846 446, 846 434, 844 431, 831 430, 827 433, 824 433, 822 431, 816 433))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_52",
+     "hazard": 0.642,
+     "area_m2": 72.1
+    },
+    "wkt": "POLYGON ((497 437, 498 458, 505 458, 507 454, 531 454, 531 433, 506 432, 504 437, 497 437))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_53",
+     "hazard": 0.551,
+     "area_m2": 60.4
+    },
+    "wkt": "POLYGON ((672 431, 656 444, 656 446, 664 454, 661 461, 669 468, 688 449, 685 444, 672 431))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_54",
+     "hazard": 0.441,
+     "area_m2": 76.6
+    },
+    "wkt": "POLYGON ((752 435, 745 448, 749 450, 752 455, 760 459, 765 459, 775 465, 778 465, 786 450, 786 447, 780 441, 763 432, 758 438, 752 435))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_55",
+     "hazard": 0.587,
+     "area_m2": 81.8
+    },
+    "wkt": "POLYGON ((598 454, 596 454, 573 472, 585 496, 587 496, 606 481, 608 468, 598 454))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_56",
+     "hazard": 0.58,
+     "area_m2": 45.8
+    },
+    "wkt": "POLYGON ((15 457, 11 457, 0 464, 0 490, 10 486, 13 483, 11 479, 23 472, 15 457))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_57",
+     "hazard": 0.542,
+     "area_m2": 17.6
+    },
+    "wkt": "POLYGON ((694 455, 679 466, 683 473, 698 465, 697 459, 694 455))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_58",
+     "hazard": 0.421,
+     "area_m2": 15.0
+    },
+    "wkt": "POLYGON ((796 456, 791 458, 791 464, 785 466, 788 472, 800 471, 800 465, 796 456))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_59",
+     "hazard": 0.268,
+     "area_m2": 20.9
+    },
+    "wkt": "POLYGON ((980 460, 974 475, 986 480, 992 466, 980 460))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_60",
+     "hazard": 0.548,
+     "area_m2": 123.0
+    },
+    "wkt": "POLYGON ((688 482, 688 486, 690 489, 688 493, 688 498, 691 502, 689 507, 696 516, 699 516, 702 511, 727 497, 730 497, 732 500, 734 500, 743 493, 736 483, 730 487, 726 483, 724 484, 720 478, 714 480, 705 471, 701 471, 699 476, 695 480, 691 480, 688 482))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_61",
+     "hazard": 0.291,
+     "area_m2": 19.9
+    },
+    "wkt": "POLYGON ((948 470, 943 479, 958 488, 963 478, 948 470))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_62",
+     "hazard": 0.522,
+     "area_m2": 60.7
+    },
+    "wkt": "POLYGON ((259 485, 239 487, 241 517, 261 516, 259 485))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_63",
+     "hazard": 0.614,
+     "area_m2": 63.9
+    },
+    "wkt": "POLYGON ((159 488, 149 493, 141 513, 141 516, 155 522, 160 521, 164 509, 169 506, 174 497, 174 495, 159 488))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_64",
+     "hazard": 0.335,
+     "area_m2": 118.7
+    },
+    "wkt": "POLYGON ((973 496, 959 501, 956 499, 948 502, 945 509, 933 524, 955 541, 958 540, 961 543, 963 543, 969 536, 969 534, 962 528, 963 526, 984 515, 973 496))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_65",
+     "hazard": 0.616,
+     "area_m2": 42.7
+    },
+    "wkt": "POLYGON ((6 500, 0 503, 0 538, 18 525, 18 521, 6 500))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_66",
+     "hazard": 0.553,
+     "area_m2": 107.6
+    },
+    "wkt": "POLYGON ((743 501, 728 515, 735 524, 727 532, 730 535, 731 542, 738 549, 744 545, 749 551, 751 551, 759 544, 756 538, 766 528, 743 501))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_67",
+     "hazard": 0.42,
+     "area_m2": 31.4
+    },
+    "wkt": "POLYGON ((881 504, 874 510, 865 524, 874 531, 890 512, 881 504))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_68",
+     "hazard": 0.49,
+     "area_m2": 71.9
+    },
+    "wkt": "POLYGON ((846 511, 843 512, 820 534, 836 551, 856 531, 851 526, 853 519, 846 511))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_69",
+     "hazard": 0.404,
+     "area_m2": 111.6
+    },
+    "wkt": "POLYGON ((916 522, 899 543, 922 563, 930 555, 943 562, 953 551, 953 549, 939 539, 925 526, 919 522, 916 522))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_70",
+     "hazard": 0.509,
+     "area_m2": 90.6
+    },
+    "wkt": "POLYGON ((223 527, 202 528, 203 572, 221 574, 222 573, 224 539, 223 527))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_71",
+     "hazard": 0.586,
+     "area_m2": 49.8
+    },
+    "wkt": "POLYGON ((84 534, 83 558, 105 558, 105 535, 84 534))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_72",
+     "hazard": 0.545,
+     "area_m2": 77.9
+    },
+    "wkt": "POLYGON ((798 547, 768 570, 778 586, 782 585, 810 566, 810 564, 798 547))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_73",
+     "hazard": 0.583,
+     "area_m2": 50.9
+    },
+    "wkt": "POLYGON ((126 550, 116 578, 130 583, 137 570, 141 566, 144 556, 126 550))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_74",
+     "hazard": 0.42,
+     "area_m2": 25.9
+    },
+    "wkt": "POLYGON ((245 557, 246 579, 254 579, 254 573, 257 570, 259 570, 258 557, 245 557))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_75",
+     "hazard": 0.566,
+     "area_m2": 55.7
+    },
+    "wkt": "POLYGON ((168 564, 162 565, 158 578, 159 590, 154 592, 153 600, 157 607, 170 606, 173 602, 171 594, 171 581, 169 579, 171 574, 171 566, 168 564))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_76",
+     "hazard": 0.621,
+     "area_m2": 6.8
+    },
+    "wkt": "POLYGON ((707 587, 705 594, 712 596, 714 589, 707 587))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_77",
+     "hazard": 0.63,
+     "area_m2": 9.2
+    },
+    "wkt": "POLYGON ((743 595, 739 594, 731 603, 738 606, 743 600, 743 595))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_78",
+     "hazard": 0.665,
+     "area_m2": 17.5
+    },
+    "wkt": "POLYGON ((719 613, 722 617, 731 623, 735 629, 741 624, 741 622, 734 614, 731 613, 729 615, 724 611, 719 613))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_79",
+     "hazard": 0.573,
+     "area_m2": 21.1
+    },
+    "wkt": "POLYGON ((147 613, 134 617, 135 630, 146 630, 149 628, 147 613))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_80",
+     "hazard": 0.458,
+     "area_m2": 63.4
+    },
+    "wkt": "POLYGON ((102 642, 85 645, 73 650, 72 653, 75 667, 77 669, 82 669, 105 663, 102 642))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_81",
+     "hazard": 0.369,
+     "area_m2": 136.4
+    },
+    "wkt": "POLYGON ((56 652, 26 661, 29 670, 27 673, 18 675, 15 669, 0 673, 0 697, 13 694, 61 677, 56 652))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_82",
+     "hazard": 0.441,
+     "area_m2": 7.2
+    },
+    "wkt": "POLYGON ((108 657, 110 667, 116 666, 114 656, 108 657))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_83",
+     "hazard": 0.332,
+     "area_m2": 86.3
+    },
+    "wkt": "POLYGON ((153 666, 144 667, 145 678, 143 680, 132 682, 133 691, 127 695, 128 704, 161 702, 163 700, 164 682, 161 679, 154 678, 153 666))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_84",
+     "hazard": 0.207,
+     "area_m2": 76.8
+    },
+    "wkt": "POLYGON ((42 789, 14 792, 16 813, 21 821, 41 820, 39 807, 45 803, 42 789))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_85",
+     "hazard": 0.231,
+     "area_m2": 124.9
+    },
+    "wkt": "POLYGON ((135 803, 143 833, 148 834, 152 842, 157 842, 160 840, 158 833, 161 831, 179 827, 195 821, 191 804, 178 808, 175 806, 152 813, 149 809, 146 799, 135 803))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_86",
+     "hazard": 0.252,
+     "area_m2": 62.2
+    },
+    "wkt": "POLYGON ((117 812, 107 815, 104 812, 90 817, 95 841, 116 836, 117 828, 121 824, 117 812))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "no-damage",
+     "uid": "aachen_70_hurricane_0_87",
+     "hazard": 0.205,
+     "area_m2": 24.8
+    },
+    "wkt": "POLYGON ((8 821, 12 844, 24 843, 21 827, 18 827, 15 821, 8 821))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_88",
+     "hazard": 0.274,
+     "area_m2": 7.9
+    },
+    "wkt": "POLYGON ((135 824, 129 826, 133 836, 139 834, 135 824))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_89",
+     "hazard": 0.388,
+     "area_m2": 93.7
+    },
+    "wkt": "POLYGON ((251 849, 252 855, 250 857, 250 887, 262 888, 263 892, 279 891, 278 881, 270 851, 251 849))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_90",
+     "hazard": 0.429,
+     "area_m2": 116.3
+    },
+    "wkt": "POLYGON ((256 900, 252 905, 257 920, 259 939, 267 937, 286 936, 285 922, 291 920, 289 899, 269 901, 267 897, 256 900))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_91",
+     "hazard": 0.409,
+     "area_m2": 25.0
+    },
+    "wkt": "POLYGON ((201 976, 202 985, 200 987, 200 991, 216 992, 217 977, 201 976))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "minor-damage",
+     "uid": "aachen_70_hurricane_0_92",
+     "hazard": 0.438,
+     "area_m2": 23.8
+    },
+    "wkt": "POLYGON ((269 982, 253 988, 254 999, 270 999, 269 982))"
+   },
+   {
+    "properties": {
+     "feature_type": "building",
+     "subtype": "major-damage",
+     "uid": "aachen_70_hurricane_0_93",
+     "hazard": 0.463,
+     "area_m2": 17.0
+    },
+    "wkt": "POLYGON ((281 988, 281 999, 295 999, 294 988, 287 988, 286 985, 281 988))"
+   }
+  ]
+ },
+ "metadata": {
+  "img_name": "aachen_70_hurricane_0.jpg",
+  "disaster_type": "hurricane",
+  "village": "aachen_70",
+  "severity": 0.663,
+  "gsd_m": 0.3,
+  "seed": [
+   7,
+   3032251195,
+   1,
+   0
+  ],
+  "post_event_albumentations": [
+   "HueSaturationValue",
+   "Downscale",
+   "ImageCompression"
+  ],
+  "fallen_trees": [
+   [
+    820,
+    3,
+    201.8
+   ],
+   [
+    791,
+    13,
+    193.9
+   ],
+   [
+    759,
+    18,
+    176.8
+   ],
+   [
+    736,
+    28,
+    195.5
+   ],
+   [
+    736,
+    55,
+    207.1
+   ],
+   [
+    657,
+    87,
+    175.7
+   ],
+   [
+    122,
+    140,
+    167.5
+   ],
+   [
+    87,
+    255,
+    185.7
+   ],
+   [
+    110,
+    266,
+    204.0
+   ],
+   [
+    157,
+    267,
+    185.0
+   ],
+   [
+    433,
+    285,
+    200.9
+   ],
+   [
+    259,
+    293,
+    198.1
+   ],
+   [
+    445,
+    299,
+    209.9
+   ],
+   [
+    679,
+    322,
+    191.6
+   ],
+   [
+    135,
+    346,
+    221.9
+   ],
+   [
+    639,
+    358,
+    184.2
+   ],
+   [
+    219,
+    375,
+    157.9
+   ],
+   [
+    44,
+    373,
+    204.2
+   ],
+   [
+    557,
+    391,
+    186.3
+   ],
+   [
+    4,
+    449,
+    162.7
+   ],
+   [
+    540,
+    464,
+    196.3
+   ],
+   [
+    509,
+    471,
+    191.9
+   ],
+   [
+    519,
+    487,
+    189.0
+   ],
+   [
+    90,
+    482,
+    202.6
+   ],
+   [
+    271,
+    487,
+    214.8
+   ],
+   [
+    734,
+    500,
+    181.3
+   ],
+   [
+    346,
+    497,
+    165.8
+   ],
+   [
+    810,
+    499,
+    222.5
+   ],
+   [
+    566,
+    515,
+    149.1
+   ],
+   [
+    622,
+    545,
+    160.6
+   ],
+   [
+    616,
+    577,
+    189.7
+   ],
+   [
+    831,
+    577,
+    193.9
+   ],
+   [
+    661,
+    579,
+    163.4
+   ],
+   [
+    78,
+    587,
+    198.9
+   ],
+   [
+    657,
+    601,
+    187.5
+   ],
+   [
+    669,
+    612,
+    166.0
+   ],
+   [
+    824,
+    608,
+    180.0
+   ],
+   [
+    615,
+    618,
+    183.6
+   ],
+   [
+    702,
+    629,
+    187.9
+   ],
+   [
+    137,
+    634,
+    178.7
+   ],
+   [
+    642,
+    648,
+    194.0
+   ],
+   [
+    595,
+    654,
+    157.0
+   ],
+   [
+    703,
+    667,
+    182.8
+   ],
+   [
+    628,
+    670,
+    189.2
+   ],
+   [
+    606,
+    676,
+    197.6
+   ],
+   [
+    665,
+    678,
+    177.8
+   ],
+   [
+    768,
+    686,
+    181.3
+   ],
+   [
+    628,
+    692,
+    193.2
+   ],
+   [
+    587,
+    702,
+    190.8
+   ],
+   [
+    261,
+    722,
+    186.0
+   ],
+   [
+    627,
+    721,
+    186.4
+   ],
+   [
+    987,
+    742,
+    220.4
+   ],
+   [
+    737,
+    791,
+    177.5
+   ],
+   [
+    919,
+    769,
+    174.3
+   ],
+   [
+    932,
+    768,
+    198.6
+   ],
+   [
+    856,
+    768,
+    193.9
+   ],
+   [
+    901,
+    792,
+    208.2
+   ],
+   [
+    794,
+    796,
+    192.4
+   ],
+   [
+    839,
+    793,
+    193.9
+   ],
+   [
+    878,
+    827,
+    189.8
+   ],
+   [
+    786,
+    854,
+    183.0
+   ],
+   [
+    720,
+    848,
+    190.7
+   ],
+   [
+    772,
+    887,
+    191.5
+   ],
+   [
+    786,
+    871,
+    188.0
+   ],
+   [
+    886,
+    877,
+    201.7
+   ],
+   [
+    819,
+    887,
+    176.4
+   ],
+   [
+    728,
+    907,
+    167.7
+   ],
+   [
+    750,
+    913,
+    203.0
+   ],
+   [
+    794,
+    923,
+    210.2
+   ],
+   [
+    829,
+    930,
+    193.0
+   ],
+   [
+    766,
+    927,
+    172.9
+   ],
+   [
+    744,
+    953,
+    208.8
+   ],
+   [
+    724,
+    951,
+    176.1
+   ],
+   [
+    170,
+    982,
+    199.8
+   ],
+   [
+    784,
+    991,
+    193.7
+   ]
+  ],
+  "wind_direction_deg": 187.4
+ }
+}

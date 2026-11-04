@@ -1,0 +1,76 @@
+{
+ "samples": 40,
+ "label_scheme": "RescueNet Kaggle v1.0",
+ "classes": [
+  "background",
+  "debris",
+  "water",
+  "building-no-damage",
+  "building-minor-damage",
+  "building-major-damage",
+  "building-total-destruction",
+  "vehicle",
+  "road",
+  "tree",
+  "pool",
+  "sand"
+ ],
+ "xbd_classes": [
+  "background",
+  "no-damage",
+  "minor-damage",
+  "major-damage",
+  "destroyed"
+ ],
+ "buildings_per_damage_level": {
+  "earthquake": {
+   "no-damage": 106,
+   "minor-damage": 194,
+   "major-damage": 176,
+   "destroyed": 135
+  },
+  "hurricane": {
+   "no-damage": 136,
+   "minor-damage": 304,
+   "major-damage": 146,
+   "destroyed": 25
+  },
+  "tornado": {
+   "no-damage": 432,
+   "minor-damage": 60,
+   "major-damage": 31,
+   "destroyed": 88
+  },
+  "flood": {
+   "no-damage": 315,
+   "minor-damage": 180,
+   "major-damage": 99,
+   "destroyed": 17
+  },
+  "wildfire": {
+   "no-damage": 414,
+   "minor-damage": 77,
+   "major-damage": 49,
+   "destroyed": 71
+  }
+ },
+ "args": {
+  "images": "data/villages/images",
+  "masks": "data/villages/masks",
+  "out": "output",
+  "scenarios": [
+   "earthquake",
+   "hurricane",
+   "tornado",
+   "flood",
+   "wildfire"
+  ],
+  "n_per_scenario": 1,
+  "severity": 0.75,
+  "gsd": 0.3,
+  "no_sensor_shift": false,
+  "aug_crops": 2,
+  "crop_size": 512,
+  "seed": 7
+ }
+}
