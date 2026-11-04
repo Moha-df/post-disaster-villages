@@ -19,7 +19,7 @@ Tout se passe d'image à image, sans prompt texte ni modèle génératif : les e
 
 | | Approche de référence | Ce projet |
 |---|---|---|
-| Données | LoveDA (Chine, 2 villes) | OpenEarthMap, **44 pays**, sélection automatique de villages + contrôle qualité |
+| Données | LoveDA (Chine) | OpenEarthMap, **44 pays**, sélection automatique de villages + contrôle qualité |
 | Placement des dégâts | Tirage indépendant par maison | **Carte d'aléa physique** par catastrophe (épicentre, vent, couloir, profondeur d'eau, front de feu) |
 | Catastrophes | 4 | **5** (+ feu de forêt) |
 | Textures de débris | Extraits de RescueNet (téléchargement Kaggle) | 100 % procédural : décombres faits **du toit de la maison** + sol local |
