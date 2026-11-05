@@ -18,6 +18,7 @@ import gradio as gr
 import numpy as np
 
 import generate as G
+import site_doc
 from postdisaster import augment as AUG
 from postdisaster import classes as C
 from postdisaster import pipeline as P
@@ -601,6 +602,14 @@ button.secondary:hover {border-color:#ffd400 !important; color:#ffd400 !importan
          color:#ffd400; margin:26px 0 10px; font-weight:500;}
 .doc code {font-family:'IBM Plex Mono', monospace; font-size:13px; color:#ece8dd; background:#1c1c1a;
            padding:1px 5px; border:1px solid #2a2925;}
+.doc table {border-collapse:collapse; margin:0 0 16px; font-size:14px; width:100%;}
+.doc th, .doc td {border:1px solid #2a2925; padding:7px 10px; text-align:left; vertical-align:top;}
+.doc th {background:#1c1c1a; color:#ece8dd; font-weight:500; font-family:'IBM Plex Mono', monospace; font-size:12px;
+         letter-spacing:.06em;}
+.doc ul, .doc ol {margin:0 0 14px; padding-left:22px;}
+.doc li {margin:0 0 8px;}
+.doc li ul {margin-top:8px;}
+.doc-tabs button[role=tab] {font-size:11px !important; letter-spacing:.06em;}
 .doc pre {font-family:'IBM Plex Mono', monospace; font-size:12.5px; line-height:1.6; color:#ece8dd;
           background:#131312; border:1px solid #2a2925; padding:14px 16px; overflow-x:auto; margin:0 0 14px;}
 
@@ -628,101 +637,6 @@ button.secondary:hover {border-color:#ffd400 !important; color:#ffd400 !importan
 @media (prefers-reduced-motion: reduce) {*, *::before, *::after {animation:none !important; transition:none !important;}}
 """
 
-
-DOC = """<div class='explain doc'>
-<p>Cette page décrit le code. Le README du dépôt détaille les méthodes et les références.</p>
-
-<h3>Architecture</h3>
-<pre>app.py                  site (Gradio) : onglets, paramètres, export zip
-generate.py             génération en ligne de commande, previews, labels xBD JSON
-download_villages.py    sélection + téléchargement partiel des tuiles OpenEarthMap
-download_drone.py       téléchargement partiel + conversion du Semantic Drone Dataset
-postdisaster/
-  classes.py            classes OpenEarthMap -> RescueNet -> xBD, palettes
-  hazard.py             cartes d'aléa (5 catastrophes) + niveaux de dégâts
-  pipeline.py           enchaînement d'un scénario, choix du rendu
-  effects.py            rendu AÉRIEN (2D), 0.25-0.5 m/px
-  drone.py              rendu DRONE (2,5D : relief, soleil, ombres), quelques cm/px
-  augment.py            Albumentations : aspect post-événement + crops alignés</pre>
-
-<h3>Flux d'un scénario</h3>
-<pre>img (BGR uint8) + masque OEM
-  -> classes.oem_to_rescuenet(masque)                     masque RescueNet
-  -> pipeline.split_buildings(img, masque, aire_min)      maisons (watershed)
-  -> pipeline.generate(img, masque, scénario, sev, gsd, rng, buildings, opts)
-       hazard.compute(...)          carte d'aléa  {field, wind, depth, epicentre...}
-       hazard.damage_levels(...)    niveau 0..3 par maison
-       render_mode(gsd, opts)       'aerial' ou 'drone'
-       effects.* ou drone.*         dessin des dégâts + écriture du masque
-       effects.match_sensor(...)    bruit / flou du vrai capteur
-  -> augment.apply_post_event(...)  autre prise de vue (pixels seulement)
-  -> classes.rescuenet_to_xbd(masque_après)               carte xBD</pre>
-<p><b>gsd</b> = taille d'un pixel au sol en mètres. Toutes les tailles du rendu sont données en mètres et
-converties avec <code>Scene.m(mètres)</code> : le même code marche à 2 cm/px et à 0,5 m/px.
-<b>rng</b> est un <code>numpy.random.Generator</code> : même graine, même résultat.</p>
-
-<h3>postdisaster/classes.py</h3>
-<p><code>oem_to_rescuenet(m)</code> convertit un masque OpenEarthMap (0 inconnu, 1 sol nu, 2 prairie, 3 aménagé,
-4 route, 5 arbre, 6 eau, 7 agriculture, 8 bâtiment) en RescueNet (0 fond, 1 débris, 2 eau, 3-6 bâtiment intact à
-détruit, 7 véhicule, 8 route, 9 arbre, 10 piscine, 11 sable). <code>rescuenet_to_xbd(m)</code> garde les bâtiments
-(1 intact … 4 détruit). <code>colorize(m, palette)</code> donne une image couleur BGR pour l'affichage.</p>
-
-<h3>postdisaster/hazard.py</h3>
-<p><code>compute(scénario, masque, img, rng, sev, opts)</code> appelle le modèle de la catastrophe et renvoie un
-dict avec au moins <code>field</code> (H×W dans [0, 1]). Options reconnues dans <code>opts</code> :
-<code>point</code> (épicentre, centre de la tornade, départ du feu, en pixels), <code>wind_deg</code>,
-<code>coverage</code> (inondation). <code>damage_levels(bâtiments, b_lab, hz, scénario, rng)</code> : score =
-aléa moyen sur l'emprise + vulnérabilité (petites maisons plus fragiles) + bruit, comparé à 3 seuils
-(<code>THRESHOLDS</code>). Outils : <code>fbm</code> (bruit fractal), <code>directional_blur</code>.</p>
-
-<h3>postdisaster/pipeline.py</h3>
-<p><code>split_buildings</code> sépare les bâtiments collés (watershed sur les empreintes érodées) et renvoie la
-liste des maisons (<code>label, bbox, area</code>) et l'image des labels. <code>generate</code> renvoie
-<code>(après, masque_après, info)</code> avec <code>info = {buildings, b_lab, hazard, extra}</code> ;
-<code>extra["render"]</code> dit quel rendu a servi. <code>render_mode(gsd, opts)</code> : <code>opts["render"]</code>
-vaut <code>auto</code> (drone sous <code>DRONE_GSD</code> = 0,12 m/px), <code>aerial</code> ou <code>drone</code>.
-<code>change_map</code> calcule les pixels modifiés.</p>
-
-<h3>postdisaster/effects.py (rendu aérien)</h3>
-<p><code>Scene(img, masque, gsd, rng)</code> garde l'image d'origine, l'échelle et la couleur du sol local.
-<code>damage_building</code> appelle <code>roof_damage</code> (mineur), <code>collapse</code> (majeur / détruit :
-fragments de Voronoï avec <code>shatter</code>, traînée de débris avec <code>debris_trail</code>) ou
-<code>scorch</code> (feu). Effets de scène : <code>topple_trees</code>, <code>vegetation_stress</code>,
-<code>flood_water</code>, <code>burn_scar</code>, <code>smoke</code>, <code>haze</code>,
-<code>match_sensor</code>.</p>
-
-<h3>postdisaster/drone.py (rendu drone)</h3>
-<p>Chaque élément est un <b>calque</b> <code>(couleur, couverture, hauteur en m)</code>.
-<code>compose(sc, crop, mcrop, col, cov, z)</code> l'éclaire et le pose sur l'image, avec son ombre sur le sol.</p>
-<p><code>estimate_sun</code> trouve la direction des ombres sur la photo. <code>Light</code> fournit
-<code>lambert(z)</code> (éclairage), <code>shadow(z)</code> (ombres portées par lancer de rayons) et
-<code>factor(z)</code> (les deux + occlusion ambiante). <code>Palette</code> : matériaux de la maison
-(vrai toit, béton, enduit, brique, bois ; version brûlée pour le feu).</p>
-<p><code>draw_pieces</code> pose des plaques inclinées ou des planches ; <code>rubble_layer</code> construit un
-tas (monticule, gravier, 3 tailles de morceaux, poussière) ; <code>roof_sections</code> ajoute de grands pans du
-vrai toit cassés, glissés et inclinés ; <code>missing_tiles</code> découpe des trous rangée par rangée
-(sens mesuré par <code>roof_axis</code>, tenseur de structure) ; <code>tarp</code>, <code>cracks</code>,
-<code>scatter_tiles</code>, <code>scatter_debris</code>. Scène : <code>flood_depth</code> /
-<code>flood_water</code>, <code>wind_litter</code>, <code>burnt_texture</code>, <code>dust</code>.</p>
-
-<h3>postdisaster/augment.py</h3>
-<p><code>apply_post_event(après, scénario, graine)</code> applique des transformations de pixels et renvoie
-leurs noms. <code>paired_crops(...)</code> produit des crops avant / après / masques avec la même géométrie.</p>
-
-<h3>Formats de sortie</h3>
-<p>Masques PNG en ids RescueNet ; <code>xbd/*_damage.png</code> (0 fond, 1-4 dégâts) ;
-<code>labels_xbd/*.json</code> au format xView2 (un polygone WKT par bâtiment, sous-type de dégât, aléa, aire en m²) ;
-<code>manifest.csv</code> et <code>summary.json</code> pour le lot.</p>
-
-<h3>Étendre le code</h3>
-<p><b>Nouvelle catastrophe</b> : une fonction dans <code>hazard.py</code> qui renvoie <code>{"field": ...}</code>,
-ses seuils dans <code>THRESHOLDS</code>, son nom dans <code>pipeline.SCENARIOS</code> et
-<code>compute</code>, puis son rendu dans <code>damage_building</code> (effects et drone) et les effets de scène
-dans <code>pipeline.generate</code>.</p>
-<p><b>Nouveau jeu de données</b> : convertir ses masques en ids OpenEarthMap (voir <code>sdd_to_oem</code> dans
-<code>download_drone.py</code>), ranger <code>images/</code> et <code>masks/</code> avec les mêmes noms, et donner la
-bonne résolution (<code>--gsd</code>, ou <code>scenes.json</code> pour le site).</p>
-</div>"""
 
 
 def section(txt):
@@ -901,7 +815,10 @@ def build():
             </div>""")
 
         with gr.Tab("Documentation"):
-            gr.HTML(DOC)
+            with gr.Tabs(elem_classes=["doc-tabs"]):
+                for title, html in site_doc.PAGES:
+                    with gr.Tab(title):
+                        gr.HTML(html)
 
         # ---- events ---------------------------------------------------------------------------
         inputs = [village, up_img, up_mask, scenario, severity, seed, wind_auto, wind, coverage, point, quality, sensor,

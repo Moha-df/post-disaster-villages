@@ -152,8 +152,10 @@ Le tout sort dans **un seul `.zip`** : images, masques, labels xBD, crops et `ma
 
 ### 5. À propos et Documentation
 
-*À propos* résume la démarche ; *Documentation* décrit le code module par module (fonctions
-principales, formats des masques, comment ajouter une catastrophe ou un jeu de données).
+*À propos* résume la démarche. *Documentation* explique tout en 10 pages : vue d'ensemble, données
+d'entrée, aléa et dégâts, une page par catastrophe (modèle d'aléa avec ses formules, rendu aérien, rendu
+drone), le moteur drone (soleil, éclairage, ombres, gravats, pans de toit, tuiles), capteur et sorties, et
+le code (appel d'un scénario, options, comment ajouter une catastrophe ou un jeu de données).
 
 ---
 
@@ -386,6 +388,7 @@ python generate.py --images data/villages_big/images --masks data/villages_big/m
 | Fichier | Rôle |
 |---|---|
 | `app.py` | Le site (Gradio [5]) |
+| `site_doc.py` | Contenu de l'onglet Documentation du site |
 | `generate.py` | Génération du jeu de données en ligne de commande |
 | `download_villages.py` | Choix et téléchargement des villages OpenEarthMap |
 | `download_drone.py` | Téléchargement partiel et conversion des scènes du Semantic Drone Dataset |
