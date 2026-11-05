@@ -4,10 +4,18 @@ import cv2
 import numpy as np
 
 from . import classes as C
+from . import drone as D
 from . import effects as E
 from . import hazard as Z
 
 SCENARIOS = ["earthquake", "hurricane", "tornado", "flood", "wildfire"]
+DRONE_GSD = 0.12  # below 12 cm/px the high-resolution (drone) renderer is used
+
+
+def render_mode(gsd, opts=None):
+    """'aerial' (2D rendering, 0.25-0.5 m/px) or 'drone' (2.5D rendering with relief and shadows)."""
+    r = (opts or {}).get("render", "auto")
+    return r if r in ("aerial", "drone") else ("drone" if gsd < DRONE_GSD else "aerial")
 
 
 def split_buildings(img, mask, min_area):
@@ -60,9 +68,11 @@ def generate(img, mask, scenario, sev, gsd, rng, buildings=None, opts=None):
     levels = Z.damage_levels(blds, b_lab, hz, scenario, rng)
     flow = rng.uniform(0, 2 * np.pi)
     # draw the worst damage last so its debris lies on top
+    mode = render_mode(gsd, opts)
+    R = D if mode == "drone" else E
     for b, lvl in sorted(zip(blds, levels), key=lambda t: t[1]):
         b["damage_level"] = lvl
-        E.damage_building(sc, after, m, b, b_lab, lvl, scenario, rng,
+        R.damage_building(sc, after, m, b, b_lab, lvl, scenario, rng,
                           wind=flow if scenario == "flood" else wind)
 
     # tree crowns hanging over a damaged house stay on top (occlusion), except in a fire
@@ -72,24 +82,36 @@ def generate(img, mask, scenario, sev, gsd, rng, buildings=None, opts=None):
         crown = cv2.morphologyEx(crown.astype(np.uint8), cv2.MORPH_OPEN, E.disk(1)) > 0
         E.over(after, img, E.feather(crown, 1) * 0.95)
 
-    extra = {}
+    extra = {"render": mode}
     if scenario in ("hurricane", "tornado"):
         strength = 1.0 if scenario == "tornado" else 0.55
-        extra["fallen_trees"] = E.topple_trees(sc, after, m, hz["field"], wind, rng, strength * (0.5 + sev))
+        if mode == "drone":
+            extra["litter_pieces"] = D.wind_litter(sc, after, m, hz["field"], wind, rng, strength * (0.5 + sev))
+        else:
+            extra["fallen_trees"] = E.topple_trees(sc, after, m, hz["field"], wind, rng, strength * (0.5 + sev))
         E.vegetation_stress(sc, after, m, hz["field"], 0.8 + 0.6 * sev, rng, "wind")
     elif scenario == "flood":
-        mud = cv2.GaussianBlur((hz["depth"] > 0.02).astype(np.float32), (0, 0), sc.m(10))
+        # 10 m halo, capped so very high resolution scenes (drone, ~2 cm/px) stay tractable
+        mud = cv2.GaussianBlur((hz["depth"] > 0.02).astype(np.float32), (0, 0), min(sc.m(10), 60.0))
         E.vegetation_stress(sc, after, m, np.clip(mud * 2, 0, 1), 0.7, rng, "mud")
-        wet = E.flood_water(sc, after, m, hz["depth"], rng, flow)
+        if mode == "drone":
+            wet, _ = D.flood_water(sc, after, m, hz["depth"], hz.get("coverage", 0.3), rng, flow)
+        else:
+            wet = E.flood_water(sc, after, m, hz["depth"], rng, flow)
         extra["flooded_fraction"] = round(float(wet.mean()), 3)
     elif scenario == "wildfire":
         extra["burnt_fraction"] = round(E.burn_scar(sc, after, m, hz["field"], rng), 3)
+        if mode == "drone":
+            D.burnt_texture(sc, img, after, m, rng)
     elif scenario == "earthquake":
         extra["epicentre"] = hz["epicentre"]
 
     after = E.match_sensor(img, after)
     if scenario == "earthquake":  # dust from the collapses
-        E.haze(sc, after, rng, 0.12 + 0.12 * sev)
+        if mode == "drone":
+            D.dust(sc, after, m, rng, 0.25 + 0.2 * sev)
+        else:
+            E.haze(sc, after, rng, 0.12 + 0.12 * sev)
     if scenario == "wildfire":
         E.smoke(sc, after, hz["field"], wind, rng, sev)
     if wind is not None:

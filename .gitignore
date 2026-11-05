@@ -4,3 +4,4 @@ __pycache__/
 .vscode/
 .idea/
 data/villages_big/
+data/drone/

@@ -100,6 +100,8 @@ def main():
     p.add_argument("--aug-crops", type=int, default=2, help="aligned albumentations crops per sample (0 = none)")
     p.add_argument("--crop-size", type=int, default=512)
     p.add_argument("--seed", type=int, default=7)
+    p.add_argument("--render", default="auto", choices=["auto", "aerial", "drone"],
+                   help="auto: drone renderer (relief, sun, shadows) below 12 cm/px, aerial above")
     a = p.parse_args()
 
     dirs = ["before", "masks_before", "after", "masks", "xbd", "labels_xbd", "change", "hazard", "previews"]
@@ -128,7 +130,8 @@ def main():
                 seed = [a.seed, zlib.crc32(stem.encode()), P.SCENARIOS.index(scenario), i]
                 rng = np.random.default_rng(seed)
                 sev = float(np.clip(a.severity + rng.uniform(-0.1, 0.1), 0.05, 1))
-                after, ma, info = P.generate(img, mask, scenario, sev, a.gsd, rng, buildings=blds)
+                after, ma, info = P.generate(img, mask, scenario, sev, a.gsd, rng, buildings=blds,
+                                             opts=dict(render=a.render))
                 change = P.change_map(img, after, mask, ma)
                 fired = []
                 if not a.no_sensor_shift:
