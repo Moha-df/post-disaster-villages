@@ -8,7 +8,40 @@ Séisme · Ouragan · Tornade · Inondation · Feu de forêt
 
 ![exemple](output/previews/muenster_62_tornado_0_preview.jpg)
 
+*Village de Münster (Allemagne) frappé par une tornade.*
+
 </div>
+
+<details>
+<summary><b>Lire cette image</b></summary>
+
+<br>
+
+**Ligne du haut : les images**
+
+| Panneau | Ce qu'il montre |
+|---|---|
+| **BEFORE** | La vraie photo aérienne d'OpenEarthMap : un lotissement en haut, un bois au centre, des champs en bas. |
+| **AFTER** | La même scène après la tornade, générée par le code. Le long d'une bande diagonale, le bois et le champ sont roussis par le vent ; en haut à droite, les maisons sont effondrées ou ont le toit abîmé (bâches bleues). Hors de la bande, rien ne change. |
+| **HAZARD FIELD** | La carte d'aléa, c'est-à-dire la force de la tornade en chaque point (noir = rien, jaune clair = maximum). On y voit le couloir de la tornade, et c'est lui qui décide de tout le reste. |
+
+**Ligne du bas : les labels**
+
+| Panneau | Ce qu'il montre |
+|---|---|
+| **MASK BEFORE (RescueNet)** | Le masque d'origine : vert clair = bâtiment intact, vert foncé = arbre, gris = route, bleu = eau, noir = sol. |
+| **MASK AFTER (RescueNet)** | Le masque après la catastrophe : les maisons touchées changent de couleur selon leur niveau de dégâts. Il correspond exactement à l'image AFTER, car le code l'écrit en même temps qu'il dessine. |
+| **DAMAGE** | La vue xBD, réduite aux bâtiments. En gris, les pixels hors bâtiment modifiés par la tornade (végétation abîmée, débris). |
+
+**Couleurs des dégâts** : 🟩 intact · 🟨 mineur · 🟧 majeur · 🟥 détruit.
+
+Le titre du dernier panneau donne le bilan : `no-da:43 minor:9 major:7 destr:19`, soit 43 maisons
+intactes, 9 avec des dégâts mineurs, 7 avec des dégâts majeurs et 19 détruites.
+
+Les maisons rouges et orange se trouvent toutes dans le couloir jaune de la carte d'aléa : les dégâts
+suivent un phénomène cohérent au lieu d'être tirés au hasard maison par maison.
+
+</details>
 
 ---
 
